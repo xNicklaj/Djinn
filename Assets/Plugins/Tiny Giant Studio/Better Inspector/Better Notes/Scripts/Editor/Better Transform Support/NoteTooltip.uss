@@ -1,0 +1,48 @@
+.uninteractableTooltip {
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    opacity: 0.9;
+}
+
+.interactableTooltip {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    opacity: 0.9;
+}
+
+.interactableTooltip:hover {
+    background-color: var(--unity-colors-highlight-background-hover);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    opacity: 1;
+}
+
+.interactableTooltip:active {
+    background-color: var(--unity-colors-button-background-pressed);
+    opacity: 1;
+}
+
+.interactableTooltip:focus {
+    background-color: var(--unity-colors-button-background-focus);
+    opacity: 1;
+}

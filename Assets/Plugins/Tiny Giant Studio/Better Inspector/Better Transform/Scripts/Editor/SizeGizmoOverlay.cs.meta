@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b8ac53625938614468b25163ca302911
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 321300
+  packageName: Better Transform - Size, Notes, Global-Local Workspace & Parent/Child
+    Inspector
+  packageVersion: 3.1.0
+  assetPath: Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Scripts/Editor/SizeGizmoOverlay.cs
+  uploadId: 800880

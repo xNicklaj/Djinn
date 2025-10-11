@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Icons.uss?fileID=7433441132597879392&amp;guid=8485147538ab9684288c884484cd04b0&amp;type=3#Icons" />
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Button.uss?fileID=7433441132597879392&amp;guid=08db9e3ca263ae74b9fd392cb95ab541&amp;type=3#Button" />
+    <ui:GroupBox style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; justify-content: center; opacity: 0; transition-property: opacity; transition-duration: 0.25s;">
+        <ui:Button display-tooltip-when-elided="true" name="NotesOn" tooltip="Click to toggle notes in scene off" class="toolbarComboButton toolbarComboButton-normal" style="display: none;">
+            <ui:VisualElement name="Icon" style="background-image: url(&quot;project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Better%20Transform/Artworks/TGS_visibility-on.png?fileID=2800000&amp;guid=9175bed6d8cfbb54aa4df683b0138b93&amp;type=3#TGS_visibility-on&quot;);" />
+            <ui:Label text="Note" display-tooltip-when-elided="true" name="Label" style="flex-shrink: 1;" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="NotesOff" tooltip="Click to toggle notes in scene on" class="toolbarComboButton toolbarComboButton-normal" style="display: none;">
+            <ui:VisualElement name="Icon" style="background-image: url(&quot;project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Better%20Transform/Artworks/TGS_visibility-off.png?fileID=2800000&amp;guid=c2de49d23145ad044a3015138ef11fa6&amp;type=3#TGS_visibility-off&quot;);" />
+            <ui:Label text="Note" display-tooltip-when-elided="true" name="Label" style="flex-shrink: 1;" />
+        </ui:Button>
+    </ui:GroupBox>
+</ui:UXML>

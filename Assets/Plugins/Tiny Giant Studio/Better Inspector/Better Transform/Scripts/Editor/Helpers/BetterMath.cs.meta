@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 82fbcea46cbcec2459bd0ddcc21f9973
+AssetOrigin:
+  serializedVersion: 1
+  productId: 321300
+  packageName: Better Transform - Size, Notes, Global-Local Workspace & Parent/Child
+    Inspector
+  packageVersion: 3.1.0
+  assetPath: Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Scripts/Editor/Helpers/BetterMath.cs
+  uploadId: 800880

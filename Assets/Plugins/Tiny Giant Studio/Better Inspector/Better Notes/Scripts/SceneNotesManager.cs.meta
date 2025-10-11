@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2774b25ffee87d64193d77d98c8d3a8b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 321300
+  packageName: Better Transform - Size, Notes, Global-Local Workspace & Parent/Child
+    Inspector
+  packageVersion: 3.1.0
+  assetPath: Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Notes/Scripts/SceneNotesManager.cs
+  uploadId: 800880

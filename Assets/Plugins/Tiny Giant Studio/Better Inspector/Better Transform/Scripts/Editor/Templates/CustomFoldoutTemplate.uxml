@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Labels.uss?fileID=7433441132597879392&amp;guid=8e783b06ea75cae42a70cbd434239c92&amp;type=3#Labels" />
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Button.uss?fileID=7433441132597879392&amp;guid=08db9e3ca263ae74b9fd392cb95ab541&amp;type=3#Button" />
+    <ui:GroupBox name="TemplateRoot" class="custom-foldout" style="overflow: hidden; margin-top: 5px;">
+        <ui:GroupBox class="header" style="overflow: hidden;">
+            <ui:Toggle name="FoldoutToggle" text="Parent" value="false" class="unity-foldout__toggle foldout-toggle" style="flex-grow: 1;" />
+            <ui:Label text="(1)" display-tooltip-when-elided="true" tooltip="Sibling Index" name="SiblingIndex" class="unimportant-information-label" />
+            <ui:Button display-tooltip-when-elided="true" name="Ping" class="toolbarComboButton toolbarComboButton-normal">
+                <ui:VisualElement name="Icon" style="background-image: url(&quot;project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Better%20Transform/Artworks/TGS_refresh.png?fileID=2800000&amp;guid=759de24275ec7b84dbb60bca983a29fd&amp;type=3#TGS_refresh&quot;); display: none;" />
+                <ui:Label text="Ping" display-tooltip-when-elided="true" name="Label" style="flex-shrink: 1;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="Select" class="toolbarComboButton toolbarComboButton-normal">
+                <ui:VisualElement name="Icon" style="background-image: url(&quot;project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Better%20Transform/Artworks/TGS_refresh.png?fileID=2800000&amp;guid=759de24275ec7b84dbb60bca983a29fd&amp;type=3#TGS_refresh&quot;); display: none;" />
+                <ui:Label text="Select" display-tooltip-when-elided="true" name="Label" style="flex-shrink: 1;" />
+            </ui:Button>
+        </ui:GroupBox>
+        <ui:GroupBox name="Content" class="content" style="flex-direction: column; display: flex; padding-left: 8px;">
+            <ui:Button text="Open Editor" display-tooltip-when-elided="true" name="OpenEditorButton" style="display: flex;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

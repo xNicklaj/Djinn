@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 85cbe3daf45cf84499b0e0b321610eb1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - visualTreeAsset: {fileID: 9197481963319205126, guid: 0afd790708bd3d4478d55bb409317f40,
+      type: 3}
+  - tooltipVisualTreeAsset: {fileID: 9197481963319205126, guid: abe88efe5840a024589ef4f37c14a6aa,
+      type: 3}
+  - notesGizmoVisualTreeAsset: {fileID: 9197481963319205126, guid: d04bacdd5636bdc42843e4300ac5506a,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 321300
+  packageName: Better Transform - Size, Notes, Global-Local Workspace & Parent/Child
+    Inspector
+  packageVersion: 3.1.0
+  assetPath: Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Notes/Scripts/Editor/Better
+    Transform Support/NotesBetterTransformIntegration.cs
+  uploadId: 800880

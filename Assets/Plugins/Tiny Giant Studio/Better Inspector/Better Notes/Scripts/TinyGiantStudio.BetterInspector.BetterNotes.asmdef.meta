@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47f8b7a40b1ebdc4c922399d31ef2e08
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 321300
+  packageName: Better Transform - Size, Notes, Global-Local Workspace & Parent/Child
+    Inspector
+  packageVersion: 3.1.0
+  assetPath: Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Notes/Scripts/TinyGiantStudio.BetterInspector.BetterNotes.asmdef
+  uploadId: 800880

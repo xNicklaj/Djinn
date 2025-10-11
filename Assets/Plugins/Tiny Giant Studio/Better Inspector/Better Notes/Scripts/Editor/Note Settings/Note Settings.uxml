@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Labels.uss?fileID=7433441132597879392&amp;guid=8e783b06ea75cae42a70cbd434239c92&amp;type=3#Labels" />
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Button.uss?fileID=7433441132597879392&amp;guid=08db9e3ca263ae74b9fd392cb95ab541&amp;type=3#Button" />
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Icons.uss?fileID=7433441132597879392&amp;guid=8485147538ab9684288c884484cd04b0&amp;type=3#Icons" />
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/CustomFoldout.uss?fileID=7433441132597879392&amp;guid=613d348a6fe013a408e4ee1a3631e627&amp;type=3#CustomFoldout" />
+    <ui:GroupBox style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; flex-grow: 1; flex-shrink: 1;">
+        <ui:Toggle label="Enable Notes" name="NotesEnabled" tooltip="If this is turned off, all note functionality is off." />
+        <ui:GroupBox name="AllNoteSettings" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+            <ui:Toggle label="Enable Notes Gizmo" name="NotesGizmoEnabled" />
+            <ui:GroupBox name="AllNoteGizmoSettings" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+                <ui:Toggle label="Hide Gizmo during Playmode" name="NoGizmoDuringPlaymode" value="true" />
+                <ui:GroupBox tooltip="Should be 0,0 for most use cases" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 3px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row;">
+                    <ui:Label tabindex="-1" text="Notes Gizmo Offset" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: middle-left;" />
+                    <ui:Vector2Field name="NotesGizmoOffset" style="flex-grow: 1;" />
+                    <ui:Button text="Reset" parse-escape-sequences="true" display-tooltip-when-elided="true" tooltip="Sets gizmo offset to 0,0" name="ResetGizmoOffset" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:EnumField type="TinyGiantStudio.BetterInspector.NoteSettings+NoteClickActions, TinyGiantStudio.BetterInspector.BetterNotes.Editor" label="On Clicking Note" name="OnClickAction" tooltip="This is for Better Transform&apos;s inspector. This change doesn&apos;t apply to the currently selected object if there is any. Applies the next time an object is selected." />
+        </ui:GroupBox>
+        <ui:GroupBox name="PrefabNotes" class="custom-foldout" style="display: flex; margin-top: 15px; flex-shrink: 1;">
+            <ui:GroupBox name="Header" class="header" style="align-items: stretch; flex-shrink: 0;">
+                <ui:Toggle name="FoldoutToggle" text="Prefab Notes : 0" value="false" view-data-key="NoteSettingsDataKey" class="unity-foldout__toggle foldout-toggle" />
+            </ui:GroupBox>
+            <ui:GroupBox name="Content" class="container content" style="flex-shrink: 1; min-height: 25px;">
+                <ui:ScrollView style="flex-shrink: 1; overflow: hidden;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="SceneNotes" class="custom-foldout" style="display: flex; margin-top: 5px; flex-shrink: 1;">
+            <ui:GroupBox name="Header" class="header" style="align-items: stretch; flex-shrink: 0;">
+                <ui:Toggle name="FoldoutToggle" text="Notes saved in this Scene : 0" value="false" view-data-key="NoteSettingsDataKey" class="unity-foldout__toggle foldout-toggle" />
+            </ui:GroupBox>
+            <ui:GroupBox name="Content" class="container content" style="flex-shrink: 1;">
+                <ui:ScrollView style="flex-shrink: 1; overflow: hidden;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

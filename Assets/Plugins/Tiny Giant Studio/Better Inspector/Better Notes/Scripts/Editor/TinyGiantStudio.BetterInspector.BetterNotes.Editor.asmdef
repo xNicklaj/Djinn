@@ -1,0 +1,19 @@
+{
+    "name": "TinyGiantStudio.BetterInspector.BetterNotes.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:47f8b7a40b1ebdc4c922399d31ef2e08",
+        "GUID:a5827bb3f07c6954798ac297e18093cc"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

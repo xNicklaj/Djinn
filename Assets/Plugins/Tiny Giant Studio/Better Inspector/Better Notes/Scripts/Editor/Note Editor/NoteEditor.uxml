@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Labels.uss?fileID=7433441132597879392&amp;guid=8e783b06ea75cae42a70cbd434239c92&amp;type=3#Labels" />
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Button.uss?fileID=7433441132597879392&amp;guid=08db9e3ca263ae74b9fd392cb95ab541&amp;type=3#Button" />
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/Icons.uss?fileID=7433441132597879392&amp;guid=8485147538ab9684288c884484cd04b0&amp;type=3#Icons" />
+    <Style src="project://database/Assets/Plugins/Tiny%20Giant%20Studio/Better%20Inspector/Common%20Scripts/Editor/StyleSheets/CustomFoldout.uss?fileID=7433441132597879392&amp;guid=613d348a6fe013a408e4ee1a3631e627&amp;type=3#CustomFoldout" />
+    <ui:GroupBox style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; flex-grow: 1;">
+        <uie:ObjectField type="UnityEngine.Transform, UnityEngine.CoreModule" name="Target" tooltip="Target" style="margin-bottom: 5px;" />
+        <ui:TextField tooltip="Note" name="NoteText" multiline="true" auto-correction="true" vertical-scroller-visibility="Auto" placeholder-text="Note" style="min-height: 50px; -unity-text-align: upper-left; margin-bottom: 15px;" />
+        <ui:EnumField label="Position in Inspector" type="TinyGiantStudio.BetterInspector.NoteType, TinyGiantStudio.BetterInspector.BetterNotes" name="NoteTypeField" />
+        <ui:GroupBox style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row; flex-wrap: wrap;">
+            <uie:ColorField label="Text" name="NoteTextColor" show-eye-dropper="true" class="short-width-label" style="flex-grow: 1;" />
+            <uie:ColorField label="Background" name="NoteBackgroundColor" show-eye-dropper="true" class="short-width-label" style="flex-grow: 1;" />
+        </ui:GroupBox>
+        <ui:Toggle label="Show This Note In SceneView" name="ShowInSceneToggle" tooltip="Even if this is on, if Notes Gizmo is turned off in the settings, this will not show up." />
+        <ui:Toggle label="Show in Prefab Instances" name="ShowInPrefabInstancesToggle" tooltip="If this object is a prefab, this note will show in it&apos;s instances." />
+        <ui:GroupBox name="PrefabInformation">
+            <ui:GroupBox style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row;">
+                <ui:Label tabindex="-1" text="Prefab Note :" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: middle-left; margin-right: 15px; flex-grow: 1;" />
+                <ui:Button text="Copy" parse-escape-sequences="true" display-tooltip-when-elided="true" tooltip="Replaces this object&apos;s note with the prefab&apos;s note." name="CopyPrefabNote" />
+            </ui:GroupBox>
+            <ui:Label tabindex="-1" text="PrefabNote" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PrefabNote" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+    <ui:Label tabindex="-1" text="Random Tip goes here" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tip" class="unimportant-information-label" style="white-space: normal; padding-bottom: 5px;" />
+    <ui:GroupBox style="align-items: flex-end;">
+        <ui:Button text="Note Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NoteSettings" style="flex-grow: 1; max-width: 200px; flex-shrink: 0;" />
+    </ui:GroupBox>
+    <ui:TreeView />
+    <ui:Button text="Delete" name="NoteDeleteButton" />
+</ui:UXML>

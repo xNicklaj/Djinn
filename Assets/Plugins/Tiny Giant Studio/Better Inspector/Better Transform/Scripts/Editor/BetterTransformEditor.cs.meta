@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: ab1fe6835e60809418d0282a074a268a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - visualTreeAsset: {fileID: 9197481963319205126, guid: e8eee4a8330502c40b42313f6a99d0b6,
+      type: 3}
+  - folderTemplate: {fileID: 9197481963319205126, guid: ce465cbac9f131241acfd8b7127846a4,
+      type: 3}
+  - settingsTemplate: {fileID: 9197481963319205126, guid: 892731edae4e3934aaddd13b03e5dd15,
+      type: 3}
+  - betterTransformStyleSheet1: {fileID: 7433441132597879392, guid: ab89b70f046abda40a11ce45cc966132,
+      type: 3}
+  - betterTransformStyleSheet2: {fileID: 7433441132597879392, guid: 33d2a9c4c7e5a37449c8d2cefc490426,
+      type: 3}
+  - betterTransformStyleSheet3: {fileID: 7433441132597879392, guid: c5ff462e11f8a4a428a6a2302c9360be,
+      type: 3}
+  - transform: {instanceID: 0}
+  - originalTransform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 321300
+  packageName: Better Transform - Size, Notes, Global-Local Workspace & Parent/Child
+    Inspector
+  packageVersion: 3.1.0
+  assetPath: Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Scripts/Editor/BetterTransformEditor.cs
+  uploadId: 800880

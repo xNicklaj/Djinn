@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:GroupBox style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 3px; margin-right: 0; margin-bottom: 0; margin-left: 0; flex-direction: row;">
+        <ui:GroupBox style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+            <uie:ObjectField tooltip="Found using GUID" style="display: none;" />
+            <ui:Button text="Button" name="ID" class="text-button" style="flex-grow: 1; -unity-text-align: middle-left;" />
+        </ui:GroupBox>
+        <ui:Button text="❌" tooltip="Delete This Note" name="Delete" class="text-button" />
+    </ui:GroupBox>
+    <ui:Label name="Note" tooltip="Note" style="white-space: normal; text-overflow: ellipsis; max-height: 30px; overflow: hidden; -unity-font-style: italic; opacity: 0.9; margin-bottom: 5px; margin-left: 3px; margin-top: 2px;" />
+</ui:UXML>
