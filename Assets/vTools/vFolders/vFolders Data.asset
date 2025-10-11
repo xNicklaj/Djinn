@@ -15,9 +15,14 @@ MonoBehaviour:
   folderDatas_byGuid:
     keys:
     - 32c96081bc34d8140b6f5c1b05138ef0
+    - 9070d6a85b50f0f46a2de8d58716012d
     values:
     - iconNameOrGuid: 
       colorIndex: 2
+      isIconRecursive: 0
+      isColorRecursive: 0
+    - iconNameOrGuid: Mesh Icon
+      colorIndex: 1
       isIconRecursive: 0
       isColorRecursive: 0
   bookmarks: []
