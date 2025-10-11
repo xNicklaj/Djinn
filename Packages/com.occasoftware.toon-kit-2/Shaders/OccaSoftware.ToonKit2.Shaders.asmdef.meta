@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5ed89e13e60b83c4d890abdf7887d38f
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/Shaders/OccaSoftware.ToonKit2.Shaders.asmdef
+  uploadId: 673890

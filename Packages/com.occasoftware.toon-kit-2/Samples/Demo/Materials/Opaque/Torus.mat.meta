@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8a406ab4c4f80764d9df9e85d2736941
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/Samples/Demo/Materials/Opaque/Torus.mat
+  uploadId: 673890

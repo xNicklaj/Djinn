@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2b85871eb33e53844bc7b88514759d2f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/Samples/Demo/Materials/LightingDemo/Torus
+    1.mat
+  uploadId: 673890

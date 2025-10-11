@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3306d0fccd1408247afb2933a3a8509f
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/Editor/OccaSoftware.ToonKit2.Editor.asmdef
+  uploadId: 673890

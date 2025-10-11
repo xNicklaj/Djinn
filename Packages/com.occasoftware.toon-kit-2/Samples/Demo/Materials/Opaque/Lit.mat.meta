@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6e47b5b75ed3b0f4ba47203e7e3fd0ba
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/Samples/Demo/Materials/Opaque/Lit.mat
+  uploadId: 673890

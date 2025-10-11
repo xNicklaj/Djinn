@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2d99263b506160441a6c62eb8730c4e2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/Samples/Demo/Textures/MaterialTextures/Dirt/Materials/dirt_normal@2048px.mat
+  uploadId: 673890

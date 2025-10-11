@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1b3d3af459f82e645af0c120feabdf3f
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/CHANGELOG.md
+  uploadId: 673890

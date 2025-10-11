@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: de4634f7785930d4996122bffa29cd93
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/Editor/ToonKit2EditorGUI.cs
+  uploadId: 673890

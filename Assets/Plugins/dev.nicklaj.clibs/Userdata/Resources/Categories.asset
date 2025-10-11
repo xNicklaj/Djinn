@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: Categories
   m_EditorClassIdentifier: 
   Categories:
-    serializedKvps: []
+    serializedKvps:
+    - Key: Rendering
+      Value:
+        Color: {r: 1, g: 0.7817019, b: 0, a: 1}
+      index: 0
+      isKeyRepeated: 0
+      isKeyNull: 0
     dividerPos: 0.33

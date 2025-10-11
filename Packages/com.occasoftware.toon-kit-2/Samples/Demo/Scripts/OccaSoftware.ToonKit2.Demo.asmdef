@@ -1,0 +1,14 @@
+{
+    "name": "OccaSoftware.ToonKit2.Demo",
+    "rootNamespace": "OccaSoftware.ToonKit2.Demo",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

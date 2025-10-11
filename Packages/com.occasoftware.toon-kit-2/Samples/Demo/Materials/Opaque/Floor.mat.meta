@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53fb087932f4a3341a96900304fe634f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/Samples/Demo/Materials/Opaque/Floor.mat
+  uploadId: 673890

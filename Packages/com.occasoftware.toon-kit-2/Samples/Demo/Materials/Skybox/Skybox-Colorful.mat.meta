@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 91b3199e8ac614c4c8858b7be028b3b2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 239411
+  packageName: Toon Kit 2
+  packageVersion: 2.3.0
+  assetPath: Packages/com.occasoftware.toon-kit-2/Samples/Demo/Materials/Skybox/Skybox-Colorful.mat
+  uploadId: 673890
