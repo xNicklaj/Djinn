@@ -114,11 +114,27 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.performance.profile-analyzer": {
       "version": "1.2.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.postprocessing": {
+      "version": "3.5.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
@@ -339,6 +355,22 @@
         "com.unity.xr.legacyinputhelpers": "2.1.2"
       },
       "url": "https://packages.unity.com"
+    },
+    "dev.nicklaj.butter": {
+      "version": "https://github.com/xNicklaj/Butter.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "b19981d09da6a6eaf22670156628c4c2923f73a6"
+    },
+    "dev.nicklaj.clibs": {
+      "version": "https://github.com/xNicklaj/dev.nicklaj.clibs.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b9438a072fa4d27b266095526e9a57bc783d3448"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
