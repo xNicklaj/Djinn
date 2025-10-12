@@ -8,8 +8,18 @@ public class TransparentMaterialCutout : MonoBehaviour
 {
     private static string LOG_CATEGORY = "Rendering";
     private static readonly int BaseColor = Shader.PropertyToID("_BaseColor");
-    
-    [Range(0f, 1f)] public float Transparency;
+
+    [field: SerializeField, Range(0f, 1f)]
+    private float _transparency;
+    public float Transparency
+    {
+        get => _transparency;
+        set
+        {
+            _transparency = value;
+            SetTransparency();
+        }
+    }
     
     private Material _mat;
 
@@ -18,7 +28,7 @@ public class TransparentMaterialCutout : MonoBehaviour
         _mat = GetComponent<MeshRenderer>().material;
     }
 
-    [OnValueChanged("Transparency")]
+    [OnValueChanged("_transparency")]
     private void SetTransparency()
     {
         if (!Application.isPlaying)

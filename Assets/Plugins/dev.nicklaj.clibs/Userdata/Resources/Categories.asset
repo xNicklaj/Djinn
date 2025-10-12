@@ -20,4 +20,16 @@ MonoBehaviour:
       index: 0
       isKeyRepeated: 0
       isKeyNull: 0
+    - Key: Physics
+      Value:
+        Color: {r: 0.2505364, g: 0.5377358, b: 0, a: 1}
+      index: 1
+      isKeyRepeated: 0
+      isKeyNull: 0
+    - Key: Gameplay
+      Value:
+        Color: {r: 0.745283, g: 0.29830518, b: 0.0035154943, a: 1}
+      index: 2
+      isKeyRepeated: 0
+      isKeyNull: 0
     dividerPos: 0.33
