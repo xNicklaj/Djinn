@@ -41,6 +41,15 @@ MonoBehaviour:
       isFolder: 0
       isAsset: 1
       _id: 1030455778
+    - globalId:
+        globalObjectIdString: GlobalObjectId_V1-1-fe84c7f8bf6cde94c9b6c27f52ac4875-102900000-0
+      _typeString: UnityEditor.SceneAsset, UnityEditor.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      _obj: {fileID: 102900000, guid: fe84c7f8bf6cde94c9b6c27f52ac4875, type: 3}
+      isSceneGameObject: 0
+      isFolder: 0
+      isAsset: 1
+      _id: 1051577593
     name: Scenes
     _id: 1061719926
   - items: []

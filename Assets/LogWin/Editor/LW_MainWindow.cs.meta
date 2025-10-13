@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7994a6bcf5bcea54aacb94fdbe83133a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149558
+  packageName: Logwin.Log() - Debug Values Tracker
+  packageVersion: 1.01
+  assetPath: Assets/LogWin/Editor/LW_MainWindow.cs
+  uploadId: 744786

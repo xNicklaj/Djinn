@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1934d28038afd29458d03fc4b4acb091
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149558
+  packageName: Logwin.Log() - Debug Values Tracker
+  packageVersion: 1.01
+  assetPath: Assets/LogWin/Core/Backend/LW_EditorBridge.cs
+  uploadId: 744786
