@@ -619,6 +619,7 @@ GameObject:
   - component: {fileID: 465417866}
   - component: {fileID: 465417865}
   - component: {fileID: 465417864}
+  - component: {fileID: 465417869}
   m_Layer: 0
   m_Name: HiddenDoor.02
   m_TagString: Untagged
@@ -704,7 +705,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -761,6 +762,35 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465417862}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &465417869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465417862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04a828586d239aa4ca2a2ed870ce295f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractOnce: 1
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 465417865}
+        m_TargetAssemblyTypeName: HiddenDoor, Assembly-CSharp
+        m_MethodName: Hide
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _hasInteracted: 0
 --- !u!1 &504229945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,10 +1177,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac6fdb33a002413429f1bc75da81e168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HiddenDoors:
-  - {fileID: 1364451913}
-  - {fileID: 465417865}
-  - {fileID: 1831886047}
+  DSRInteractors:
+  - {fileID: 1364451918}
+  - {fileID: 1831886051}
+  - {fileID: 465417869}
   IgnoreLayer:
     serializedVersion: 2
     m_Bits: 2097920
@@ -1533,6 +1563,7 @@ GameObject:
   - component: {fileID: 1364451916}
   - component: {fileID: 1364451915}
   - component: {fileID: 1364451914}
+  - component: {fileID: 1364451918}
   - component: {fileID: 1364451913}
   - component: {fileID: 1364451912}
   m_Layer: 0
@@ -1605,7 +1636,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1677,6 +1708,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 236994712}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1364451918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364451911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04a828586d239aa4ca2a2ed870ce295f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractOnce: 1
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1364451913}
+        m_TargetAssemblyTypeName: HiddenDoor, Assembly-CSharp
+        m_MethodName: Hide
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _hasInteracted: 0
 --- !u!1 &1443074206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,6 +1933,7 @@ GameObject:
   - component: {fileID: 1831886050}
   - component: {fileID: 1831886049}
   - component: {fileID: 1831886048}
+  - component: {fileID: 1831886051}
   - component: {fileID: 1831886047}
   - component: {fileID: 1831886046}
   m_Layer: 0
@@ -2016,6 +2077,35 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831886044}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1831886051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831886044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04a828586d239aa4ca2a2ed870ce295f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractOnce: 1
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1831886047}
+        m_TargetAssemblyTypeName: HiddenDoor, Assembly-CSharp
+        m_MethodName: Hide
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _hasInteracted: 0
 --- !u!1 &1990239588
 GameObject:
   m_ObjectHideFlags: 0

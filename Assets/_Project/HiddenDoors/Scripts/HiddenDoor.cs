@@ -2,6 +2,7 @@ using System;
 using dev.nicklaj.clibs.deblog;
 using PrimeTween;
 using UnityEngine;
+using UnityEngine.Events;
 using VInspector;
 
 [RequireComponent(typeof(TransparentMaterialCutout))]
@@ -9,13 +10,19 @@ public class HiddenDoor : MonoBehaviour
 {
     private static readonly string LOG_CATEGORY = "Gameplay";
     
+    [Tab("Settings")]
     public TweenSettings TweenCurves;
     [Tooltip("Doors that will share the same state as this one. When one is hidden the other one is hidden as well.")]
     public HiddenDoor[] LinkedDoors;
     [Tooltip("Colliders to disable when this door is hidden.")]
     public Collider[] LinkedColliders;
     [ReadOnly] public DoorState State = DoorState.SHOWN;
+    [EndTab] 
     
+    [Tab("Events")] 
+    public UnityEvent OnShow;
+    public UnityEvent OnHide;
+    [EndTab]
     
     private TransparentMaterialCutout _transparentMaterialCutout;
 
@@ -42,6 +49,7 @@ public class HiddenDoor : MonoBehaviour
         
         Tween.Custom(0f, 1f, TweenCurves, f => _transparentMaterialCutout.Transparency = f);
         State = DoorState.SHOWN;
+        OnShow?.Invoke();
         
         foreach(var door in LinkedDoors)
             door.Show();
@@ -58,6 +66,7 @@ public class HiddenDoor : MonoBehaviour
             
         Tween.Custom(1f, 0f, TweenCurves, f => _transparentMaterialCutout.Transparency = f);
         State = DoorState.HIDDEN;
+        OnHide?.Invoke();
         
         foreach(var door in LinkedDoors)
             door.Hide();
