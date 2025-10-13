@@ -6,14 +6,14 @@ using UnityEngine.Events;
 using VInspector;
 
 [RequireComponent(typeof(TransparentMaterialCutout))]
-public class HiddenDoor : MonoBehaviour
+public class DSRHiddenItem : MonoBehaviour
 {
     private static readonly string LOG_CATEGORY = "Gameplay";
     
     [Tab("Settings")]
     public TweenSettings TweenCurves;
-    [Tooltip("Doors that will share the same state as this one. When one is hidden the other one is hidden as well.")]
-    public HiddenDoor[] LinkedDoors;
+    [Tooltip("Items that will share the same state as this one. When one is hidden the other one is hidden as well.")]
+    public DSRHiddenItem[] LinkedItems;
     [Tooltip("Colliders to disable when this door is hidden.")]
     public Collider[] LinkedColliders;
     [ReadOnly] public DoorState State = DoorState.SHOWN;
@@ -43,7 +43,7 @@ public class HiddenDoor : MonoBehaviour
     {
         if (State == DoorState.SHOWN) return;
         
-        Deblog.Log($"Showing door {gameObject.name}...", LOG_CATEGORY);
+        Deblog.Log($"Showing item {gameObject.name}...", LOG_CATEGORY);
         
         foreach(var collider in LinkedColliders) collider.enabled = true;
         
@@ -51,8 +51,8 @@ public class HiddenDoor : MonoBehaviour
         State = DoorState.SHOWN;
         OnShow?.Invoke();
         
-        foreach(var door in LinkedDoors)
-            door.Show();
+        foreach(var item in LinkedItems)
+            item.Show();
     }
 
     [Button("Hide")]
@@ -60,7 +60,7 @@ public class HiddenDoor : MonoBehaviour
     {
         if (State == DoorState.HIDDEN) return;
         
-        Deblog.Log($"Hiding door {gameObject.name}...", LOG_CATEGORY);
+        Deblog.Log($"Hiding item {gameObject.name}...", LOG_CATEGORY);
         
         foreach(var collider in LinkedColliders) collider.enabled = false;
             
@@ -68,8 +68,8 @@ public class HiddenDoor : MonoBehaviour
         State = DoorState.HIDDEN;
         OnHide?.Invoke();
         
-        foreach(var door in LinkedDoors)
-            door.Hide();
+        foreach(var item in LinkedItems)
+            item.Hide();
     }
 
     
