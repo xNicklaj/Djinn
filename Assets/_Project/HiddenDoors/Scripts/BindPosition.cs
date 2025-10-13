@@ -46,7 +46,7 @@ public class BindPosition : MonoBehaviour
         else if (delta < -180f) delta += 360f;
 
         _totalAngle += delta;
-        _totalAngle = Mathf.Max(0f, _totalAngle);
+        _totalAngle = Mathf.Min(Mathf.Max(0f, _totalAngle), TargetAngle);
         _lastAngle = currentAngle;
     }
 
