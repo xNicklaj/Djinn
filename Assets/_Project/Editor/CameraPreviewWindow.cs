@@ -23,6 +23,7 @@ public class CameraPreviewWindow : EditorWindow
 
     // Settings controls
     private Slider fovSlider;
+    private Label fovValueLabel;
     private IntegerField resolutionHeightField;
     private EnumField aspectRatioField;
 
@@ -37,7 +38,7 @@ public class CameraPreviewWindow : EditorWindow
         _4_3
     }
 
-    [MenuItem("Tools/Camera Preview (UI Toolkit)")]
+    [MenuItem("Tools/Camera Preview")]
     public static void ShowExample()
     {
         var wnd = GetWindow<CameraPreviewWindow>();
@@ -83,7 +84,7 @@ public class CameraPreviewWindow : EditorWindow
         settingsPanel.style.position = Position.Absolute;
         settingsPanel.style.top = 5;
         settingsPanel.style.right = 5;
-        settingsPanel.style.width = 200;
+        settingsPanel.style.width = 220;
         settingsPanel.style.paddingLeft = 10;
         settingsPanel.style.paddingRight = 10;
         settingsPanel.style.paddingTop = 5;
@@ -94,23 +95,33 @@ public class CameraPreviewWindow : EditorWindow
 
         root.Add(settingsPanel);
 
-        // FOV slider label
-        var fovLabel = new Label("Field of View:");
-        fovLabel.style.color = Color.white;
-        settingsPanel.Add(fovLabel);
+        // FOV label and slider container (horizontal)
+        var fovContainer = new VisualElement();
+        fovContainer.style.flexDirection = FlexDirection.Row;
+        fovContainer.style.alignItems = Align.Center;
+        settingsPanel.Add(new Label("Field of View:") { style = { color = Color.white, unityTextAlign = TextAnchor.MiddleLeft, marginBottom = 2 } });
+        settingsPanel.Add(fovContainer);
 
-        // FOV slider (10 to 100)
         fovSlider = new Slider(10f, 100f);
         fovSlider.value = cameraFOV;
-        fovSlider.style.width = Length.Percent(100);
+        fovSlider.style.flexGrow = 1f;
         fovSlider.RegisterValueChangedCallback(evt =>
         {
             cameraFOV = evt.newValue;
             if (previewCamera != null)
                 previewCamera.fieldOfView = cameraFOV;
+
+            fovValueLabel.text = cameraFOV.ToString("F1");
             Repaint();
         });
-        settingsPanel.Add(fovSlider);
+        fovContainer.Add(fovSlider);
+
+        fovValueLabel = new Label(cameraFOV.ToString("F1"));
+        fovValueLabel.style.width = 40;
+        fovValueLabel.style.unityTextAlign = TextAnchor.MiddleCenter;
+        fovValueLabel.style.marginLeft = 6;
+        fovValueLabel.style.color = Color.white;
+        fovContainer.Add(fovValueLabel);
 
         // Aspect ratio selection
         var aspectLabel = new Label("Aspect Ratio:");
@@ -139,14 +150,23 @@ public class CameraPreviewWindow : EditorWindow
         resolutionHeightField = new IntegerField();
         resolutionHeightField.value = pictureHeight;
         resolutionHeightField.style.width = Length.Percent(100);
+        
+        // Remove any input filter to allow normal editing
+        resolutionHeightField.isDelayed = true; // Use delayed to commit only after editing (avoids partial invalid input)
+        
         resolutionHeightField.RegisterValueChangedCallback(evt =>
         {
             int h = Mathf.Clamp(evt.newValue, 16, 8192); // Clamp reasonable min/max height
-            pictureHeight = h;
-            resolutionHeightField.SetValueWithoutNotify(pictureHeight);
-            RecreateRenderTextureAndResize();
-            Repaint();
+
+            if (h != pictureHeight)
+            {
+                pictureHeight = h;
+                resolutionHeightField.SetValueWithoutNotify(pictureHeight);
+                RecreateRenderTextureAndResize();
+                Repaint();
+            }
         });
+        
         settingsPanel.Add(resolutionHeightField);
 
 #if UNITY_POST_PROCESSING_STACK_V2
@@ -180,43 +200,45 @@ public class CameraPreviewWindow : EditorWindow
 
     private void CreatePreviewCamera()
     {
-        if (previewCamera == null)
-        {
-            var go = new GameObject("EditorPreviewCamera");
-            go.hideFlags = HideFlags.HideAndDontSave;
-            previewCamera = go.AddComponent<Camera>();
+	    if (previewCamera == null)
+	    {
+		    var go = new GameObject("EditorPreviewCamera");
+		    go.hideFlags = HideFlags.HideAndDontSave;
+		    previewCamera = go.AddComponent<Camera>();
 
-            previewCamera.clearFlags = CameraClearFlags.SolidColor;
-            previewCamera.backgroundColor = Color.gray;
-            previewCamera.orthographic = false;
-            previewCamera.nearClipPlane = 0.3f;
-            previewCamera.farClipPlane = 100f;
-            previewCamera.enabled = true;
+		    previewCamera.clearFlags = CameraClearFlags.Skybox; // <--- change here!
+		    // Optional: remove backgroundColor since not used with skybox clear
+		    // previewCamera.backgroundColor = Color.gray;
+
+		    previewCamera.orthographic = false;
+		    previewCamera.nearClipPlane = 0.3f;
+		    previewCamera.farClipPlane = 100f;
+		    previewCamera.enabled = true;
 
 #if UNITY_POST_PROCESSING_STACK_V2
-            var ppLayer = go.GetComponent<PostProcessLayer>();
-            if (ppLayer == null)
-                ppLayer = go.AddComponent<PostProcessLayer>();
+        var ppLayer = go.GetComponent<PostProcessLayer>();
+        if (ppLayer == null)
+            ppLayer = go.AddComponent<PostProcessLayer>();
 
-            ppLayer.volumeLayer = LayerMask.GetMask("Default");
-            ppLayer.Init(null);
+        ppLayer.volumeLayer = LayerMask.GetMask("Default");
+        ppLayer.Init(null);
 
-            var volumeGO = new GameObject("EditorPreviewPostProcessVolume");
-            volumeGO.hideFlags = HideFlags.HideAndDontSave;
-            volumeGO.transform.parent = go.transform;
+        var volumeGO = new GameObject("EditorPreviewPostProcessVolume");
+        volumeGO.hideFlags = HideFlags.HideAndDontSave;
+        volumeGO.transform.parent = go.transform;
 
-            postProcessProfile = ScriptableObject.CreateInstance<PostProcessProfile>();
+        postProcessProfile = ScriptableObject.CreateInstance<PostProcessProfile>();
 
-            var bloom = postProcessProfile.AddSettings<UnityEngine.Rendering.PostProcessing.Bloom>();
-            bloom.enabled.Override(true);
+        var bloom = postProcessProfile.AddSettings<UnityEngine.Rendering.PostProcessing.Bloom>();
+        bloom.enabled.Override(true);
 
-            postProcessVolume = volumeGO.AddComponent<PostProcessVolume>();
-            postProcessVolume.isGlobal = true;
-            postProcessVolume.sharedProfile = postProcessProfile;
+        postProcessVolume = volumeGO.AddComponent<PostProcessVolume>();
+        postProcessVolume.isGlobal = true;
+        postProcessVolume.sharedProfile = postProcessProfile;
 #endif
 
-            previewCamera.fieldOfView = cameraFOV;
-        }
+		    previewCamera.fieldOfView = cameraFOV;
+	    }
     }
 
     private void DestroyPreviewCamera()
@@ -315,10 +337,8 @@ public class CameraPreviewWindow : EditorWindow
 		tex.Apply();
 		RenderTexture.active = null;
 
-		// Calculate scaled size and position to keep selected aspect ratio inside the window
-
 		float windowWidth = position.width;
-		float windowHeightAvailable = position.height - 40; // reserve space for button
+		float windowHeightAvailable = position.height - 40; 
 
 		float targetAspectRatio;
 
@@ -345,12 +365,8 @@ public class CameraPreviewWindow : EditorWindow
 			displayHeight = displayWidth / targetAspectRatio;
 		}
 
-		// Position inside the previewElement
-
 		previewElement.style.width = displayWidth;
 		previewElement.style.height = displayHeight;
-
-		// Center horizontally and vertically inside container
 
 		float marginLeftRight = (windowWidth - displayWidth) * 0.5f;
 		float marginTopBottom = (windowHeightAvailable - displayHeight) * 0.5f;
@@ -378,7 +394,6 @@ public class CameraPreviewWindow : EditorWindow
 			previewCamera.fieldOfView = cameraFOV;
 
 #if UNITY_POST_PROCESSING_STACK_V2
-		// PostProcessing layer sync handled automatically via volumeLayer mask
 #endif
 	}
 
@@ -422,15 +437,15 @@ public class CameraPreviewWindow : EditorWindow
 		File.WriteAllBytes(fullPath, bytes);
 		Debug.Log($"Screenshot saved to {fullPath}");
 
-	AssetDatabase.Refresh();
-}
-
-private void CreateScreenshotDirectory()
-{
-	if (!Directory.Exists(ScreenshotFolder))
-	{
-		Directory.CreateDirectory(ScreenshotFolder);
-		AssetDatabase.Refresh();
+	    AssetDatabase.Refresh();
     }
-}
+
+	private void CreateScreenshotDirectory()
+    {
+	    if (!Directory.Exists(ScreenshotFolder))
+	    {
+		    Directory.CreateDirectory(ScreenshotFolder);
+		    AssetDatabase.Refresh();
+	    }
+    }
 }
