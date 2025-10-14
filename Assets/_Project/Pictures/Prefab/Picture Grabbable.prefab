@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2395178424730275182}
   - component: {fileID: 5558300537600874644}
   - component: {fileID: 69803604222870095}
-  m_Layer: 0
+  - component: {fileID: 1925363226243538296}
+  m_Layer: 20
   m_Name: Picture Grabbable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,6 +180,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1925363226243538296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703857945046153722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 508d0664bf3da4243a39187ac857246e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 11400000, guid: f8f2c0a484aa1ba49b89131259b0ed75, type: 2}
+  Ignorecolliders: []
+  Stabbed:
+    m_PersistentCalls:
+      m_Calls: []
+  UnStabbed:
+    m_PersistentCalls:
+      m_Calls: []
+  FullStabbed:
+    m_PersistentCalls:
+      m_Calls: []
+  Stabbers: []
 --- !u!1 &4294182821881829888
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +215,7 @@ GameObject:
   - component: {fileID: 3722891113889308578}
   - component: {fileID: 3977587280068407218}
   - component: {fileID: 8840591164331634600}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: GrabPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,8 +332,9 @@ GameObject:
   - component: {fileID: 4145665766752292104}
   - component: {fileID: 7410846593547146335}
   - component: {fileID: 2184744756532324296}
-  - component: {fileID: 4618057773971619618}
-  m_Layer: 0
+  - component: {fileID: 2717541571703249183}
+  - component: {fileID: 1425194343899804393}
+  m_Layer: 20
   m_Name: Picture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,8 +409,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4618057773971619618
-MeshCollider:
+--- !u!65 &2717541571703249183
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -401,10 +427,22 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  serializedVersion: 3
+  m_Size: {x: 10.000001, y: 0.0000011840996, z: 10.000002}
+  m_Center: {x: 0, y: 0.000030517578, z: -0.0000076293945}
+--- !u!114 &1425194343899804393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5525443467564594230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c75c5c18c01eee4ab0ab9c8cd3c3000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParentGrabbable: {fileID: 5558300537600874644}
 --- !u!1 &6998773185461122858
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,13 +453,13 @@ GameObject:
   m_Component:
   - component: {fileID: 8902301294718703008}
   - component: {fileID: 1686819389144081836}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: GrabPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8902301294718703008
 Transform:
   m_ObjectHideFlags: 0
