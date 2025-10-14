@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using dev.nicklaj.clibs.deblog;
 using PrimeTween;
 using UnityEngine;
@@ -16,7 +17,9 @@ public class DSRHiddenItem : MonoBehaviour
     public DSRHiddenItem[] LinkedItems;
     [Tooltip("Colliders to disable when this door is hidden.")]
     public Collider[] LinkedColliders;
-    [ReadOnly] public DoorState State = DoorState.SHOWN;
+    [Tooltip("Default state of the item.")]
+    public DoorState DefaultState = DoorState.HIDDEN;
+    [ReadOnly] public DoorState State = DoorState.NOT_SET;
     [EndTab] 
     
     [Tab("Events")] 
@@ -29,9 +32,21 @@ public class DSRHiddenItem : MonoBehaviour
     private void Awake()
     {
         _transparentMaterialCutout = GetComponent<TransparentMaterialCutout>();
-        Show();
     }
-    
+
+    private void Start()
+    {
+        StartCoroutine(SetDefaultState());
+    }
+
+    private IEnumerator SetDefaultState()
+    {
+        for(var i = 0; i < 5; i++)
+            yield return new WaitForEndOfFrame();
+        if(DefaultState == DoorState.SHOWN) Show();
+        if(DefaultState == DoorState.HIDDEN) Hide();
+    }
+
     [Button("Attach Colliders")]
     private void FindColliders()
     {
@@ -46,7 +61,7 @@ public class DSRHiddenItem : MonoBehaviour
         Deblog.Log($"Showing item {gameObject.name}...", LOG_CATEGORY);
         
         foreach(var collider in LinkedColliders) collider.enabled = true;
-        
+
         Tween.Custom(0f, 1f, TweenCurves, f => _transparentMaterialCutout.Transparency = f);
         State = DoorState.SHOWN;
         OnShow?.Invoke();
@@ -78,5 +93,6 @@ public class DSRHiddenItem : MonoBehaviour
 public enum DoorState
 {
     SHOWN,
-    HIDDEN
+    HIDDEN,
+    NOT_SET
 }

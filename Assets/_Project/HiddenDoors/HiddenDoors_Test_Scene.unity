@@ -718,7 +718,8 @@ MonoBehaviour:
   - {fileID: 1364451913}
   LinkedColliders:
   - {fileID: 465417866}
-  State: 1
+  DefaultState: 1
+  State: 2
   OnShow:
     m_PersistentCalls:
       m_Calls: []
@@ -1673,7 +1674,8 @@ MonoBehaviour:
   - {fileID: 465417865}
   LinkedColliders:
   - {fileID: 1364451914}
-  State: 1
+  DefaultState: 1
+  State: 2
   OnShow:
     m_PersistentCalls:
       m_Calls: []
@@ -2204,7 +2206,8 @@ MonoBehaviour:
   LinkedItems: []
   LinkedColliders:
   - {fileID: 1831886048}
-  State: 0
+  DefaultState: 1
+  State: 2
   OnShow:
     m_PersistentCalls:
       m_Calls: []
@@ -2734,6 +2737,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2320825563302469739, guid: a5819ac1de0a0164ab7e580a71029b13, type: 3}
+      propertyPath: State
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5043049425025375393, guid: a5819ac1de0a0164ab7e580a71029b13, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.61
