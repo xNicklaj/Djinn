@@ -699,8 +699,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TweenCurves:
-    duration: 1
-    ease: 0
+    duration: 0.5
+    ease: 10
     customEase:
       serializedVersion: 2
       m_Curve: []
@@ -718,7 +718,7 @@ MonoBehaviour:
   - {fileID: 1364451913}
   LinkedColliders:
   - {fileID: 465417866}
-  DefaultState: 1
+  DefaultState: 0
   State: 2
   OnShow:
     m_PersistentCalls:
@@ -1655,8 +1655,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TweenCurves:
-    duration: 1
-    ease: 0
+    duration: 0.5
+    ease: 10
     customEase:
       serializedVersion: 2
       m_Curve: []
@@ -1674,7 +1674,7 @@ MonoBehaviour:
   - {fileID: 465417865}
   LinkedColliders:
   - {fileID: 1364451914}
-  DefaultState: 1
+  DefaultState: 0
   State: 2
   OnShow:
     m_PersistentCalls:
@@ -2188,8 +2188,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TweenCurves:
-    duration: 1
-    ease: 0
+    duration: 0.5
+    ease: 10
     customEase:
       serializedVersion: 2
       m_Curve: []
@@ -2206,7 +2206,7 @@ MonoBehaviour:
   LinkedItems: []
   LinkedColliders:
   - {fileID: 1831886048}
-  DefaultState: 1
+  DefaultState: 0
   State: 2
   OnShow:
     m_PersistentCalls:
@@ -2740,6 +2740,10 @@ PrefabInstance:
     - target: {fileID: 2320825563302469739, guid: a5819ac1de0a0164ab7e580a71029b13, type: 3}
       propertyPath: State
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2320825563302469739, guid: a5819ac1de0a0164ab7e580a71029b13, type: 3}
+      propertyPath: TweenCurves.duration
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5043049425025375393, guid: a5819ac1de0a0164ab7e580a71029b13, type: 3}
       propertyPath: m_LocalPosition.x
