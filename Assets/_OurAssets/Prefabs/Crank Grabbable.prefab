@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 5043049425025375393}
   - component: {fileID: 6710996595896497836}
   - component: {fileID: 6696602362187250192}
+  - component: {fileID: 7147387695663375241}
   - component: {fileID: 6524759444957565121}
   - component: {fileID: 1691084418949389008}
   - component: {fileID: 259889721395728151}
@@ -301,9 +302,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbe74f0338a6c438b0af580dd1253e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Data: {fileID: 0}
+  Data: {fileID: 11400000, guid: 77273868c0c5dce4da1dd4b18821ec32, type: 2}
   Force: 0
   Grabbable: {fileID: 0}
+--- !u!114 &7147387695663375241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431830025870529042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735256ec9b08e024a8efea6924dd44b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 77273868c0c5dce4da1dd4b18821ec32, type: 2}
+  Force: 0
+  Hand: {fileID: 0}
+  HandGrabbingPrevents: 1
+  UseHandMaxStrength: 1
 --- !u!54 &6524759444957565121
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -776,7 +794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TweenCurves:
-    duration: 1
+    duration: 0.5
     ease: 7
     customEase:
       serializedVersion: 2
@@ -796,7 +814,8 @@ MonoBehaviour:
   - {fileID: 7464805024706235455}
   - {fileID: 5777635352902588504}
   - {fileID: 3311790749663752823}
-  State: 0
+  DefaultState: 1
+  State: 2
   OnShow:
     m_PersistentCalls:
       m_Calls: []

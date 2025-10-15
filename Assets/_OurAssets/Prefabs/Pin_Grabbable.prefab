@@ -129,6 +129,8 @@ GameObject:
   - component: {fileID: 1554256899505118466}
   - component: {fileID: 1321129127303915513}
   - component: {fileID: 1474525343688885437}
+  - component: {fileID: 4638831888160402844}
+  - component: {fileID: 1100778918120300774}
   m_Layer: 20
   m_Name: Pin_Grabbable
   m_TagString: Untagged
@@ -323,8 +325,6 @@ MonoBehaviour:
   IsDualStabber: 0
   CanRunThrough: 0
   CollidersToIgnore:
-  - {fileID: 8097954438595212874}
-  - {fileID: 7144173366225762093}
   - {fileID: 8469487919287041690}
   StabbingColliders:
   - {fileID: 8469487919287041690}
@@ -348,6 +348,38 @@ MonoBehaviour:
   FullStabbed:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4638831888160402844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647015392532941862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735256ec9b08e024a8efea6924dd44b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 77273868c0c5dce4da1dd4b18821ec32, type: 2}
+  Force: 0
+  Hand: {fileID: 0}
+  HandGrabbingPrevents: 1
+  UseHandMaxStrength: 1
+--- !u!114 &1100778918120300774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647015392532941862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77dbe74f0338a6c438b0af580dd1253e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 77273868c0c5dce4da1dd4b18821ec32, type: 2}
+  Force: 0
+  Grabbable: {fileID: 0}
 --- !u!1 &3556830994143085381
 GameObject:
   m_ObjectHideFlags: 0

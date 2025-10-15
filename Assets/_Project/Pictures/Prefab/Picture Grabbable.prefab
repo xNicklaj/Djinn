@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5558300537600874644}
   - component: {fileID: 69803604222870095}
   - component: {fileID: 1925363226243538296}
+  - component: {fileID: 653311135244621331}
+  - component: {fileID: 1008458808640594886}
   m_Layer: 20
   m_Name: Picture Grabbable
   m_TagString: Untagged
@@ -204,6 +206,38 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Stabbers: []
+--- !u!114 &653311135244621331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703857945046153722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77dbe74f0338a6c438b0af580dd1253e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 77273868c0c5dce4da1dd4b18821ec32, type: 2}
+  Force: 0
+  Grabbable: {fileID: 0}
+--- !u!114 &1008458808640594886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703857945046153722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735256ec9b08e024a8efea6924dd44b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 77273868c0c5dce4da1dd4b18821ec32, type: 2}
+  Force: 0
+  Hand: {fileID: 0}
+  HandGrabbingPrevents: 1
+  UseHandMaxStrength: 1
 --- !u!1 &4294182821881829888
 GameObject:
   m_ObjectHideFlags: 0
