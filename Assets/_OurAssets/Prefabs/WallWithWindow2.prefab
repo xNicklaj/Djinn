@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 907861841487615345, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2981719030895595311, guid: 76483d7e8cc2fce4595ab76d1ec6676d, type: 3}
+      objectReference: {fileID: -2981719030895595311, guid: 2c7903cc24c04d249b0ea91a430f5015, type: 3}
     - target: {fileID: 3494042006097690734, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
       propertyPath: m_Name
       value: WallWithWindow2

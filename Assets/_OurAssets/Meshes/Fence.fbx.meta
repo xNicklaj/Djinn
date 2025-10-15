@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: afa25e2eddfadc24ea4e10aa57638993
+guid: bdbf8a67c455da9469bdfaf93c6ff578
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown
+    second: {fileID: 2100000, guid: dfdf677f193a3ae4c9bfd5ec9be2cc4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand
+    second: {fileID: 2100000, guid: d3ecdad5205e6a14bb371f22b1818292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand 2
+    second: {fileID: 2100000, guid: 10665671c06b07a42b2b82ec184a89ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver
+    second: {fileID: 2100000, guid: 8ba66340a4ea7e545a69b115a6bb8daa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
