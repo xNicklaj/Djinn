@@ -446,6 +446,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2447177785886108523}
     m_Modifications:
+    - target: {fileID: 445276123892959140, guid: 17ade8454283eee408e6a75826768bb2, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3301624
+      objectReference: {fileID: 0}
+    - target: {fileID: 445276123892959140, guid: 17ade8454283eee408e6a75826768bb2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.99999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 445276123892959140, guid: 17ade8454283eee408e6a75826768bb2, type: 3}
+      propertyPath: m_Center.x
+      value: -0.16508013
+      objectReference: {fileID: 0}
     - target: {fileID: 734738995113752270, guid: 17ade8454283eee408e6a75826768bb2, type: 3}
       propertyPath: m_Name
       value: SheikahDSR
@@ -489,6 +501,10 @@ PrefabInstance:
     - target: {fileID: 1184374131159197079, guid: 17ade8454283eee408e6a75826768bb2, type: 3}
       propertyPath: m_Layer
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783183923843513653, guid: 17ade8454283eee408e6a75826768bb2, type: 3}
+      propertyPath: near clip plane
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 2071105775761370400, guid: 17ade8454283eee408e6a75826768bb2, type: 3}
       propertyPath: m_Name
