@@ -6,9 +6,11 @@ using VInspector;
 
 public class SheikahDSR : MonoBehaviour
 {
+    public RenderTexture CameraTexture;
+    
     [Foldout("Picture Event")] 
     public GameEvent OnPictureTakenEvent;
-    public UnityEvent OnPictureTaken;
+    public UnityEvent<Sprite> OnPictureTaken;
     [EndFoldout]
 
     [Button("Test Picture")]
@@ -17,6 +19,8 @@ public class SheikahDSR : MonoBehaviour
         Deblog.Log("Picture taken.", "Gameplay");
         
         OnPictureTakenEvent.Raise();
-        if(OnPictureTakenEvent) OnPictureTaken.Invoke();
+        if(OnPictureTakenEvent) OnPictureTaken.Invoke(CameraTexture.ToSprite());
+        
+        
     }
 }
