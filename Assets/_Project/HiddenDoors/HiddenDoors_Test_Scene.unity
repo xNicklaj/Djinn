@@ -1638,9 +1638,17 @@ PrefabInstance:
       propertyPath: 'ValidGrabbables.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3506700489826371931, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7354748392332994677, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e, type: 3}
       propertyPath: 'Transforms.Array.data[0]'
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8300014915354612069, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8845535835799810764, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e, type: 3}
       propertyPath: 'Transforms.Array.data[0]'
@@ -3288,17 +3296,21 @@ PrefabInstance:
       value: 1.7051436
       objectReference: {fileID: 0}
     - target: {fileID: 5682773073635248460, guid: c0f7df0eac02c5047a4249fad680fc08, type: 3}
+      propertyPath: RequiredSteps
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682773073635248460, guid: c0f7df0eac02c5047a4249fad680fc08, type: 3}
       propertyPath: StartPosition.y
       value: 2.365485
       objectReference: {fileID: 0}
     - target: {fileID: 5682773073635248460, guid: c0f7df0eac02c5047a4249fad680fc08, type: 3}
       propertyPath: Tiles.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5682773073635248460, guid: c0f7df0eac02c5047a4249fad680fc08, type: 3}
       propertyPath: 'Tiles.Array.data[0]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 230789920}
     - target: {fileID: 5682773073635248460, guid: c0f7df0eac02c5047a4249fad680fc08, type: 3}
       propertyPath: 'Tiles.Array.data[1]'
       value: 

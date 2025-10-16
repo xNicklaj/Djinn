@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.gitamend.improvedtimers": {
+      "version": "https://github.com/adammyhre/Unity-Improved-Timers.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d2759a9b77f09516d4b11821711ff2a4c1c03a2e"
+    },
     "com.jbooth.microverse": {
       "version": "file:com.jbooth.microverse",
       "depth": 0,
