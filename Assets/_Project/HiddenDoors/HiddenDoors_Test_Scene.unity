@@ -3165,22 +3165,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 2773854879232592559, guid: 8eea175451ffd904ead7aad74544d529, type: 3}
-      propertyPath: near clip plane
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101761399814877246, guid: 8eea175451ffd904ead7aad74544d529, type: 3}
-      propertyPath: m_Size.x
-      value: 1.3301624
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101761399814877246, guid: 8eea175451ffd904ead7aad74544d529, type: 3}
-      propertyPath: m_Size.y
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101761399814877246, guid: 8eea175451ffd904ead7aad74544d529, type: 3}
-      propertyPath: m_Center.x
-      value: -0.16508013
-      objectReference: {fileID: 0}
     - target: {fileID: 5210589527677241622, guid: 8eea175451ffd904ead7aad74544d529, type: 3}
       propertyPath: m_Name
       value: SheikahDSR Grabbable
