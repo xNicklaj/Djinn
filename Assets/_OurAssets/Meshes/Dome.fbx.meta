@@ -3,7 +3,22 @@ guid: d277a1673d6e1b840b8885d057a70f4a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Charcoal
+    second: {fileID: 2100000, guid: 21fa6f47120812f4ba84aee7f4ebd1aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand
+    second: {fileID: 2100000, guid: d3ecdad5205e6a14bb371f22b1818292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand 2
+    second: {fileID: 2100000, guid: 10665671c06b07a42b2b82ec184a89ca, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
