@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 42ec5bdf207045bf80449d5d960bba94
+timeCreated: 1724313706
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275627
+  packageName: Scene Notes - Tasks, Issues, Annotations
+  packageVersion: 1.5.0
+  assetPath: Packages/io.continis.scene-notes/Editor/WindowsAndMenus/NotesListView.cs
+  uploadId: 765080

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c837d6ad2f38490ebf1fb7203453a10e, type: 3}
+  m_Name: Hidden_Door_0743
+  m_EditorClassIdentifier: 
+  title: Hidden Door
+  contents: "La prima porta nascosta che il giocatore incontrer\xE0"
+  state: 0
+  worldPosition: {x: 413.797, y: 33.28274, z: 229.034}
+  localOffset: {x: 0, y: 0, z: 0}
+  categoryId: 0
+  screenshots: []
+  connectedObjectGlobalObjectID: 
+  suffix: 0743
+  referencingNoteBehaviour: {fileID: 0}
+  author: simonearonica@proton.me
+  creationDate: 202510181115+02:00
+  modifiedDate: 202510181116+02:00
+  comments: []
+  scene: {fileID: 102900000, guid: 47907e033dcbc774b85a1ee5b98b082a, type: 3}

@@ -446,6 +446,14 @@
       "dependencies": {},
       "hash": "b9438a072fa4d27b266095526e9a57bc783d3448"
     },
+    "io.continis.scene-notes": {
+      "version": "file:io.continis.scene-notes",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.1"
+      }
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,

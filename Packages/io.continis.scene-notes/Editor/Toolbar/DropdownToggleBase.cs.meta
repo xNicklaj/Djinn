@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c07e981643d443e5a81a0a8d7b121ef0
+timeCreated: 1746642017
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275627
+  packageName: Scene Notes - Tasks, Issues, Annotations
+  packageVersion: 1.5.0
+  assetPath: Packages/io.continis.scene-notes/Editor/Toolbar/DropdownToggleBase.cs
+  uploadId: 765080

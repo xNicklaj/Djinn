@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c2f4c9de507ad440ba9a77eac63c2b00
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275627
+  packageName: Scene Notes - Tasks, Issues, Annotations
+  packageVersion: 1.5.0
+  assetPath: Packages/io.continis.scene-notes/Editor/ProjectSettings/SceneNotesSettingsProvider.cs
+  uploadId: 765080

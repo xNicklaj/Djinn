@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4002dee46ed4a44029bfd2f5243ec3ed
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275627
+  packageName: Scene Notes - Tasks, Issues, Annotations
+  packageVersion: 1.5.0
+  assetPath: Packages/io.continis.scene-notes/README.md
+  uploadId: 765080

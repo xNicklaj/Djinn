@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5b05b8d3b2fd4eba91a67d4f74845c87
+timeCreated: 1749842305
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275627
+  packageName: Scene Notes - Tasks, Issues, Annotations
+  packageVersion: 1.5.0
+  assetPath: Packages/io.continis.scene-notes/Editor/Toolbar/LegendToolbar.cs
+  uploadId: 765080

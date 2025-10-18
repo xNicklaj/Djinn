@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 885d5c02b3da4968bcdd9e2a9a0ae429
+timeCreated: 1746873998
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275627
+  packageName: Scene Notes - Tasks, Issues, Annotations
+  packageVersion: 1.5.0
+  assetPath: Packages/io.continis.scene-notes/Editor/Toolbar/StateDropdown.cs
+  uploadId: 765080

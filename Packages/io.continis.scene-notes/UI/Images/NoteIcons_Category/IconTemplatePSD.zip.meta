@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1caee214759a040ceac5205a27a8c258
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275627
+  packageName: Scene Notes - Tasks, Issues, Annotations
+  packageVersion: 1.5.0
+  assetPath: Packages/io.continis.scene-notes/UI/Images/NoteIcons_Category/IconTemplatePSD.zip
+  uploadId: 765080

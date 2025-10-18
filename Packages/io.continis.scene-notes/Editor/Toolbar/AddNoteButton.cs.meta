@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a803721cba1b4c3ea968b0a3ce232232
+timeCreated: 1746479212
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275627
+  packageName: Scene Notes - Tasks, Issues, Annotations
+  packageVersion: 1.5.0
+  assetPath: Packages/io.continis.scene-notes/Editor/Toolbar/AddNoteButton.cs
+  uploadId: 765080

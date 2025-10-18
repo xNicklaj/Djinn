@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: e5e5bfa5b8d345d5a78495679ee5bdcd
+timeCreated: 1746479118
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275627
+  packageName: Scene Notes - Tasks, Issues, Annotations
+  packageVersion: 1.5.0
+  assetPath: Packages/io.continis.scene-notes/Editor/Toolbar/OnOffButton.cs
+  uploadId: 765080
