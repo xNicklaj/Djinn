@@ -15,7 +15,9 @@ MonoBehaviour:
   _oldCategories: []
   _migrated: 0
   _categories:
-  - name: Todo
-    icon: {fileID: 0}
+  - name: Porta Invisibile
+    icon: {fileID: 2800000, guid: 80c85a26cf2ee409786b393e0e226092, type: 3}
+  - name: Foto
+    icon: {fileID: 2800000, guid: 445fb3c634d9b401fb3c1502ad55c8d9, type: 3}
   - name: Bugs
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: e2a9a7f6f468f4231bbf6e735a7fd068, type: 3}

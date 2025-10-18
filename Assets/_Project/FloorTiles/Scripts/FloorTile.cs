@@ -26,7 +26,7 @@ public class FloorTile : MonoBehaviour
 	private void SetYOffset()
 	{
 		_hvr.Axis = HVRAxis.Y;
-		_hvr.StartPosition = transform.position;
-		_hvr.EndPosition = transform.position + Vector3.down * DownYOffset;
+		_hvr.StartPosition = transform.localPosition;
+		_hvr.EndPosition = transform.localPosition + Vector3.down * DownYOffset;
 	}
 }

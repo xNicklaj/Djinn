@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c837d6ad2f38490ebf1fb7203453a10e, type: 3}
+  m_Name: HD_03_3872
+  m_EditorClassIdentifier: 
+  title: HD.03
+  contents: 
+  state: 0
+  worldPosition: {x: 414.65198, y: 24.827562, z: 205.33435}
+  localOffset: {x: 0, y: 0, z: 0}
+  categoryId: 0
+  screenshots: []
+  connectedObjectGlobalObjectID: 
+  suffix: 3872
+  referencingNoteBehaviour: {fileID: 0}
+  author: simonearonica@proton.me
+  creationDate: 202510181312+02:00
+  modifiedDate: 202510181312+02:00
+  comments: []
+  scene: {fileID: 102900000, guid: 47907e033dcbc774b85a1ee5b98b082a, type: 3}
