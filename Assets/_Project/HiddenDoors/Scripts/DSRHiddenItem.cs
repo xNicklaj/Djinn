@@ -41,6 +41,7 @@ public class DSRHiddenItem : MonoBehaviour
 
     private IEnumerator SetDefaultState()
     {
+        Deblog.Log($"Setting default state for {name} to {DefaultState}", "Gameplay");
         for(var i = 0; i < 5; i++)
             yield return new WaitForEndOfFrame();
         if(DefaultState == DoorState.SHOWN) Show();
