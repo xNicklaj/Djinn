@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fa58e22dfa75e4a4f8d0b03d56b84fb2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261094
+  packageName: Mirage - Versatile Impostor System
+  packageVersion: 2.2.0
+  assetPath: Assets/Mirage/Shaders/Editor/Normals.shader
+  uploadId: 754928

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c60ca37a248aec44aad20934d18914bb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261094
+  packageName: Mirage - Versatile Impostor System
+  packageVersion: 2.2.0
+  assetPath: Assets/Mirage/Scripts/Editor/MirageEditor.cs
+  uploadId: 754928

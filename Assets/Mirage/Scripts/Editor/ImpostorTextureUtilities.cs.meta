@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e604e95e9baf26241a7e6197f8c14a93
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261094
+  packageName: Mirage - Versatile Impostor System
+  packageVersion: 2.2.0
+  assetPath: Assets/Mirage/Scripts/Editor/ImpostorTextureUtilities.cs
+  uploadId: 754928

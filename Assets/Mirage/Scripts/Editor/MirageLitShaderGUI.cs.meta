@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c66653fec47a87d45889b924b24600ea
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261094
+  packageName: Mirage - Versatile Impostor System
+  packageVersion: 2.2.0
+  assetPath: Assets/Mirage/Scripts/Editor/MirageLitShaderGUI.cs
+  uploadId: 754928

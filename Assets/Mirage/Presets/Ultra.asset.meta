@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bab5f48393a96da4c86d42555a008f7a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261094
+  packageName: Mirage - Versatile Impostor System
+  packageVersion: 2.2.0
+  assetPath: Assets/Mirage/Presets/Ultra.asset
+  uploadId: 754928

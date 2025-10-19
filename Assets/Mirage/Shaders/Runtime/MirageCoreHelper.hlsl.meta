@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 75d712ccb5b320b4b99a44412dc8d753
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261094
+  packageName: Mirage - Versatile Impostor System
+  packageVersion: 2.2.0
+  assetPath: Assets/Mirage/Shaders/Runtime/MirageCoreHelper.hlsl
+  uploadId: 754928
