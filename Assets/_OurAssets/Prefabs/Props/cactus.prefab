@@ -64,13 +64,41 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -7029948723529949830, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3756473180518285571, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -1025663018108745142, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -516098083770646512, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_Name
       value: cactus
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233112405309087440, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416272007918961125, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -219,6 +247,10 @@ PrefabInstance:
     - target: {fileID: 2163826662418324055, guid: 94bfba5b21dc3314aa51b9ee2eff2a4b, type: 3}
       propertyPath: m_Name
       value: cactus_impostor 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163826662418324055, guid: 94bfba5b21dc3314aa51b9ee2eff2a4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
