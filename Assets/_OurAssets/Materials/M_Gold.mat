@@ -139,8 +139,8 @@ Material:
     - _HatchingTextureSpace: 0
     - _LightingMode: 1
     - _Metallic: 0
-    - _Midpoint: 0.3
-    - _MidpointStrength: 0.5
+    - _Midpoint: 0.19
+    - _MidpointStrength: 0.577
     - _NormalStrength: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -168,14 +168,14 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.37877154, b: 0, a: 1}
+    - _BaseColor: {r: 0.745283, g: 0.20160444, b: 0.0035154943, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color_Lit: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
     - _HatchingThresholds: {r: 1, g: 0.7, b: 0.5, a: 0.25}
     - _RimColor: {r: 1, g: 1, b: 1, a: 0}
-    - _ShadowTint: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowTint: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
