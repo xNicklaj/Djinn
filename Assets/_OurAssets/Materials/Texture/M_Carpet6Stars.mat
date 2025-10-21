@@ -190,7 +190,7 @@ Material:
     - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
     - _HatchingThresholds: {r: 1, g: 0.7, b: 0.5, a: 0.25}
     - _RimColor: {r: 0.1559265, g: 0.42869055, b: 0.8069525, a: 1}
-    - _ShadowTint: {r: 0.33333334, g: 0.4666667, b: 0.8196079, a: 1}
+    - _ShadowTint: {r: 0.22490431, g: 0.314866, b: 0.553, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
