@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2447177785886108523}
   - component: {fileID: 3517675761363631682}
   - component: {fileID: 4506523626150591317}
+  - component: {fileID: 1463658834198506904}
+  - component: {fileID: 1378005384909941375}
   m_Layer: 20
   m_Name: SheikahDSR Grabbable
   m_TagString: Untagged
@@ -75,7 +77,8 @@ MonoBehaviour:
   TwoHandStrength: {fileID: 0}
   PullingSettingsOverride: {fileID: 0}
   HandGrabbedClip: {fileID: 0}
-  SocketGrabPoints: []
+  SocketGrabPoints:
+  - {fileID: 4276956945445439369}
   Rigidbody: {fileID: 0}
   AutoApplyLayer: 1
   RequireOverlapClearance: 0
@@ -101,7 +104,8 @@ MonoBehaviour:
   LinkStartingSocket: 0
   ShowBoundingBox: 0
   DrawCenterOfMass: 0
-  GrabPoints: []
+  GrabPoints:
+  - {fileID: 1956179292687882918}
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -110,7 +114,19 @@ MonoBehaviour:
       m_Calls: []
   Grabbed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: SpawnIfDistant, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   Released:
     m_PersistentCalls:
       m_Calls: []
@@ -179,6 +195,48 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1463658834198506904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5210589527677241622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bfeb5009c2df604ba7e100cc09cbd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: a402a8f61210f28499b64adf717833a8, type: 2}
+--- !u!114 &1378005384909941375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5210589527677241622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10345b4efa150014fb756a02715a4231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Poses:
+  - SocketTag: Tablet
+    Position: {x: -0.000012218952, y: 0.0000007748604, z: 0.0000030510128}
+    EulerAngles: {x: 0, y: 0, z: 0}
+  CounterScale: {x: 1, y: 1, z: 1}
+  UseRendererBounds: 1
+  ScaleSize: 0
+  SocketScale: 0.6
+  ScaleOverride: {fileID: 0}
+  SocketedClip: {fileID: 0}
+  UnsocketedClip: {fileID: 0}
+  LinkedGrabbables:
+  - {fileID: 3517675761363631682}
+  SocketOrientation: {fileID: 0}
+  Tags:
+    Tags: {fileID: 11400000, guid: 0e83bcde818c784468e6c9a69d44702f, type: 2}
+    _data: 2097152
 --- !u!1 &7068463396223229154
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +358,7 @@ MonoBehaviour:
     RingStart: 0
     PinkyStart: 0
   Blends: []
-  MirrorAxis: 0
+  MirrorAxis: 2
 --- !u!114 &4276956945445439369
 MonoBehaviour:
   m_ObjectHideFlags: 0

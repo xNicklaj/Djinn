@@ -277,6 +277,13 @@ public class CameraPreviewWindow : EditorWindow
             previewCamera.orthographic = false;
             previewCamera.nearClipPlane = 0.3f;
             previewCamera.farClipPlane = 100f;
+
+            // ✅ Important fixes for alpha clipping:
+            previewCamera.renderingPath = RenderingPath.Forward;
+            previewCamera.forceIntoRenderTexture = true;
+            previewCamera.allowHDR = true;
+            previewCamera.transparencySortMode = TransparencySortMode.Orthographic;
+
             previewCamera.enabled = true;
 
 #if UNITY_POST_PROCESSING_STACK_V2
@@ -330,8 +337,12 @@ public class CameraPreviewWindow : EditorWindow
 
         if (width > 0 && height > 0)
         {
-            previewRenderTexture = new RenderTexture(width, height, 24);
+            // ✅ Use ARGB32 for proper alpha and cutout rendering
+            previewRenderTexture = new RenderTexture(width, height, 24, RenderTextureFormat.ARGB32);
+            previewRenderTexture.useMipMap = false;
+            previewRenderTexture.autoGenerateMips = false;
             previewRenderTexture.Create();
+
             if (previewCamera != null)
                 previewCamera.targetTexture = previewRenderTexture;
         }
@@ -381,7 +392,6 @@ public class CameraPreviewWindow : EditorWindow
             return;
 
         SyncWithSceneViewCamera();
-
         previewCamera.Render();
 
 #if !UNITY_POST_PROCESSING_STACK_V2
@@ -480,9 +490,7 @@ public class CameraPreviewWindow : EditorWindow
 #endif
 
         RenderTexture.active = previewRenderTexture;
-
-        Texture2D texScreenshot =
-            new Texture2D(previewRenderTexture.width, previewRenderTexture.height, TextureFormat.RGB24, false);
+        Texture2D texScreenshot = new Texture2D(previewRenderTexture.width, previewRenderTexture.height, TextureFormat.RGB24, false);
         texScreenshot.ReadPixels(new Rect(0, 0, previewRenderTexture.width, previewRenderTexture.height), 0, 0);
         texScreenshot.Apply();
         RenderTexture.active = null;

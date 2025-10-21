@@ -224,6 +224,11 @@ namespace HurricaneVR.Framework.Core.Grabbers
             }
         }
 
+        public void TrySpawnPrefab()
+        {
+            CheckAutoSpawn();
+        }
+
         private void OnApplicationQuit()
         {
             _appQuitting = true;

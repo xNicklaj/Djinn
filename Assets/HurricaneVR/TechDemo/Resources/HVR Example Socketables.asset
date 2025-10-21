@@ -34,7 +34,7 @@ MonoBehaviour:
   - Power Cell
   - Valve
   - Key
-  - 
+  - Tablet
   - 
   - 
   - 
@@ -45,3 +45,4 @@ MonoBehaviour:
   - SMG Magazine
   - Pistol Magazine
   - Shotgun Shell
+  Identifier: HVR Example Socketables

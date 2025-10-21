@@ -57,6 +57,11 @@ public class DSRHiddenItem : MonoBehaviour
     [Button("Show")]
     public void Show()
     {
+        if (!Application.isPlaying)
+        {
+            Deblog.LogWarning("This function can be called only in play mode.", "General");
+            return;
+        }
         if (State == DoorState.SHOWN) return;
         
         Deblog.Log($"Showing item {gameObject.name}...", LOG_CATEGORY);
@@ -74,6 +79,11 @@ public class DSRHiddenItem : MonoBehaviour
     [Button("Hide")]
     public void Hide()
     {
+        if (!Application.isPlaying)
+        {
+            Deblog.LogWarning("This function can be called only in play mode.", "General");
+            return;
+        }
         if (State == DoorState.HIDDEN) return;
         
         Deblog.Log($"Hiding item {gameObject.name}...", LOG_CATEGORY);

@@ -10,6 +10,7 @@ public class SyncTransform : MonoBehaviour
     private void Update()
     {
         Position.Value = this.transform.position;
+        if (!Rotation) return;
         Rotation.Value = this.transform.rotation;
     }
 }
