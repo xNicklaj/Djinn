@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 417.2053
+      value: -27.525085
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 24.310266
+      value: -1.5239239
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 184.09651
+      value: -8.984497
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_LocalRotation.w
@@ -38,15 +38,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -149,7 +149,7 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.06773712
+  - screenRelativeHeight: 0.40377647
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 6189604653899161075}
