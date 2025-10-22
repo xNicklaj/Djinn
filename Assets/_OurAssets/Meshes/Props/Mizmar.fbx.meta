@@ -3,7 +3,22 @@ guid: 6cb92581fe11023428acdba3865b2868
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: f95c205049f12cc4cb5bd57dbded286c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet Fringe
+    second: {fileID: 2100000, guid: 31242a6fdc8698f4c8b6f629c7726c41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: a25713dcbf24ed04faf70807f54faf9c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
