@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6733319873454445082
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 62849972313492854, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 419.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 217.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492855, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849972313492856, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: m_Name
+      value: Sandstorm_twisting Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849973720270942, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 62849974275114744, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 62849972313492856, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2085392352375791186}
+    - targetCorrespondingSourceObject: {fileID: 62849972313492856, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 364367692779275060}
+  m_SourcePrefab: {fileID: 100100000, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+--- !u!1 &6750552207834685282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 62849972313492856, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+  m_PrefabInstance: {fileID: 6733319873454445082}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2085392352375791186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6750552207834685282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3af329c26710cd34db7ecaf0c2ae8b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameEvent: {fileID: 11400000, guid: 7d974ad6501b4e341b8750bdf8a287d0, type: 2}
+  Channel: 0
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6750552207834685292}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &364367692779275060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6750552207834685282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3af329c26710cd34db7ecaf0c2ae8b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameEvent: {fileID: 11400000, guid: d892fb682c78ff84ea105002e0edf763, type: 2}
+  Channel: 0
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6750552207834685292}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!198 &6750552207834685292 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 62849972313492854, guid: bbc93d4faab02b443a25cfce1bd85096, type: 3}
+  m_PrefabInstance: {fileID: 6733319873454445082}
+  m_PrefabAsset: {fileID: 0}
