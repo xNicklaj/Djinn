@@ -10722,6 +10722,7 @@ GameObject:
   - component: {fileID: 5930761063968627268}
   - component: {fileID: 7341307569444378081}
   - component: {fileID: 4757321965529637163}
+  - component: {fileID: 7867062106717619539}
   m_Layer: 0
   m_Name: Staircase
   m_TagString: Untagged
@@ -10798,6 +10799,30 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7867062106717619539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6414704147368575230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 508d0664bf3da4243a39187ac857246e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 11400000, guid: 307da7e7f87b51d4cbe8ae9f2f27a0bf, type: 2}
+  Ignorecolliders: []
+  Stabbed:
+    m_PersistentCalls:
+      m_Calls: []
+  UnStabbed:
+    m_PersistentCalls:
+      m_Calls: []
+  FullStabbed:
+    m_PersistentCalls:
+      m_Calls: []
+  Stabbers: []
 --- !u!1 &6420288066165421641
 GameObject:
   m_ObjectHideFlags: 0

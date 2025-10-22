@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using dev.nicklaj.clibs.deblog;
 using PrimeTween;
 using UnityEngine;
@@ -26,16 +27,22 @@ public class IJCylinder : MonoBehaviour
     {
         Deblog.Log("Evaluating new cylinder position", "Gameplay");
         var activeTiles = 0;
+        var enable = false;
         for (int i = 0; i < Tiles.Length; i++)
         {
             if(Tiles[i].IsActive) activeTiles++;
-            if(activeTiles >= RequiredSteps) break;
+            if (activeTiles >= RequiredSteps)
+            {
+                enable = true;
+                break;
+            }
         }
         Deblog.Log($"Found {activeTiles} active tiles", "Gameplay");
         
-        var _targetPosition = new Vector3(StartPosition.x, StartPosition.y - activeTiles * _heightStep, StartPosition.z);
+        var _targetPosition = new Vector3(StartPosition.x, EndPosition.y, StartPosition.z);
         MoveToPosition(_targetPosition);
     }
+    
 
     private void MoveToPosition(Vector3 _targetPosition)
     {
