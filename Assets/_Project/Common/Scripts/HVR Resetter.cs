@@ -5,8 +5,6 @@ using dev.nicklaj.clibs.deblog;
 using HurricaneVR.Framework.Core;
 using Unity.Burst;
 using Unity.Collections;
-using Unity.Jobs;
-using Unity.Tutorials.Core.Editor;
 using UnityEngine;
 using UnityEngine.Jobs;
 using VInspector;
