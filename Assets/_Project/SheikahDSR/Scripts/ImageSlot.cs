@@ -23,12 +23,14 @@ public class ImageSlot : MonoBehaviour
         {
             _image.color = new Color(1, 1, 1, 0);
             _image.sprite = null;
+            Button.gameObject.SetActive(false);
             return;
         }
         
         _image.color = Color.white;
         _image.sprite = image;
         _image.preserveAspect = true;
+        Button.gameObject.SetActive(true);
     }
 
     public void Touched()
