@@ -12,8 +12,9 @@ using Timer = ImprovedTimers.Timer;
 public class TriggerOnTriggerEnter : MonoBehaviour
 {
     private static readonly string LOG_CATEGORY = "Physics";
-    
-    [Tab("Trigger")]
+
+    [Tab("Trigger")] 
+    [Min(0)] public float DebouncingTime;
     [Tooltip("Butter event to raise. If null it will not be raised.")]
     public GameEvent GameEvent;
     public UnityEvent Event;
@@ -34,7 +35,7 @@ public class TriggerOnTriggerEnter : MonoBehaviour
     {
         _collider = GetComponent<BoxCollider>();
         _collider.isTrigger = true;
-        _timer = new CountdownTimer(.3f);
+        _timer = new CountdownTimer(DebouncingTime);
     }
 
     private void OnEnable()

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BreakOnImpact : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class BreakOnImpact : MonoBehaviour
     public float breakForce = 5f;      // Minimum collision magnitude to trigger breaking
     public float explosionForce = 200f;
     public float explosionRadius = 1f;
+
+    public UnityEvent OnBreak;
 
     private bool hasBroken = false;
 
@@ -40,6 +43,8 @@ public class BreakOnImpact : MonoBehaviour
         {
             shard.AddExplosionForce(explosionForce, explosionOrigin, explosionRadius);
         }
+
+        OnBreak.Invoke();
 
         // Destroy original object
         Destroy(gameObject);

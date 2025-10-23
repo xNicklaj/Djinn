@@ -39,18 +39,17 @@ public class IJCylinder : MonoBehaviour
         Deblog.Log("Evaluating new cylinder position", "Gameplay");
         var activeTiles = 0;
         var enable = false;
-        var i = 0;
-        for (i = 0; i < Tiles.Length; i++)
+        
+        foreach (var t in Tiles)
         {
-            if(Tiles[i].IsActive) activeTiles++;
-            if (activeTiles >= RequiredSteps)
-            {
-                enable = true;
-                break;
-            }
+            if(t.IsActive) activeTiles++;
+            if (activeTiles < RequiredSteps) continue;
+            break;
         }
+        enable = activeTiles >= RequiredSteps;
+        
         Deblog.Log($"Found {activeTiles} active tiles", "Gameplay");
-        var endPosition = activeTiles >= RequiredSteps ? StartPosition.y : EndPosition.y;
+        var endPosition = enable ? EndPosition.y : StartPosition.y;
         var _targetPosition = new Vector3(StartPosition.x, endPosition, StartPosition.z);
         if (activeTiles >= RequiredSteps)
         {
