@@ -28,14 +28,19 @@ public class TriggerOnTriggerEnter : MonoBehaviour
     public bool UseDelayOnEnable = true;
     
     private bool IgnoreNext = false;
+    private bool _canBeTriggered = true;
     private Timer _timer;
     private BoxCollider _collider;
+    private Timer _debouncer;
 
     private void Awake()
     {
         _collider = GetComponent<BoxCollider>();
         _collider.isTrigger = true;
-        _timer = new CountdownTimer(DebouncingTime);
+        _timer = new CountdownTimer(.3f);
+        _debouncer = new CountdownTimer(DebouncingTime);
+        _debouncer.OnTimerStart += () => _canBeTriggered = false;
+        _debouncer.OnTimerStop += () => _canBeTriggered = true;
     }
 
     private void OnEnable()
@@ -65,6 +70,11 @@ public class TriggerOnTriggerEnter : MonoBehaviour
     [Button("Test Trigger")]
     private void Trigger()
     {
+        if (!_canBeTriggered)
+        {
+            Deblog.Log($"Avoiding Trigger due to debouncing timer. {DebouncingTime - _debouncer.CurrentTime} seconds left.");
+            return;
+        }
         Event.Invoke();
         Deblog.Log($"Collision accepted. Triggering interaction with {gameObject.name}.", LOG_CATEGORY);
         if(GameEvent != null)
