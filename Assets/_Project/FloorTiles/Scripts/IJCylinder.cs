@@ -3,6 +3,7 @@ using System.Linq;
 using dev.nicklaj.clibs.deblog;
 using PrimeTween;
 using UnityEngine;
+using UnityEngine.Events;
 using VInspector;
 
 public class IJCylinder : MonoBehaviour
@@ -16,6 +17,11 @@ public class IJCylinder : MonoBehaviour
     public TweenSettings TweenSettings;
     [EndFoldout] 
     
+    [Foldout("Events")]
+    public UnityEvent OnStart;
+    public UnityEvent OnFinish;
+    [EndFoldout]
+    
     private float _heightStep;
 
     private void OnValidate()
@@ -23,12 +29,18 @@ public class IJCylinder : MonoBehaviour
         _heightStep = (StartPosition.y - EndPosition.y) / RequiredSteps;
     }
 
+    private void Start()
+    {
+        OnStart.Invoke();
+    }
+
     public void EvaluatePosition()
     {
         Deblog.Log("Evaluating new cylinder position", "Gameplay");
         var activeTiles = 0;
         var enable = false;
-        for (int i = 0; i < Tiles.Length; i++)
+        var i = 0;
+        for (i = 0; i < Tiles.Length; i++)
         {
             if(Tiles[i].IsActive) activeTiles++;
             if (activeTiles >= RequiredSteps)
@@ -38,8 +50,12 @@ public class IJCylinder : MonoBehaviour
             }
         }
         Deblog.Log($"Found {activeTiles} active tiles", "Gameplay");
-        
-        var _targetPosition = new Vector3(StartPosition.x, EndPosition.y, StartPosition.z);
+        var endPosition = activeTiles >= RequiredSteps ? StartPosition.y : EndPosition.y;
+        var _targetPosition = new Vector3(StartPosition.x, endPosition, StartPosition.z);
+        if (activeTiles >= RequiredSteps)
+        {
+            OnFinish?.Invoke();
+        }
         MoveToPosition(_targetPosition);
     }
     
