@@ -180,7 +180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 3e45ac789c4d4ff48b489495459a87c6, type: 3}
   spatialBlend: 0.8
-  volume: 0.5
+  volume: 0.8
   maxDistance: 5
   outputMixerGroup: {fileID: 7497990085187315891, guid: be21a14c74d2dcb47a92db8049d806bc, type: 2}
 --- !u!1 &7255296923518131921
