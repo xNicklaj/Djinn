@@ -1,4 +1,5 @@
 using System;
+using Dev.Nicklaj.Butter;
 using HurricaneVR.Framework.Core;
 using ImprovedTimers;
 using UnityEngine;
@@ -10,6 +11,7 @@ public class PlayGuitar : MonoBehaviour
     public AudioSource Source;
     public HVRGrabbable Grabbable;
     [Min(0)] public float HisteresisTime = 1f;
+    public GameEvent OnPlayed;
     [EndTab] 
     
     private Timer _timer;
@@ -32,6 +34,7 @@ public class PlayGuitar : MonoBehaviour
         }
         
         PlaySound();
+        OnPlayed.Raise();
     }
 
     private void OnTriggerExit(Collider other)
