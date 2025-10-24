@@ -11,8 +11,7 @@ public class IJCylinder : MonoBehaviour
     [Foldout("Setup")]
     public Vector3 StartPosition;
     public Vector3 EndPosition;
-
-    public FloorTile[] Tiles;
+    
     [Min(1)] public int RequiredSteps;
     public TweenSettings TweenSettings;
     [EndFoldout] 
@@ -24,6 +23,8 @@ public class IJCylinder : MonoBehaviour
     
     private float _heightStep;
 
+    [SerializeField, ReadOnly] private int activeTiles = 0;
+
     private void OnValidate()
     {
         _heightStep = (StartPosition.y - EndPosition.y) / RequiredSteps;
@@ -34,28 +35,20 @@ public class IJCylinder : MonoBehaviour
         OnStart.Invoke();
     }
 
-    public void EvaluatePosition()
+    public void EvaluatePosition(bool increment = false)
     {
         Deblog.Log("Evaluating new cylinder position", "Gameplay");
-        var activeTiles = 0;
-        var enable = false;
-        
-        foreach (var t in Tiles)
-        {
-            if(t.IsActive) activeTiles++;
-            if (activeTiles < RequiredSteps) continue;
-            break;
-        }
-        enable = activeTiles >= RequiredSteps;
+        if(increment) activeTiles++;
+        var enable = activeTiles >= RequiredSteps;
         
         Deblog.Log($"Found {activeTiles} active tiles", "Gameplay");
         var endPosition = enable ? EndPosition.y : StartPosition.y;
-        var _targetPosition = new Vector3(StartPosition.x, endPosition, StartPosition.z);
+        var targetPosition = new Vector3(StartPosition.x, endPosition, StartPosition.z);
         if (activeTiles >= RequiredSteps)
         {
             OnFinish?.Invoke();
         }
-        MoveToPosition(_targetPosition);
+        MoveToPosition(targetPosition);
     }
     
 
@@ -69,10 +62,4 @@ public class IJCylinder : MonoBehaviour
     
     [Button("Set End Position")]
     private void SetEndPosition() => EndPosition = transform.position;
-
-    [Button("Find All Tiles")]
-    private void FindAllTiles()
-    {
-        Tiles = FindObjectsByType<FloorTile>(FindObjectsInactive.Include, FindObjectsSortMode.None);
-    }
 }

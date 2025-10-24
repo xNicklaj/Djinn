@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c7fd93d61461a444b207d509a63a0a9, type: 3}
   m_Name: FloorTilePressed
   m_EditorClassIdentifier: 
-  UseDebugLogs: 0
+  UseDebugLogs: 1

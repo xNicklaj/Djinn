@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crackedPrefab: {fileID: 1394360757795598822, guid: 21170fab5c133e947900b61c1d741aaa, type: 3}
-  breakForce: 5
+  breakForce: 3.5
   explosionForce: 200
   explosionRadius: 1
   OnBreak:

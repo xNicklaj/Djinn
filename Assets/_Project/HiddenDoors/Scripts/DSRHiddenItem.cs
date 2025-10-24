@@ -28,10 +28,13 @@ public class DSRHiddenItem : MonoBehaviour
     [EndTab]
     
     private TransparentMaterialCutout _transparentMaterialCutout;
+    private Rigidbody _rb;
+    private bool _rbHasGravity;
 
     private void Awake()
     {
         _transparentMaterialCutout = GetComponent<TransparentMaterialCutout>();
+        TryGetComponent(out _rb);
     }
 
     private void Start()
@@ -71,7 +74,8 @@ public class DSRHiddenItem : MonoBehaviour
         Tween.Custom(0f, 1f, TweenCurves, f => _transparentMaterialCutout.Transparency = f);
         State = DoorState.SHOWN;
         OnShow?.Invoke();
-        
+
+        if (_rb) _rb.useGravity = _rbHasGravity;
         foreach(var item in LinkedItems)
             item.Show();
     }
@@ -87,7 +91,12 @@ public class DSRHiddenItem : MonoBehaviour
         if (State == DoorState.HIDDEN) return;
         
         Deblog.Log($"Hiding item {gameObject.name}...", LOG_CATEGORY);
-        
+
+        if (_rb)
+        {
+            _rbHasGravity = _rb.useGravity;
+            _rb.useGravity = false;
+        }
         foreach(var collider in LinkedColliders) collider.enabled = false;
             
         Tween.Custom(1f, 0f, TweenCurves, f => _transparentMaterialCutout.Transparency = f);
