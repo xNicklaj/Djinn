@@ -70,6 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e87d22a26c69344ea85f195dc6670a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DebouncingTime: 0
   GameEvent: {fileID: 0}
   Event:
     m_PersistentCalls:
@@ -1078,6 +1079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e87d22a26c69344ea85f195dc6670a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DebouncingTime: 0
   GameEvent: {fileID: 0}
   Event:
     m_PersistentCalls:
@@ -1183,6 +1185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e87d22a26c69344ea85f195dc6670a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DebouncingTime: 0
   GameEvent: {fileID: 0}
   Event:
     m_PersistentCalls:
@@ -2116,6 +2119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e87d22a26c69344ea85f195dc6670a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DebouncingTime: 0
   GameEvent: {fileID: 0}
   Event:
     m_PersistentCalls:
@@ -2294,7 +2298,7 @@ Camera:
     height: 1200
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 60
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -2446,6 +2450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e87d22a26c69344ea85f195dc6670a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DebouncingTime: 0
   GameEvent: {fileID: 0}
   Event:
     m_PersistentCalls:
@@ -2785,6 +2790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e87d22a26c69344ea85f195dc6670a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DebouncingTime: 0
   GameEvent: {fileID: 0}
   Event:
     m_PersistentCalls:
