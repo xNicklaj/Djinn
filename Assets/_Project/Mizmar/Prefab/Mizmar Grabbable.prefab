@@ -138,6 +138,7 @@ MonoBehaviour:
   Grabbable: {fileID: 7068579882360822753}
   HisteresisTime: 1
   OnPlayed: {fileID: 11400000, guid: 688584da664ddce4898a32a957fee708, type: 2}
+  OnStopped: {fileID: 11400000, guid: 8fb073accbab80948a2539e3df4140a7, type: 2}
 --- !u!1 &3041154240042403147
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ public class PlayGuitar : MonoBehaviour
     public HVRGrabbable Grabbable;
     [Min(0)] public float HisteresisTime = 1f;
     public GameEvent OnPlayed;
+    public GameEvent OnStopped;
     [EndTab] 
     
     private Timer _timer;
@@ -44,7 +45,10 @@ public class PlayGuitar : MonoBehaviour
     }
 
     public void PlaySound() => Source.Play();
-    public void StopSound() => Source.Stop();
+    public void StopSound(){
+        Source.Stop();
+        OnStopped.Raise();
+    }
 
 
 }
