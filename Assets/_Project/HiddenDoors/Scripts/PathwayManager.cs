@@ -28,6 +28,7 @@ public class PathwayManager : MonoBehaviour
 
         foreach (var interactor in DSRInteractors)
         {
+            if (interactor is null) continue;
             if (!interactor.CanInteract) continue;
             
             Deblog.Log($"Scanning {interactor.gameObject.name}...", LOG_CATEGORY);
