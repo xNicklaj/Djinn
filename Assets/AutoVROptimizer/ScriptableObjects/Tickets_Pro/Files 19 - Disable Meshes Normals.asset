@@ -1,0 +1,638 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f851f310b170d46a2387d5cc9d7008, type: 3}
+  m_Name: Files 19 - Disable Meshes Normals
+  m_EditorClassIdentifier: 
+  data:
+    name: Disable Meshes Normals
+    description: "<b>\u2022 What It Does:</b> Controls whether normals are included
+      in the mesh\u2019s vertex data. Normals are mainly used for lighting calculations
+      like diffuse and specular shading.\n\n<b>\u2022 Our Modification:</b> We disable
+      normals for meshes that don\u2019t require dynamic lighting, reducing vertex
+      data size and improving GPU efficiency on mobile VR."
+    state: 0
+    level: 0
+    tags: 18464
+    functionName: MeshesNormals
+    noFix: 0
+    noRestore: 0
+    hide: 0
+    concernedObjects:
+    - guid: Assets/_OurAssets/Meshes/Arch_01.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Arc.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Dome.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Door-v1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Door-v2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Fence.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Fix FloorPattern-v2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Floor.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/FloorPattern-v1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/FloorPattern-v2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/LowWall.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Door-v1_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Door-v2_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Fence_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Floor_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/LowWall_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Pillar_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/SpiralStaircase.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Staircase.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Wall_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/WallWithWindow1_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/WallWithWindow2_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Pillar.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/SpiralStaircase 1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Staircase 1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Wall.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/WallWithWindow1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/WallWithWindow2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Crank_01.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Crank_01_Collisions.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/DoorThingy.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Fountain.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Outer Door Palisade.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Outer Door.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Pin_01.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Pin_01_Collisions.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Pot_01.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Pot_01_Cracked.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Basket.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/cactus.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Chair-v2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Chair.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Lamp-v1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Lamp-v2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Lamp-v3.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/LampHolder.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/LampRings.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/LowpolyAloe.obj
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Mizmar.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/palm 1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/palm 2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Pillow.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Plant1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Plant2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Rug-HQ.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Rug-LQ.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Table-v2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Table.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/TeaTable.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/ud1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Rod.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/SledgeHammer.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Tablet.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/FilledCircle.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/ForceGrabRing.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusCustomLeft.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusCustomRight.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusTouchForQuestAndRiftS_Left.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusTouchForQuestAndRiftS_Right.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/OculusCustomHands/Quest2_controller_l.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/OculusCustomHands/Quest2_controller_r.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/Ring.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/SocketOval.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/Models/TeleportMarker.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/arena.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/exterior.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/interior.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/interior_full.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/museum_large.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/museum_small.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/pipe_floor_to_roof.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/small_case.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/window_frames.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Ladder/LadderRung.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_90bend.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_bracket.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_endcap.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_straight1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_straight2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_straight3.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_straight4.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_straight_drain.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_t_section.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_valve.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/Pipes/pipe_x_section.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/PowerUnit/power_unit.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Environment/PowerUnit/power_unit_cell.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_left_hand.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_right_hand.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Bow/Arrow.obj
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Bow/Bow.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Buttons/button_base.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Buttons/button_base_2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Buttons/button_base_3.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Buttons/button_top.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Buttons/ResetButton1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Doors/hatch.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Doors/heavy_door.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Doors/sliding_door.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Doors/swinging_door.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/pistol.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/shotgun.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/ShotgunShell.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/smg.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Hurricane Freshener
+        Glass Bottle/Models/hurricane_bottle.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Hurricane Freshener
+        Glass Bottle/Models/hurricane_bottle_cells.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/KeyPad/KeyPad.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/BroadSword.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/CombatKnife.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/halfspear.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/mjolnir.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/SledgeHammer.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/SpartanShield.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/SpartanSword.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/Spear.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Backpack/BackPack.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Backpack/keyring.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/basic_target.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/chalk_board.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Chest.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/clip_board.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/crow_bar.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/arm.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/body.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/head.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Dummy/leg.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Key.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Lock.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/table.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/torch.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/PullLevers/PullLever1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/PullLevers/PullLever2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/PullLevers/PullLever3.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/PullLevers/PullLever4.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Safe/FloorStandingSafe.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/TurnLevers/MagneticPad.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/TurnLevers/TurnLever1Handle.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/TurnLevers/TurnLever2Handle.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/TurnLevers/TurnLeverBase.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Lana Studio/Environment VFX pack/Models/Cylinder_wide03.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Lana Studio/Environment VFX pack/Models/Leavs.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Lana Studio/Environment VFX pack/Models/Tornado_vertical.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Lana Studio/Environment VFX pack/Models/triangle.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Hands/1.6.1/HandVisualizer/Models/LeftHand.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Hands/1.6.1/HandVisualizer/Models/LeftHandAndroidXR.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Hands/1.6.1/HandVisualizer/Models/RightHand.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Hands/1.6.1/HandVisualizer/Models/RightHandAndroidXR.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Board.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Pawn.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Frame.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cone.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cube.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cylinder.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Disc.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/VirtualTabletop.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Cylinder.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/PushButton.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/BlinkVisual.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Pinch_Pointer_LOD0.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Primitive_Cylinder.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Primitive_Wedge.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Reticle_Torus.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/UniversalController.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/TunnelingVignette/TunnelingVignetteHemisphere.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Anchor/AnchorArrow.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Anchor/AnchorBase.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Anchor/AnchorFade.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Blink/BlinkVisual.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Controllers/UniversalController.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Cursors/cursor.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Environment/Arrows.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Environment/Blaster.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Environment/Template Environment.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Environment/Torus Cut.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Environment/Totem1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Environment/Totem2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Marks/Marks.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Poke/PokePointer.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Primitives/Cube.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Primitives/Cylinder.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Primitives/Sphere.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Primitives/Tapered Cylinder.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/Primitives/Torus.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Models/UI/Spatial Panel Manipulator Model.fbx
+      toggle: 0
+      value: -1
+    ticketValue: 0
+    savedInFixAll: 0
+    lastValues:
+    - Calculate
+    lastObjects:
+    - Assets/ValemStudio/Meshes/cat.fbx
+  IsBigTicket: 0

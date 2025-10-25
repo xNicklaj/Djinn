@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f851f310b170d46a2387d5cc9d7008, type: 3}
+  m_Name: Files 02 - Audios Force To Mono
+  m_EditorClassIdentifier: 
+  data:
+    name: Set Audios to Force To Mono
+    description: "<b>\u2022 What It Does:</b> Converts stereo audio clips into mono,
+      reducing file size and the number of audio channels processed at runtime.\n\n<b>\u2022
+      Our Modification: </b>We force audio clips to mono wherever spatialization
+      or stereo panning is not required. This lowers memory use and reduces audio
+      processing overhead, which is critical on performance-limited VR devices."
+    state: 0
+    level: 1
+    tags: 1056
+    functionName: AudiosForceToMono
+    noFix: 0
+    noRestore: 0
+    hide: 0
+    concernedObjects:
+    - guid: Assets/_OurAssets/Sound/BGM.mp3
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Sound/DoorOpen.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Sound/RockIntoPlace.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Sound/RockSliding.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Sound/Tile Slide.mp3
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Sound/Vase Breaking.mp3
+      toggle: 0
+      value: -1
+    - guid: Assets/_Project/Guitar/Sound/oud-c-arabian-400521.mp3
+      toggle: 0
+      value: -1
+    - guid: Assets/_Project/Mizmar/Sound/Mizmar Corrected.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/_Project/Mizmar/Sound/Mizmar Song.mp3
+      toggle: 0
+      value: -1
+    - guid: Assets/_Project/SheikahDSR/Sounds/camera-13695.mp3
+      toggle: 0
+      value: -1
+    - guid: Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_01.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_02.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_03.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_04.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_01.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_02.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_03.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_04.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/BackpackOpened.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/BackpackZipped.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/Click.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/DialTick.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/ForceGrab.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/GunEmpty.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/GunSilencer.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/GunSound.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/Knife.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/madsond9Shot.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/Magazine.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/MetalInventoryClink.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/SlideRelease.mp3
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/Framework/SFX/SwordUnsheath.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/Interactables/Bow/sfx_bow_release.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_back_pack_close.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_back_pack_open.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_button_down.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_button_up.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_close.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_handle.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_key_entered.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_open.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_unlocked.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_drawer_closed.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_drawer_opened.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_electric_door.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_fan.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_force_pull.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_hand_grab.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_hand_grab_4semis.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_hand_grab_8Semis.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_hatch_door.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door1.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door2.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door3.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door4.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door_turn1.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door_turn2.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door_turn3.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_passcode_button_press.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_reload.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_shot1.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_shot2.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_shot3.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_slide_pull.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_slide_release.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_power_cell_insert.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_power_unit.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_PumpBack.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_PumpForward.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shield_pick_up.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_pump.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_reload.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_shot1.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_shot2.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_shot3.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_magazine.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_pull_back.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_pull_release.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_shot1.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_shot2.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_shot3.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_sword_pick_up.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Audio/ButtonClick.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Audio/ButtonHover.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Audio/Button
+        Pop.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Audio/Button_14_hover.wav
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Audio/Button_22_click.wav
+      toggle: 0
+      value: -1
+    ticketValue: 0
+    savedInFixAll: 0
+    lastValues:
+    - False
+    - False
+    - False
+    lastObjects:
+    - Assets/ValemStudio/Audios/A_ExempleAudio 1.wav
+    - Assets/ValemStudio/Audios/A_ExempleAudio 2.wav
+    - Assets/ValemStudio/Audios/A_ExempleAudio.wav
+  IsBigTicket: 0

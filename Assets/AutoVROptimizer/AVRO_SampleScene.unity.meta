@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8e39ac632337dbf489c3832a3face40a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318687
+  packageName: Auto VR Optimizer
+  packageVersion: 1.0.5
+  assetPath: Assets/AutoVROptimizer/AVRO_SampleScene.unity
+  uploadId: 783499

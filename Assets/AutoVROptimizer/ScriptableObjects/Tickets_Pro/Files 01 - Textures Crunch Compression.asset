@@ -1,0 +1,527 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f851f310b170d46a2387d5cc9d7008, type: 3}
+  m_Name: Files 01 - Textures Crunch Compression
+  m_EditorClassIdentifier: 
+  data:
+    name: Use Texture Crunch Compression
+    description: "<b>\u2022 What It Does:</b> Uses advanced compression to reduce
+      texture file size and memory usage with minimal quality loss. \n\n<b>\u2022
+      Our Modification: </b>Enabling Crunch Compression reduces load times and overall
+      memory footprint, which is crucial for mobile VR.\n\nNote that crunch compression
+      can produce some slight artefacts, while some textures, such as UI or fonts,
+      need to remain precise. For this reason, we ignore Sprites (2D and UI) and
+      Normal maps in the search."
+    state: 1
+    level: 1
+    tags: 16672
+    functionName: TextureCrunchCompression
+    noFix: 0
+    noRestore: 0
+    hide: 0
+    concernedObjects: []
+    ticketValue: 0
+    savedInFixAll: 0
+    lastValues:
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    lastObjects:
+    - Assets/_OurAssets/Materials/Texture/Aloe_Geo_initialShadingGroup_BaseColor.png
+    - Assets/_OurAssets/Materials/Texture/Carpet blue stars.png
+    - Assets/_OurAssets/Materials/Texture/Carpet blue.png
+    - Assets/_OurAssets/Materials/Texture/Carpet brown.png
+    - Assets/_OurAssets/Materials/Texture/Carpet green.png
+    - Assets/_OurAssets/Materials/Texture/Carpet purple.png
+    - Assets/_OurAssets/Materials/Texture/Carpet red.png
+    - Assets/_OurAssets/Materials/Texture/Carpet yellow.png
+    - Assets/_OurAssets/Materials/Texture/flowerpot.jpeg
+    - Assets/_OurAssets/Materials/Texture/flowerpot5.jpeg
+    - Assets/_OurAssets/Materials/Texture/gravel-4_diffuse.png
+    - Assets/_OurAssets/Materials/Texture/Haworthia_leaf.jpeg
+    - Assets/_OurAssets/Materials/Texture/MizmarHoles.png
+    - Assets/_OurAssets/Materials/Texture/persian carpet Style 2_BaseColor.jpg
+    - Assets/_OurAssets/Materials/Texture/SnakePlant_leaf.jpeg
+    - Assets/_OurAssets/Materials/Texture/SoilTexture.png
+    - Assets/_OurAssets/Materials/Texture/Ud/6285936917_03ba2af134_b.jpg
+    - Assets/_OurAssets/Materials/Texture/Ud/DD-Dark-Wood-Texture-22123-Preview.jpg
+    - Assets/_OurAssets/Materials/Texture/Ud/oyma4.jpg
+    - Assets/_OurAssets/Materials/Texture/Ud/texture-1027701_960_720.jpg
+    - Assets/_OurAssets/Materials/Texture/Woven_Basket_basecolor.png
+    - Assets/_OurAssets/Textures/Jar_Icon.png
+    - Assets/_OurAssets/Textures/Music_Icon.png
+    - Assets/_OurAssets/Textures/P0.png
+    - Assets/_OurAssets/Textures/P1.png
+    - Assets/_OurAssets/Textures/P2.png
+    - Assets/_Project/Data/Pictures/Screenshot_20251016_012620.png
+    - Assets/_Project/Data/Pictures/Screenshot_20251021_223134.png
+    - Assets/_Project/Data/Pictures/Screenshot_20251022_105555.png
+    - Assets/_Project/Data/Pictures/Screenshot_20251023_170311.png
+    - Assets/_Project/Data/Pictures/Screenshot_20251024_112109.png
+    - Assets/_Project/Data/Pictures/Screenshot_20251024_112802.png
+    - Assets/_Project/World/World/Lightmap-0_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-0_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-1_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-1_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-2_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-2_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-3_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-3_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-4_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-4_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-5_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-5_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-6_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-6_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-7_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-7_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-8_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-8_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-9_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-9_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-10_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-10_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-11_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-11_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-12_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-12_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-13_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-13_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-14_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-14_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-15_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-15_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-16_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-16_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-17_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-17_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-18_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-18_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-19_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-19_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-20_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-20_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-21_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-21_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-22_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-22_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-23_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-23_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-24_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-24_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-25_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-25_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-26_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-26_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-27_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-27_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-28_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-28_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-29_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-29_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-30_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-30_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-31_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-31_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-32_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-32_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-33_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-33_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-34_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-34_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-35_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-35_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-36_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-36_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-37_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-37_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-38_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-38_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-39_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-39_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-40_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-40_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-41_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-41_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-42_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-42_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-43_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-43_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-44_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-44_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-45_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-45_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-46_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-46_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-47_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-47_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-48_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-48_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-49_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-49_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-50_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-50_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-51_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-51_comp_light.exr
+    - Assets/_Project/World/World/Lightmap-52_comp_dir.png
+    - Assets/_Project/World/World/Lightmap-52_comp_light.exr
+    - Assets/_Project/World/World/ReflectionProbe-0.exr
+    - Assets/aluminum-squares_roughness.png
+    - Assets/FastTerrainAssets/Terrain_20251025_015310_49B3_3675/SplatMap_20251025_015310_49B3_3675.png
+    - Assets/HurricaneVR/Framework/Textures/Laser.png
+    - Assets/HurricaneVR/Framework/Textures/OculusQuestTouchControllerTexture.tga
+    - Assets/HurricaneVR/TechDemo/Assets/Interactables/Hurricane Freshener Glass
+      Bottle/Texture&Materials/hurricane_freshener_albedo.png
+    - Assets/HurricaneVR/TechDemo/Assets/Interactables/KeyPad/Numbers.png
+    - Assets/HurricaneVR/TechDemo/Scenes/scene_demo/ReflectionProbe-0.exr
+    - Assets/HurricaneVR/TechDemo/Textures/back_pack_albedo.jpg
+    - Assets/HurricaneVR/TechDemo/Textures/back_pack_metallic_smoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/BlackPanel.png
+    - Assets/HurricaneVR/TechDemo/Textures/ChestLP_DefaultMaterial_AlbedoTransparency.png
+    - Assets/HurricaneVR/TechDemo/Textures/ChestLP_DefaultMaterial_MetallicSmoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/environment_albedo.jpg
+    - Assets/HurricaneVR/TechDemo/Textures/environment_metallic_smoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/glass_metallic_smoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/hand_albedo.png
+    - Assets/HurricaneVR/TechDemo/Textures/hands_metallic_smoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/interior_albedo.jpg
+    - Assets/HurricaneVR/TechDemo/Textures/interior_metallic_smoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/OrangePanel.png
+    - Assets/HurricaneVR/TechDemo/Textures/panel_metallic_smoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/pistol_Albedo_AO.png
+    - Assets/HurricaneVR/TechDemo/Textures/pistol_Metallic.png
+    - Assets/HurricaneVR/TechDemo/Textures/props_albedo.jpg
+    - Assets/HurricaneVR/TechDemo/Textures/props_metallic_smoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/rope.png
+    - Assets/HurricaneVR/TechDemo/Textures/Safe.jpg
+    - Assets/HurricaneVR/TechDemo/Textures/SafeMetallicSmoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/Shotgun_Albedo_AO.png
+    - Assets/HurricaneVR/TechDemo/Textures/Shotgun_Metallic_Smoothness.png
+    - Assets/HurricaneVR/TechDemo/Textures/SMG_Main_Albedo_AO.png
+    - Assets/HurricaneVR/TechDemo/Textures/SMG_Main_Metallic.png
+    - Assets/HurricaneVR/TechDemo/Textures/spear_textures/spear_Shaft_Albedo.png
+    - Assets/HurricaneVR/TechDemo/Textures/spear_textures/spear_Shaft_Metallic.png
+    - Assets/HurricaneVR/TechDemo/Textures/spear_textures/spear_Tip_Albedo.png
+    - Assets/HurricaneVR/TechDemo/Textures/spear_textures/spear_Tip_Metallic.png
+    - Assets/HurricaneVR/TechDemo/Textures/WhitePanel.png
+    - Assets/Mirage/Editor/Resources/discord.png
+    - Assets/Mirage/Editor/Resources/mail.png
+    - Assets/Mirage/Editor/Resources/MirageBlackBakingCubeMap.png
+    - Assets/Mirage/Editor/Resources/MirageIcon.png
+    - Assets/Mirage/Editor/Resources/MirageLogo.png
+    - Assets/Mirage/Editor/Resources/MirageWhiteBakingCubeMap.png
+    - Assets/Mirage/Editor/Resources/Star_empty.png
+    - Assets/Mirage/Editor/Resources/Star_full.png
+    - Assets/Mirage/Editor/Resources/twitter.png
+    - Assets/Mirage/Editor/Resources/youtube.png
+    - Assets/PinwheelStudio/Jupiter - Procedural Sky/Runtime/Textures/CloudNoise.png
+    - Assets/PinwheelStudio/Jupiter - Procedural Sky/Runtime/Textures/PerlinNoise.png
+    - Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Artworks/TGS_d_Folder
+      Icon.png
+    - Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Artworks/TGS_d_Mesh
+      Icon.png
+    - Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Artworks/TGS_d_MeshRenderer
+      Icon.png
+    - Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Artworks/TGS_d_ToolHandleGlobal@2x.png
+    - Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Artworks/TGS_d_ToolHandleLocal@2x.png
+    - Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Artworks/TGS_refresh.png
+    - Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Artworks/TGS_visibility-off.png
+    - Assets/Plugins/Tiny Giant Studio/Better Inspector/Better Transform/Artworks/TGS_visibility-on.png
+    - Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 01.png
+    - Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 03.png
+    - Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 16.png
+    - Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 25.png
+    - Assets/Rowlan/Terrain/Stamps/Terraced Canyon Shapes/Heightmaps/Terraced Canyon
+      Shapes 06.png
+    - Assets/Rowlan/Terrain/Stamps/Terraced Canyon Shapes/Heightmaps/Terraced Canyon
+      Shapes 07.png
+    - Assets/Rowlan/Terrain/Stamps/Terraced Canyon Shapes/Heightmaps/Terraced Canyon
+      Shapes 17.png
+    - Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/Textures/CombinedFingerIndexHighlight.png
+    - Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Textures/Concrete_Albedo.tif
+    - Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif
+    - Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Textures/DefaultMaterial_AO.png
+    - Assets/Scenes/BasicScene/Grid_Light_512x512.png
+    - Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+    - Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+    - Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png
+    - Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+    - Assets/Scenes/SampleScene/ReflectionProbe-1.exr
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/VRTemplateAssets/Materials/Controller/DefaultMaterial_AO.png
+    - Assets/VRTemplateAssets/Materials/Environment/Concrete_Albedo.tif
+    - Assets/VRTemplateAssets/Materials/Environment/Concrete_Metallic.tif
+    - Assets/VRTemplateAssets/Materials/Environment/Frosted_Glass_Pattern_AlbedoTransparency.png
+    - Assets/VRTemplateAssets/Materials/Environment/wall2_Base_color.png
+    - Assets/VRTemplateAssets/Materials/Environment/wall2_Height.png
+    - Assets/VRTemplateAssets/Materials/Environment/wall2_Metallic.png
+    - Assets/VRTemplateAssets/Materials/Environment/wall2_Normal.png
+    - Assets/VRTemplateAssets/Materials/Environment/wall2_Roughness.png
+    - Assets/VRTemplateAssets/Materials/Environment/wall_Base_color.png
+    - Assets/VRTemplateAssets/Materials/Environment/wall_Height.png
+    - Assets/VRTemplateAssets/Materials/Environment/wall_Metallic.png
+    - Assets/VRTemplateAssets/Materials/Environment/wall_Roughness.png
+    - Assets/VRTemplateAssets/Materials/Locomotion/BlinkOcclusionTexture.png
+    - Assets/VRTemplateAssets/Materials/Primitive/fabric_Base_color.png
+    - Assets/VRTemplateAssets/Materials/Primitive/fabric_Height.png
+    - Assets/VRTemplateAssets/Materials/Primitive/fabric_Metallic.png
+    - Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal.png
+    - Assets/VRTemplateAssets/Materials/Primitive/fabric_Roughness.png
+    - Assets/VRTemplateAssets/Materials/Primitive/torus_Base_color.png
+    - Assets/VRTemplateAssets/Materials/Primitive/torus_Height.png
+    - Assets/VRTemplateAssets/Materials/Primitive/torus_Metallic.png
+    - Assets/VRTemplateAssets/Materials/Primitive/torus_Normal.png
+    - Assets/VRTemplateAssets/Materials/Primitive/torus_Roughness.png
+    - Assets/VRTemplateAssets/Materials/Skybox/skybox01_openGL.png
+    - Assets/VRTemplateAssets/Materials/UI/torus_cursorShape.png
+    - Assets/VRTemplateAssets/Tutorial/Images/1-welcome-screen-image.png
+    - Assets/VRTemplateAssets/Tutorial/Images/project-header-vr.png
+  IsBigTicket: 0

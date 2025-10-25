@@ -19,6 +19,7 @@
     "com.unity.xr.hands": "1.6.1",
     "com.unity.xr.interaction.toolkit": "3.2.1",
     "com.unity.xr.management": "4.5.1",
+    "com.unity.xr.oculus": "4.5.2",
     "com.unity.xr.openxr": "1.15.1",
     "dev.nicklaj.butter": "https://github.com/xNicklaj/Butter.git",
     "dev.nicklaj.clibs": "https://github.com/xNicklaj/dev.nicklaj.clibs.git",
