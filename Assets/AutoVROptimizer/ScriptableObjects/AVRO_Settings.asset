@@ -17,8 +17,8 @@ MonoBehaviour:
   MaxCharCount: 65
   ShowOptions: 1
   ShowColors: 0
-  TodoCount: 25
-  DoneCount: 67
+  TodoCount: 24
+  DoneCount: 68
   IgnoreCount: 0
   OmittedCount: 12
   BigTodoCount: 2

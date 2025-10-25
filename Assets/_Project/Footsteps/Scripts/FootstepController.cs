@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(AudioSource))]
 public class FootstepController : MonoBehaviour
@@ -10,20 +11,36 @@ public class FootstepController : MonoBehaviour
     [Header("Footstep Sounds")]
     [Tooltip("Footstep sounds for when the player is on terrain.")]
     public AudioClip[] terrainFootsteps;
-    [Tooltip("Footstep sounds for when the player is on a mesh (non-terrain).")]
-    public AudioClip[] meshFootsteps;
+
+    [Tooltip("Default mesh footsteps (used when no texture or override match is found).")]
+    public AudioClip[] defaultMeshFootsteps;
+
+    [Header("Mesh Texture Footsteps")]
+    [Tooltip("List of sounds corresponding to specific textures.")]
+    public List<TextureFootstep> textureFootsteps = new List<TextureFootstep>();
 
     [Header("Raycast Settings")]
     [Tooltip("Raycast origin offset from player's position (usually half the height).")]
     public float rayOriginOffset = 1f;
+
     [Tooltip("How far down the raycast checks for ground.")]
     public float rayDistance = 1.5f;
+
     [Tooltip("Layers considered as ground.")]
     public LayerMask groundLayers = ~0;
 
     private AudioSource audioSource;
     private Vector3 lastPosition;
     private float distanceTravelled = 0f;
+
+    [System.Serializable]
+    public class TextureFootstep
+    {
+        [Tooltip("The texture to match on a mesh surface.")]
+        public Texture texture;
+        [Tooltip("Footstep sounds to play when walking on this texture.")]
+        public AudioClip[] footstepSounds;
+    }
 
     void Start()
     {
@@ -61,23 +78,48 @@ public class FootstepController : MonoBehaviour
 
     private AudioClip GetFootstepClip()
     {
-        // Raycast downward to detect what we're standing on
         Vector3 origin = transform.position + Vector3.up * rayOriginOffset;
 
         if (Physics.Raycast(origin, Vector3.down, out RaycastHit hit, rayDistance, groundLayers))
         {
+            // --- 1️⃣ Terrain Check ---
             if (hit.collider.GetComponent<Terrain>() != null)
             {
                 return GetRandomClip(terrainFootsteps);
             }
-            else
+
+            // --- 2️⃣ FootstepOverride Component Check ---
+            FootstepOverride overrideComponent = hit.collider.GetComponent<FootstepOverride>();
+            if (overrideComponent != null)
             {
-                return GetRandomClip(meshFootsteps);
+                AudioClip overrideClip = overrideComponent.GetRandomClip();
+                if (overrideClip != null)
+                    return overrideClip;
             }
+
+            // --- 3️⃣ Texture-based Check ---
+            Renderer rend = hit.collider.GetComponent<Renderer>();
+            if (rend != null && rend.sharedMaterial != null)
+            {
+                Texture tex = rend.sharedMaterial.mainTexture;
+                if (tex != null)
+                {
+                    foreach (var entry in textureFootsteps)
+                    {
+                        if (entry.texture == tex && entry.footstepSounds != null && entry.footstepSounds.Length > 0)
+                        {
+                            return GetRandomClip(entry.footstepSounds);
+                        }
+                    }
+                }
+            }
+
+            // --- 4️⃣ Fallback to Default Mesh Footsteps ---
+            return GetRandomClip(defaultMeshFootsteps);
         }
 
-        // Default to mesh footsteps if nothing hit
-        return GetRandomClip(meshFootsteps);
+        // --- 5️⃣ No Ground Hit ---
+        return GetRandomClip(defaultMeshFootsteps);
     }
 
     private AudioClip GetRandomClip(AudioClip[] clips)

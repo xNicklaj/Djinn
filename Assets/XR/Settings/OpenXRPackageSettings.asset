@@ -751,7 +751,7 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 1
   m_symmetricProjection: 1
-  m_foveatedRenderingApi: 0
+  m_foveatedRenderingApi: 1
 --- !u!114 &-5901582635306253
 MonoBehaviour:
   m_ObjectHideFlags: 0

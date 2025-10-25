@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillow
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ee4f53431bfc4514799a24927ad73d5f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -75,7 +79,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ee4f53431bfc4514799a24927ad73d5f, type: 3}
       insertIndex: -1
       addedObject: {fileID: -6477246597586534579}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ee4f53431bfc4514799a24927ad73d5f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2883551336310431594}
   m_SourcePrefab: {fileID: 100100000, guid: ee4f53431bfc4514799a24927ad73d5f, type: 3}
+--- !u!23 &2727778052517549915 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: ee4f53431bfc4514799a24927ad73d5f, type: 3}
+  m_PrefabInstance: {fileID: 3610363039855463391}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4529495185654412942 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ee4f53431bfc4514799a24927ad73d5f, type: 3}
@@ -102,3 +114,139 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.2, y: 2.49, z: 4.2}
   m_Center: {x: 0, y: 0.06907492, z: 0}
+--- !u!114 &2883551336310431594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4529495185654412942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba3b3d20dd42f61408784f700d9e5f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AddToContainer: 1
+  _editor_DrawSetup: 1
+  _editor_DrawOptimizeList: 1
+  _editor_DrawAddFeatures: 1
+  _editor_DrawLODLevelsSetup: 1
+  _editor_DrawExtra: 0
+  _editor_horizontal: 1
+  _editor_category: 3
+  Editor_InIsolatedScene: 1
+  Editor_JustCreated: 1
+  UseDOTS: 0
+  DOTSObstacleType: 2
+  DOTSDetection: 0
+  DOTSMeshData: []
+  DOTSOffset: {x: 0, y: 0, z: 0}
+  DOTSSize: {x: 1, y: 1, z: 1}
+  DOTSRadius: 1
+  UseMultiShape: 0
+  AutoPrecision: 0.25
+  AutoReferenceMesh: {fileID: 0}
+  DrawPositionHandles: 1
+  ScalingHandles: 1
+  Shapes: []
+  ShapePos: []
+  ShapeRadius: []
+  UseObstacleDetection: 0
+  CoveragePrecision: 1
+  CoverageScale: 1
+  CoverageMask:
+    serializedVersion: 2
+    m_Bits: 1
+  CustomCoveragePoints: 0
+  CoverageOffsets: []
+  ignoredObstacleColliders: []
+  OnlyCamCollLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  LODLevels: 1
+  preLODLevels: 1
+  MaxDistance: 10
+  OptimizingMethod: 0
+  CullIfNotSee: 1
+  DetectionRadius: 3.9858282
+  DetectionBounds: {x: 5.467481, y: 2.6749215, z: 5.533116}
+  Hideable: 0
+  DetectionOffset: {x: 0.00003310904, y: 0.06907452, z: -0.000019537654}
+  GizmosAlpha: 1
+  DrawGizmos: 1
+  FadeDuration: 0
+  FadeViewVisibility: 0
+  DeactivateObject: 0
+  LODPercent:
+  - 1
+  AutoDistance: 0
+  AutoDistanceFactor: 0
+  DrawAutoDistanceToggle: 1
+  HiddenCullAt: -1
+  LimitLODLevels: 0
+  UnlockFirstLOD: 0
+  DrawGeneratedPrefabInfo: 0
+  DrawDeactivateToggle: 1
+  OptimizationTypes: {fileID: 11400000, guid: 0e8853016bec8ee4abb48acfda55a738, type: 2}
+  ToOptimize:
+  - constructed: 1
+    ToOptimizeIndex: 1
+    optimizer: {fileID: 2883551336310431594}
+    Component: {fileID: 2727778052517549915}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 1
+    ToOptimizes: []
+    ToOptimize: {fileID: 2727778052517549915}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8744966299028816174
+    - rid: 8744966299028816175
+    - rid: 8744966299028816176
+    eOptimizer: {fileID: 2883551336310431594}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 8744966299028816174
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8744966299028816175
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816176
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0

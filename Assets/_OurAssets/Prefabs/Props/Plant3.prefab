@@ -135,11 +135,552 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4ffef16feede93c4b84079664a51625a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8287881725427677033}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4ffef16feede93c4b84079664a51625a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 547678874038733537}
   m_SourcePrefab: {fileID: 100100000, guid: 4ffef16feede93c4b84079664a51625a, type: 3}
 --- !u!4 &4737733286597549223 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4ffef16feede93c4b84079664a51625a, type: 3}
+  m_PrefabInstance: {fileID: 5059079704591317836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5400977029149525533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4ffef16feede93c4b84079664a51625a, type: 3}
+  m_PrefabInstance: {fileID: 5059079704591317836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &547678874038733537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400977029149525533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba3b3d20dd42f61408784f700d9e5f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AddToContainer: 1
+  _editor_DrawSetup: 1
+  _editor_DrawOptimizeList: 1
+  _editor_DrawAddFeatures: 1
+  _editor_DrawLODLevelsSetup: 1
+  _editor_DrawExtra: 0
+  _editor_horizontal: 1
+  _editor_category: 2
+  Editor_InIsolatedScene: 1
+  Editor_JustCreated: 1
+  UseDOTS: 0
+  DOTSObstacleType: 2
+  DOTSDetection: 0
+  DOTSMeshData: []
+  DOTSOffset: {x: 0, y: 0, z: 0}
+  DOTSSize: {x: 1, y: 1, z: 1}
+  DOTSRadius: 1
+  UseMultiShape: 0
+  AutoPrecision: 0.25
+  AutoReferenceMesh: {fileID: 0}
+  DrawPositionHandles: 1
+  ScalingHandles: 1
+  Shapes: []
+  ShapePos: []
+  ShapeRadius: []
+  UseObstacleDetection: 0
+  CoveragePrecision: 1
+  CoverageScale: 1
+  CoverageMask:
+    serializedVersion: 2
+    m_Bits: 1
+  CustomCoveragePoints: 0
+  CoverageOffsets: []
+  ignoredObstacleColliders: []
+  OnlyCamCollLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  LODLevels: 1
+  preLODLevels: 1
+  MaxDistance: 7
+  OptimizingMethod: 0
+  CullIfNotSee: 1
+  DetectionRadius: 1.1
+  DetectionBounds: {x: 1.6758729, y: 2.7931533, z: 1.6759111}
+  Hideable: 0
+  DetectionOffset: {x: -0.0000010433236, y: 0.95, z: 0.0000010354946}
+  GizmosAlpha: 1
+  DrawGizmos: 1
+  FadeDuration: 0
+  FadeViewVisibility: 0
+  DeactivateObject: 0
+  LODPercent:
+  - 1
+  AutoDistance: 0
+  AutoDistanceFactor: 0
+  DrawAutoDistanceToggle: 1
+  HiddenCullAt: -1
+  LimitLODLevels: 0
+  UnlockFirstLOD: 0
+  DrawGeneratedPrefabInfo: 0
+  DrawDeactivateToggle: 1
+  OptimizationTypes: {fileID: 11400000, guid: 0e8853016bec8ee4abb48acfda55a738, type: 2}
+  ToOptimize:
+  - constructed: 1
+    ToOptimizeIndex: 1
+    optimizer: {fileID: 547678874038733537}
+    Component: {fileID: 5905595211357038536}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 0
+    ToOptimizes: []
+    ToOptimize: {fileID: 5905595211357038536}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8744966299028816133
+    - rid: 8744966299028816134
+    - rid: 8744966299028816135
+    eOptimizer: {fileID: 547678874038733537}
+  - constructed: 1
+    ToOptimizeIndex: 2
+    optimizer: {fileID: 547678874038733537}
+    Component: {fileID: 119085264935907325}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 0
+    ToOptimizes: []
+    ToOptimize: {fileID: 119085264935907325}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8744966299028816136
+    - rid: 8744966299028816137
+    - rid: 8744966299028816138
+    eOptimizer: {fileID: 547678874038733537}
+  - constructed: 1
+    ToOptimizeIndex: 3
+    optimizer: {fileID: 547678874038733537}
+    Component: {fileID: 1314065936359552300}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 0
+    ToOptimizes: []
+    ToOptimize: {fileID: 1314065936359552300}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8744966299028816139
+    - rid: 8744966299028816140
+    - rid: 8744966299028816141
+    eOptimizer: {fileID: 547678874038733537}
+  - constructed: 1
+    ToOptimizeIndex: 4
+    optimizer: {fileID: 547678874038733537}
+    Component: {fileID: 8277498255633779065}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 0
+    ToOptimizes: []
+    ToOptimize: {fileID: 8277498255633779065}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8744966299028816142
+    - rid: 8744966299028816143
+    - rid: 8744966299028816144
+    eOptimizer: {fileID: 547678874038733537}
+  - constructed: 1
+    ToOptimizeIndex: 5
+    optimizer: {fileID: 547678874038733537}
+    Component: {fileID: 5444432408116807245}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 0
+    ToOptimizes: []
+    ToOptimize: {fileID: 5444432408116807245}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8744966299028816145
+    - rid: 8744966299028816146
+    - rid: 8744966299028816147
+    eOptimizer: {fileID: 547678874038733537}
+  - constructed: 1
+    ToOptimizeIndex: 6
+    optimizer: {fileID: 547678874038733537}
+    Component: {fileID: 2249168821143351955}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 0
+    ToOptimizes: []
+    ToOptimize: {fileID: 2249168821143351955}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8744966299028816148
+    - rid: 8744966299028816149
+    - rid: 8744966299028816150
+    eOptimizer: {fileID: 547678874038733537}
+  - constructed: 1
+    ToOptimizeIndex: 7
+    optimizer: {fileID: 547678874038733537}
+    Component: {fileID: 151973005418755919}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 0
+    ToOptimizes: []
+    ToOptimize: {fileID: 151973005418755919}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8744966299028816151
+    - rid: 8744966299028816152
+    - rid: 8744966299028816153
+    eOptimizer: {fileID: 547678874038733537}
+  - constructed: 1
+    ToOptimizeIndex: 8
+    optimizer: {fileID: 547678874038733537}
+    Component: {fileID: 7391160966810825304}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 0
+    ToOptimizes: []
+    ToOptimize: {fileID: 7391160966810825304}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8744966299028816154
+    - rid: 8744966299028816155
+    - rid: 8744966299028816156
+    eOptimizer: {fileID: 547678874038733537}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 8744966299028816133
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8744966299028816134
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816135
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816136
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8744966299028816137
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816138
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816139
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8744966299028816140
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816141
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816142
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8744966299028816143
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816144
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816145
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8744966299028816146
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816147
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816148
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8744966299028816149
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816150
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816151
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8744966299028816152
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816153
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816154
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8744966299028816155
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8744966299028816156
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+--- !u!23 &5905595211357038536 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 4ffef16feede93c4b84079664a51625a, type: 3}
   m_PrefabInstance: {fileID: 5059079704591317836}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8398863633876783234
@@ -234,6 +775,41 @@ PrefabInstance:
       addedObject: {fileID: 2387350885767715218}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+--- !u!23 &119085264935907325 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8442510506162454399, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+  m_PrefabInstance: {fileID: 8398863633876783234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &151973005418755919 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -678588488315902003, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+  m_PrefabInstance: {fileID: 8398863633876783234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1314065936359552300 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1823322365421230674, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+  m_PrefabInstance: {fileID: 8398863633876783234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2249168821143351955 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1461304994638716399, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+  m_PrefabInstance: {fileID: 8398863633876783234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5444432408116807245 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -4683669308469848369, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+  m_PrefabInstance: {fileID: 8398863633876783234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7391160966810825304 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7918335002988649766, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+  m_PrefabInstance: {fileID: 8398863633876783234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8277498255633779065 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8768133303093192197, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
+  m_PrefabInstance: {fileID: 8398863633876783234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8287881725427677033 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d114bc9167166d14a878684706c3d0ce, type: 3}
