@@ -444,6 +444,7 @@ GameObject:
   - component: {fileID: 5955197141968837008}
   - component: {fileID: 3102399550562756577}
   - component: {fileID: 2917324163344463330}
+  - component: {fileID: 629234839641915473}
   m_Layer: 0
   m_Name: Socket
   m_TagString: Untagged
@@ -491,6 +492,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: 91eac714ff1dc9d40b9004f7c2bb39be, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6894040690761952833}
+        m_TargetAssemblyTypeName: UnityEngine.MeshRenderer, UnityEngine
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 6e5a23e35042dec4393328987a76523e, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -560,7 +573,7 @@ MonoBehaviour:
   FilterCondition: 0
   DistanceSource: {fileID: 0}
   PoseTag: Puzzle Large
-  DisableCollision: 1
+  DisableCollision: 0
   SpawnedPrefab:
     m_PersistentCalls:
       m_Calls: []
@@ -616,6 +629,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event: {fileID: 11400000, guid: f7a2a44a78b871f47b37dd57bd8140c0, type: 2}
   Channel: 0
+--- !u!114 &629234839641915473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5088933674392442867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884736595cf844dab3bbe8fee2083e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 6946137547081958063}
+  InvalidMaterial: {fileID: 0}
+  ValidMaterial: {fileID: 2100000, guid: 6e5a23e35042dec4393328987a76523e, type: 2}
 --- !u!1 &5879534070792866148
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,6 +890,11 @@ MonoBehaviour:
     useUnscaledTime: 0
     _useFixedUpdate: 0
     _updateType: 0
+--- !u!23 &6894040690761952833 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7202271454713460447, guid: f46a9940e2a6c6e4d964b13e9ac59f90, type: 3}
+  m_PrefabInstance: {fileID: 4350220787372120222}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6946137547081958063 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -2577548232221058511, guid: f46a9940e2a6c6e4d964b13e9ac59f90, type: 3}
