@@ -415,6 +415,10 @@ PrefabInstance:
       propertyPath: ParentGrabbable
       value: 
       objectReference: {fileID: 3517675761363631682}
+    - target: {fileID: 4618067102624019975, guid: 17ade8454283eee408e6a75826768bb2, type: 3}
+      propertyPath: ParentGrabbable
+      value: 
+      objectReference: {fileID: 3517675761363631682}
     - target: {fileID: 7828072128735003098, guid: 17ade8454283eee408e6a75826768bb2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
