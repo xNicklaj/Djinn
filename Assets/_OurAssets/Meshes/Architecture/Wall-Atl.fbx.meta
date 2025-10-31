@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c3bbc6198f4407b4ebd8ecb3d21c2b35
+guid: 304abe52c0370774f8ac1363b3561200
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: TilesArchitectural
-    second: {fileID: 5684002139188801159, guid: c0570e50cefde504fafb94cbc8c11405, type: 3}
+    second: {fileID: 2100000, guid: 218bbdf0a6e51a940870bbef97c3cb45, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

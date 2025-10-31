@@ -565,7 +565,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6778559653957184975}
-  m_Mesh: {fileID: -124775499576719245, guid: e0d8533ff09a72f45b347596a57e9e02, type: 3}
+  m_Mesh: {fileID: -124775499576719245, guid: 024fe1171ab972347865dbdcaf82d64c, type: 3}
 --- !u!23 &1103187912718451253
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1027,15 +1027,15 @@ PrefabInstance:
     - target: {fileID: -6878302525580579760, guid: d65697c4133c3424fb930aba6c074e67, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -4113818672377676123, guid: e0d8533ff09a72f45b347596a57e9e02, type: 3}
+      objectReference: {fileID: -4113818672377676123, guid: 024fe1171ab972347865dbdcaf82d64c, type: 3}
     - target: {fileID: -5754084199372789682, guid: d65697c4133c3424fb930aba6c074e67, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 5778496956858411877, guid: e0d8533ff09a72f45b347596a57e9e02, type: 3}
+      objectReference: {fileID: 5778496956858411877, guid: 024fe1171ab972347865dbdcaf82d64c, type: 3}
     - target: {fileID: -4948162231281245792, guid: d65697c4133c3424fb930aba6c074e67, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 8725912883837730362, guid: e0d8533ff09a72f45b347596a57e9e02, type: 3}
+      objectReference: {fileID: 8725912883837730362, guid: 024fe1171ab972347865dbdcaf82d64c, type: 3}
     - target: {fileID: -877347232637144845, guid: d65697c4133c3424fb930aba6c074e67, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1

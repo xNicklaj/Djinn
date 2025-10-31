@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -2981719030895595311, guid: 16781c355dabaf246a23a3bced81bf7f, type: 3}
+    - target: {fileID: 1431040975539125704, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
+      propertyPath: m_Size.x
+      value: 0.55
+      objectReference: {fileID: 0}
     - target: {fileID: 3494042006097690734, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
       propertyPath: m_Name
       value: WallWithWindow2
@@ -55,6 +59,30 @@ PrefabInstance:
     - target: {fileID: 4266742959771179732, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323303427621838264, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
+      propertyPath: m_Size.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323303427621838264, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
+      propertyPath: m_Center.y
+      value: -1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680295219425287205, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
+      propertyPath: m_Size.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680295219425287205, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
+      propertyPath: m_Center.x
+      value: -0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418830114650524036, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418830114650524036, guid: 941ff917cb8bb8c4481fa6d3f5dab004, type: 3}
+      propertyPath: m_Center.y
+      value: 1.45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
