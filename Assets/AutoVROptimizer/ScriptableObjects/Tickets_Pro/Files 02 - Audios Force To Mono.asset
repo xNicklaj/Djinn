@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f851f310b170d46a2387d5cc9d7008, type: 3}
+  m_Name: Files 02 - Audios Force To Mono
+  m_EditorClassIdentifier: 
+  data:
+    name: Set Audios to Force To Mono
+    description: "<b>\u2022 What It Does:</b> Converts stereo audio clips into mono,
+      reducing file size and the number of audio channels processed at runtime.\n\n<b>\u2022
+      Our Modification: </b>We force audio clips to mono wherever spatialization
+      or stereo panning is not required. This lowers memory use and reduces audio
+      processing overhead, which is critical on performance-limited VR devices."
+    state: 1
+    level: 1
+    tags: 1056
+    functionName: AudiosForceToMono
+    noFix: 0
+    noRestore: 0
+    hide: 0
+    concernedObjects: []
+    ticketValue: 0
+    savedInFixAll: 0
+    lastValues:
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    - False
+    lastObjects:
+    - Assets/_OurAssets/Sound/BGM.mp3
+    - Assets/_OurAssets/Sound/DoorOpen.wav
+    - Assets/_OurAssets/Sound/RockIntoPlace.wav
+    - Assets/_OurAssets/Sound/RockSliding.wav
+    - Assets/_OurAssets/Sound/Tile Slide.mp3
+    - Assets/_OurAssets/Sound/Vase Breaking.mp3
+    - Assets/_Project/Guitar/Sound/oud-c-arabian-400521.mp3
+    - Assets/_Project/Mizmar/Sound/Mizmar Corrected.wav
+    - Assets/_Project/Mizmar/Sound/Mizmar Song.mp3
+    - Assets/_Project/SheikahDSR/Sounds/camera-13695.mp3
+    - Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_01.wav
+    - Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_02.wav
+    - Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_03.wav
+    - Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_04.wav
+    - Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_01.wav
+    - Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_02.wav
+    - Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_03.wav
+    - Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_04.wav
+    - Assets/HurricaneVR/Framework/SFX/BackpackOpened.wav
+    - Assets/HurricaneVR/Framework/SFX/BackpackZipped.wav
+    - Assets/HurricaneVR/Framework/SFX/Click.wav
+    - Assets/HurricaneVR/Framework/SFX/DialTick.wav
+    - Assets/HurricaneVR/Framework/SFX/ForceGrab.wav
+    - Assets/HurricaneVR/Framework/SFX/GunEmpty.wav
+    - Assets/HurricaneVR/Framework/SFX/GunSilencer.wav
+    - Assets/HurricaneVR/Framework/SFX/GunSound.wav
+    - Assets/HurricaneVR/Framework/SFX/Knife.wav
+    - Assets/HurricaneVR/Framework/SFX/madsond9Shot.wav
+    - Assets/HurricaneVR/Framework/SFX/Magazine.wav
+    - Assets/HurricaneVR/Framework/SFX/MetalInventoryClink.wav
+    - Assets/HurricaneVR/Framework/SFX/SlideRelease.mp3
+    - Assets/HurricaneVR/Framework/SFX/SwordUnsheath.wav
+    - Assets/HurricaneVR/TechDemo/Assets/Interactables/Bow/sfx_bow_release.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_back_pack_close.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_back_pack_open.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_button_down.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_button_up.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_close.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_handle.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_key_entered.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_open.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_door_unlocked.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_drawer_closed.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_drawer_opened.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_electric_door.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_fan.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_force_pull.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_hand_grab.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_hand_grab_4semis.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_hand_grab_8Semis.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_hatch_door.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door1.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door2.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door3.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door4.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door_turn1.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door_turn2.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_heavy_door_turn3.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_passcode_button_press.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_reload.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_shot1.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_shot2.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_shot3.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_slide_pull.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_pistol_slide_release.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_power_cell_insert.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_power_unit.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_PumpBack.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_PumpForward.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shield_pick_up.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_pump.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_reload.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_shot1.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_shot2.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_shotgun_shot3.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_magazine.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_pull_back.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_pull_release.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_shot1.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_shot2.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_smg_shot3.wav
+    - Assets/HurricaneVR/TechDemo/Assets/SFX/sfx_sword_pick_up.wav
+    - Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Audio/ButtonClick.wav
+    - Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/HandsDemoSceneAssets/Audio/ButtonHover.wav
+    - Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Audio/Button
+      Pop.wav
+    - Assets/VRTemplateAssets/Audio/Button_14_hover.wav
+    - Assets/VRTemplateAssets/Audio/Button_22_click.wav
+  IsBigTicket: 0

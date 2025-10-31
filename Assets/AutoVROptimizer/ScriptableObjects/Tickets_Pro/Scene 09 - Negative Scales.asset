@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f851f310b170d46a2387d5cc9d7008, type: 3}
+  m_Name: Scene 09 - Negative Scales
+  m_EditorClassIdentifier: 
+  data:
+    name: Some Objects have Negative Scales
+    description: "<b>\u2022 What It Does:</b> Applying a negative scale (e.g., -1)
+      to objects can break lighting calculations and frustrate GPU-based culling
+      systems. It can also interfere with physics colliders.\n\n<b>\u2022 Our Modification:
+      </b>Always avoid negative scales. Instead, flip models in 3D modeling software
+      or adjust orientation using rotation. This ensures stable rendering, correct
+      lighting, and physics behavior."
+    state: 0
+    level: 1
+    tags: 16448
+    functionName: NegativeScales
+    noFix: 0
+    noRestore: 0
+    hide: 0
+    concernedObjects:
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-6414704147368575230-6455435088827587325
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-8700725330082129686-2122893837
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-10066586246802973818-2122893837
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-12878372547485961728-2122893837
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-2800250516343163423-2122893837
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-6414704147368575230-8828506000651942877
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-7595851876142877799-907860335
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-6414704147368575230-7458297704667252045
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-6061792885370805947-1372589967
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-2378430609778056757-1372589967
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-6414704147368575230-4414670963593433661
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-3849762623622064168-2122893837
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-8513859187771203891-2122893837
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-6414704147368575230-3972726131741641739
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-6414704147368575230-427854567326657454
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-11713566712454932246-2122893837
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-6414704147368575230-6031804251538968707
+      toggle: 0
+      value: -1
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-4323806296265405231-1372589967
+      toggle: 0
+      value: -1
+    ticketValue: 0
+    savedInFixAll: 0
+    lastValues:
+    - 
+    - 
+    - (1.00, -1.00, 1.00)
+    lastObjects:
+    - 
+    - 
+    - GlobalObjectId_V1-2-cb004e92d5025f24eb03ac2fda9c5691-1495181753-0
+  IsBigTicket: 0

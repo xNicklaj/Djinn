@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f851f310b170d46a2387d5cc9d7008, type: 3}
+  m_Name: Files 21 - Textures Power of 2
+  m_EditorClassIdentifier: 
+  data:
+    name: Some Textures Height or Width are Non Power of 2
+    description: "<b>\u2022 What It Does:</b> Ensures that texture dimensions are
+      powers of two (e.g. 256, 512, 1024), which is a GPU-friendly format that improves
+      texture streaming, mipmapping, and overall performance.\n\n<b>\u2022 Our Modification:
+      </b>We adjust non-compliant textures to the nearest power-of-two size where
+      visual quality is preserved, helping reduce runtime memory usage and improve
+      rendering efficiency on mobile VR devices."
+    state: 0
+    level: 0
+    tags: 288
+    functionName: TexturesPower
+    noFix: 1
+    noRestore: 0
+    hide: 0
+    concernedObjects:
+    - guid: Assets/_Project/Data/Pictures/Screenshot_20251014_161648.png
+      toggle: 0
+      value: -1
+    - guid: Assets/_Project/SheikahDSR/Textures/Back.png
+      toggle: 0
+      value: -1
+    - guid: Assets/_Project/SheikahDSR/Textures/GalleryGuideline.png
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60
+        Outline 4.png
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60_Horizontal.png
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/Round
+        Radius 4 Outline.png
+      toggle: 0
+      value: -1
+    - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/Round
+        Radius 4.png
+      toggle: 0
+      value: -1
+    - guid: Assets/Settings/Project Configuration/BasicScene.scenetemplate
+      toggle: 0
+      value: -1
+    - guid: Assets/Settings/Project Configuration/SampleScene.scenetemplate
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 1.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 2.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 3.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 4.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 5.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 6.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Circle_60x60 Outline 4.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Circle_60x60 Outline.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Circle_60x60_Horizontal.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Circle_60x60_Vertical.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Joystick BG.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Joystick Segment.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Bottom.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Outline.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Top.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Tutorial/Images/1-welcome-screen-image.png
+      toggle: 0
+      value: -1
+    - guid: Assets/VRTemplateAssets/Tutorial/Images/project-header-vr.png
+      toggle: 0
+      value: -1
+    ticketValue: 0
+    savedInFixAll: 0
+    lastValues: []
+    lastObjects: []
+  IsBigTicket: 0
