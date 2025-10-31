@@ -209,7 +209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2838705763913648339, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2923976313076319297, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e, type: 3}
       propertyPath: Gravity
@@ -828,11 +828,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 93b5a4dc803c25c48a325a38b5617c33, type: 3}
   - {fileID: 8300000, guid: 752adf85de15e284ebf55d376e1f4276, type: 3}
   - {fileID: 8300000, guid: 6fa9a250bffc6454a840a823ac5ae71d, type: 3}
-  meshFootsteps:
+  defaultMeshFootsteps:
   - {fileID: 8300000, guid: 1f0199a4c6005ec4abbb302f71bc036d, type: 3}
   - {fileID: 8300000, guid: 53e2adf2ac488ef46bb2b4074de9e363, type: 3}
   - {fileID: 8300000, guid: a03a96c5d1e99b4409ddd79098abd9ab, type: 3}
   - {fileID: 8300000, guid: 7187dc81f98b8be4eb97bfc4dd9a5abf, type: 3}
+  textureFootsteps: []
   rayOriginOffset: 1
   rayDistance: 2
   groundLayers:
