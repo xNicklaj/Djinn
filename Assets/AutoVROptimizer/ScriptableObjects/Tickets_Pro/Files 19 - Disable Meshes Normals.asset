@@ -39,40 +39,58 @@ MonoBehaviour:
     - guid: Assets/_OurAssets/Meshes/Architecture/Dome.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/Door-v1.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/Door-Atl.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/Door-v2.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/Fence-Atl.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/Fence.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/Floor-Atl.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/Fix FloorPattern-v2.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/FloorPattern1-Atl.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/Floor.fbx
-      toggle: 0
-      value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/FloorPattern-v1.fbx
-      toggle: 0
-      value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/FloorPattern-v2.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/FloorPattern2-Atl.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/LowWall.fbx
       toggle: 0
       value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Door-v1.fbx
+      toggle: 0
+      value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Door-v1_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Door-v2.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Door-v2_old.fbx
       toggle: 0
       value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Fence-Atl.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Fence.fbx
+      toggle: 0
+      value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Fence_old.fbx
       toggle: 0
       value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Fix FloorPattern-v2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Floor.fbx
+      toggle: 0
+      value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Floor_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/FloorPattern-v1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/FloorPattern-v2.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/LowWall_old.fbx
@@ -87,10 +105,19 @@ MonoBehaviour:
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Staircase.fbx
       toggle: 0
       value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Wall.fbx
+      toggle: 0
+      value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Wall_old.fbx
       toggle: 0
       value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/WallWithWindow1.fbx
+      toggle: 0
+      value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/WallWithWindow1_old.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/WallWithWindow2.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/WallWithWindow2_old.fbx
@@ -105,13 +132,13 @@ MonoBehaviour:
     - guid: Assets/_OurAssets/Meshes/Architecture/Staircase 1.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/Wall.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/Wall-Atl.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/WallWithWindow1.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/WallWithWindow1-Atl.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/WallWithWindow2.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/WallWithWindow2-Atl.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Column_02.fbx

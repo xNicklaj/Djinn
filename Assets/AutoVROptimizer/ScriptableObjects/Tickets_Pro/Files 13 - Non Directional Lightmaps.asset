@@ -19,7 +19,7 @@ MonoBehaviour:
       Our Modification: </b>Enabling this reduces memory and GPU load at the cost
       of less realistic lighting. An acceptable tradeoff for static scenes in mobile
       VR."
-    state: 0
+    state: 1
     level: 1
     tags: 4192
     functionName: NonDirectionalLightmaps

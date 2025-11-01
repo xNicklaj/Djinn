@@ -18,7 +18,7 @@ MonoBehaviour:
       objects that are hidden behind others.\n\n<b>\u2022 Our Modification: </b>Enabled
       occlusion culling on the main camera to reduce draw calls and improve performance.\n\nThe
       scene needs to have baked occlusion data to work."
-    state: 3
+    state: 1
     level: 1
     tags: 64
     functionName: ActivateOcclusionCamera

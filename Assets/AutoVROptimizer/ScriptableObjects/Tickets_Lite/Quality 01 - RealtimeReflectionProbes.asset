@@ -18,7 +18,7 @@ MonoBehaviour:
       reflections dynamically, which can be performance-intensive.\n\n<b>\u2022 Our
       Modification: </b>Baked reflections are less resource-heavy and should be used
       wherever possible to save GPU resources."
-    state: 0
+    state: 1
     level: 1
     tags: 8
     functionName: RealtimeReflectionProbesDisabled
@@ -28,6 +28,7 @@ MonoBehaviour:
     concernedObjects: []
     ticketValue: 0
     savedInFixAll: 0
-    lastValues: []
+    lastValues:
+    - True
     lastObjects: []
   IsBigTicket: 0

@@ -25,10 +25,10 @@ MonoBehaviour:
     noRestore: 0
     hide: 0
     concernedObjects:
-    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-7413622128260873885-1372589967
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-2011323924908425086-1754048557952697794
       toggle: 0
       value: -1
-    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-2011323924908425086-1754048557952697794
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-7413622128260873885-1372589967
       toggle: 0
       value: -1
     ticketValue: 0

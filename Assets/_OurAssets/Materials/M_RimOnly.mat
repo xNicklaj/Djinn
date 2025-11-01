@@ -433,7 +433,7 @@ Material:
     - _RimLightOverridden: 0
     - _RimLightVisible: 1
     - _RimLight_FeatherOff: 0
-    - _RimLight_InsideMask: 0.48
+    - _RimLight_InsideMask: 0.0001
     - _RimLight_Power: 1
     - _Rotate_EmissiveUV: 0
     - _Rotate_MatCapUV: 0
@@ -500,7 +500,7 @@ Material:
     - _Tweak_RimLightMaskLevel: 0
     - _Tweak_ShadingGradeMapLevel: 0
     - _Tweak_SystemShadowsLevel: 0
-    - _Tweak_transparency: -0.769
+    - _Tweak_transparency: -0.7
     - _UVBase: 0
     - _UVDetail: 0
     - _UVEmissive: 0
@@ -541,7 +541,7 @@ Material:
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _Emissive_Color: {r: 0, g: 0, b: 0, a: 1}
     - _FirstShadeMaskColor: {r: 0, g: 1, b: 1, a: 1}
-    - _HighColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _HighlightMaskColor: {r: 1, g: 1, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}

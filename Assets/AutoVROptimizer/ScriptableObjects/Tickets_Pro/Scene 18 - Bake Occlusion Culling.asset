@@ -18,7 +18,7 @@ MonoBehaviour:
       view to reduce draw calls and GPU load at runtime.\n\n<b>\u2022 Our Modification:
       </b>Enabled and baked occlusion culling to improve performance in complex areas.\n\nIt
       also needs to be activated on the camera to work."
-    state: 0
+    state: 1
     level: 1
     tags: 64
     functionName: BakeOcclusionCulling

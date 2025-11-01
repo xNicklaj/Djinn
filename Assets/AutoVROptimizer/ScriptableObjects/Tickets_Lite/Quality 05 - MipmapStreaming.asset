@@ -19,7 +19,7 @@ MonoBehaviour:
       Our Modification: </b>Enabling this streamlines texture memory usage and ensures
       your game uses texture detail only when needed, which is especially beneficial
       in complex or large scenes on the Quest."
-    state: 0
+    state: 1
     level: 1
     tags: 8
     functionName: MipMapStreaming

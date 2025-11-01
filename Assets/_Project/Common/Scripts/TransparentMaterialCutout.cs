@@ -3,7 +3,6 @@ using dev.nicklaj.clibs.deblog;
 using UnityEngine;
 using VInspector;
 
-[RequireComponent(typeof(MeshRenderer))]
 public class TransparentMaterialCutout : MonoBehaviour
 {
     private static string LOG_CATEGORY = "Rendering";
@@ -13,11 +12,11 @@ public class TransparentMaterialCutout : MonoBehaviour
     [field: SerializeField, Range(0f, 1f)]
     private float _transparency;
     
-    private MeshRenderer _meshRenderer;
+    private Renderer _meshRenderer;
 
     private void Awake()
     {
-        _meshRenderer = GetComponent<MeshRenderer>();
+        _meshRenderer = GetComponent<Renderer>();
     }
 
     public float Transparency

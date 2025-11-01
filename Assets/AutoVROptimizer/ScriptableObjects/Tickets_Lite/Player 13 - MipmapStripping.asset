@@ -20,7 +20,7 @@ MonoBehaviour:
       memory usage, which is important on the Quest\u2019s limited RAM. However,
       it increases CPU usage at runtime, so this option should be disabled if CPU
       performance is a bottleneck."
-    state: 0
+    state: 1
     level: 1
     tags: 16386
     functionName: MipmapStripping

@@ -19,7 +19,7 @@ MonoBehaviour:
       Pass is often used on desktop. \n\n<b>\u2022 Our Modification: </b>Choosing
       Multiview on Android minimizes draw calls and GPU overhead, which is key for
       performance on Quest."
-    state: 0
+    state: 1
     level: 1
     tags: 128
     functionName: MultiviewEnabled

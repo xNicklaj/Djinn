@@ -17,17 +17,14 @@ MonoBehaviour:
     description: "<b>\u2022 What It Does:</b> Prevents large triangle meshes that
       can't be culled efficiently.\n\n<b>\u2022 Our Modification: </b>Keeping objects
       under ~10k triangles helps batching and reduces overdraw."
-    state: 0
+    state: 1
     level: 1
     tags: 64
     functionName: TrianglesCountPerObject
     noFix: 1
     noRestore: 0
     hide: 0
-    concernedObjects:
-    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-8558180676730960363-6014800733952617318
-      toggle: 0
-      value: 16960
+    concernedObjects: []
     ticketValue: 0
     savedInFixAll: 0
     lastValues: []
