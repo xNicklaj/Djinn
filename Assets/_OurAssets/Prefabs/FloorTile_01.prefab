@@ -492,6 +492,18 @@ PrefabInstance:
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: f46a9940e2a6c6e4d964b13e9ac59f90, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: f46a9940e2a6c6e4d964b13e9ac59f90, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: f46a9940e2a6c6e4d964b13e9ac59f90, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f46a9940e2a6c6e4d964b13e9ac59f90, type: 3}
       propertyPath: m_Name
       value: FloorTile_01
@@ -499,7 +511,7 @@ PrefabInstance:
     - target: {fileID: 7202271454713460447, guid: f46a9940e2a6c6e4d964b13e9ac59f90, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7f780175d5e3eb145be664c081b33a85, type: 2}
+      objectReference: {fileID: 2100000, guid: 218bbdf0a6e51a940870bbef97c3cb45, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
