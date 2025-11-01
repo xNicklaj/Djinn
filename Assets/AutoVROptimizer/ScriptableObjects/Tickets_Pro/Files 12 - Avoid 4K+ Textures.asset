@@ -19,42 +19,33 @@ MonoBehaviour:
       Modification: </b>Reducing texture resolution below 4K ensures lower memory
       usage with little to no visual loss in quality, optimizing performance for
       VR."
-    state: 0
+    state: 1
     level: 1
     tags: 16672
     functionName: Avoid4kTextures
     noFix: 0
     noRestore: 0
     hide: 0
-    concernedObjects:
-    - guid: Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 01.png
-      toggle: 0
-      value: 4096
-    - guid: Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 03.png
-      toggle: 0
-      value: 4096
-    - guid: Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 16.png
-      toggle: 0
-      value: 4096
-    - guid: Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 25.png
-      toggle: 0
-      value: 4096
-    - guid: Assets/Rowlan/Terrain/Stamps/Terraced Canyon Shapes/Heightmaps/Terraced
-        Canyon Shapes 06.png
-      toggle: 0
-      value: 4096
-    - guid: Assets/Rowlan/Terrain/Stamps/Terraced Canyon Shapes/Heightmaps/Terraced
-        Canyon Shapes 07.png
-      toggle: 0
-      value: 4096
-    - guid: Assets/Rowlan/Terrain/Stamps/Terraced Canyon Shapes/Heightmaps/Terraced
-        Canyon Shapes 17.png
-      toggle: 0
-      value: 4096
+    concernedObjects: []
     ticketValue: 0
     savedInFixAll: 0
     lastValues:
-    - 8192
+    - 4096
+    - 4096
+    - 4096
+    - 4096
+    - 4096
+    - 4096
+    - 4096
     lastObjects:
-    - Assets/ValemStudio/Textures/T_ExempleTexture.jpg
+    - Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 01.png
+    - Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 03.png
+    - Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 16.png
+    - Assets/Rowlan/Terrain/Stamps/Sand/Heightmaps/Sand 25.png
+    - Assets/Rowlan/Terrain/Stamps/Terraced Canyon Shapes/Heightmaps/Terraced Canyon
+      Shapes 06.png
+    - Assets/Rowlan/Terrain/Stamps/Terraced Canyon Shapes/Heightmaps/Terraced Canyon
+      Shapes 07.png
+    - Assets/Rowlan/Terrain/Stamps/Terraced Canyon Shapes/Heightmaps/Terraced Canyon
+      Shapes 17.png
   IsBigTicket: 0

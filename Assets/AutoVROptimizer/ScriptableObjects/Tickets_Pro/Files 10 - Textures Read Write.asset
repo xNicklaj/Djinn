@@ -17,17 +17,14 @@ MonoBehaviour:
     description: "<b>\u2022 What It Does:</b> Determines whether textures can be
       read or written at runtime.\n\n<b>\u2022 Our Modification: </b>Disabling \"Read/Write
       Enabled\" ensures no unnecessary memory allocation, thus saving resources."
-    state: 0
+    state: 1
     level: 1
     tags: 16672
     functionName: TexturesReadWrite
     noFix: 0
     noRestore: 0
     hide: 0
-    concernedObjects:
-    - guid: Assets/aluminum-squares_roughness.png
-      toggle: 0
-      value: -1
+    concernedObjects: []
     ticketValue: 0
     savedInFixAll: 0
     lastValues:

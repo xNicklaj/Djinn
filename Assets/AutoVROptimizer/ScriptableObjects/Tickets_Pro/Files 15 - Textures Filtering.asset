@@ -28,19 +28,19 @@ MonoBehaviour:
     hide: 0
     concernedObjects:
     - guid: Assets/_Project/Light Test/LightTest/ReflectionProbe-0.exr
-      toggle: 1
+      toggle: 0
       value: 2
     - guid: Assets/_Project/World/World/ReflectionProbe-0.exr
-      toggle: 1
+      toggle: 0
       value: 2
     - guid: Assets/HurricaneVR/TechDemo/Scenes/scene_demo/ReflectionProbe-0.exr
-      toggle: 1
+      toggle: 0
       value: 2
     - guid: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
-      toggle: 1
+      toggle: 0
       value: 2
     - guid: Assets/Scenes/SampleScene/ReflectionProbe-1.exr
-      toggle: 1
+      toggle: 0
       value: 2
     ticketValue: 0
     savedInFixAll: 0
