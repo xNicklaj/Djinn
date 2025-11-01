@@ -78,6 +78,7 @@ public class ToonTransparency : MonoBehaviour
 
             // Force Unity to push updated material state to the renderer
             _meshRenderer.materials[i] = mat;
+            _meshRenderer.enabled = Transparency >= 0f;
 
             // (Optional) If you're using GPU instancing, disable it for this material
             // mat.enableInstancing = false;

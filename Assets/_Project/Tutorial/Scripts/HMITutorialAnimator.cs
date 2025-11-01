@@ -9,7 +9,8 @@ using VInspector;
 public class HMITutorialAnimator : MonoBehaviour
 {
     private static readonly int Grip = Animator.StringToHash("Grip");
-    private static readonly int StickForward = Animator.StringToHash("StickForward");
+    private static readonly int Stick = Animator.StringToHash("Stick");
+    private static readonly int Secondary = Animator.StringToHash("Stick");
     
     [Foldout("Config")]
     public Animator Animator;
@@ -24,6 +25,8 @@ public class HMITutorialAnimator : MonoBehaviour
     public UnityEvent OnStickDisable;
     public UnityEvent OnGripEnable;
     public UnityEvent OnGripDisable;
+    public UnityEvent OnSecondaryEnable;
+    public UnityEvent OnSecondaryDisable;
     [EndFoldout]
 
     private void OnEnable()
@@ -33,8 +36,9 @@ public class HMITutorialAnimator : MonoBehaviour
 
     private void Update()
     {
-        ListenForStickForward(Controller);
+        ListenForStickAnimation(Controller);
         ListenForGrip(Controller);
+        ListenForSecondaryAnimation(Controller);
     }
 
     #region Grip
@@ -60,24 +64,24 @@ public class HMITutorialAnimator : MonoBehaviour
     #endregion
     
 
-    #region StickForward
-    [Button("Play StickForward")]
-    public void PlayStickForward()
+    #region Stick
+    [Button("Play Stick")]
+    public void PlayStickAnimation()
     {
-        Animator.SetBool(StickForward, true);
+        Animator.SetBool(Stick, true);
         OnStickEnable.Invoke();
     }
-    [Button("Stop StickForward")]
-    public void StopStickForward()
+    [Button("Stop Stick")]
+    public void StopStickAnimation()
     {
-        Animator.SetBool(StickForward, false);
+        Animator.SetBool(Stick, false);
         OnStickDisable.Invoke();
     }
 
-    public void ListenForStickForward(HMDController stick)
+    public void ListenForStickAnimation(HMDController stick)
     {
-        if (!Animator.GetBool(StickForward)) return; 
-        if(GetCurrentStickAxis().y > 0) StopStickForward();
+        if (!Animator.GetBool(Stick)) return; 
+        if(GetCurrentStickAxis().magnitude > .4f) StopStickAnimation();
     }
 
     public Vector2 GetCurrentStickAxis()
@@ -90,5 +94,29 @@ public class HMITutorialAnimator : MonoBehaviour
         LEFT,
         RIGHT
     }
+    #endregion
+    
+    #region Secondary
+    [Button("Play Secondary")]
+    public void PlaySecondaryAnimation()
+    {
+        Animator.SetBool(Secondary, true);
+        OnSecondaryEnable.Invoke();
+    }
+    [Button("Stop Secondary")]
+    public void StopSecondaryAnimation()
+    {
+        Animator.SetBool(Secondary, false);
+        OnSecondaryDisable.Invoke();
+    }
+
+    public void ListenForSecondaryAnimation(HMDController stick)
+    {
+        if (!Animator.GetBool(Secondary)) return;
+        if(GetCurrentSecondaryState().JustActivated) StopSecondaryAnimation();
+    }
+    
+    public HVRButtonState GetCurrentSecondaryState() => Controller == HMDController.LEFT ? Inputs.LeftSecondaryButtonState : Inputs.RightSecondaryButtonState;
+
     #endregion
 }
