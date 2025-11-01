@@ -14,7 +14,10 @@ public class TriggerOnTriggerEnter : MonoBehaviour
     private static readonly string LOG_CATEGORY = "Physics";
 
     [Tab("Trigger")] 
+    public bool TriggerOnce = false;
+    [DisableIf("TriggerOnce")]
     [Min(0)] public float DebouncingTime;
+    [EndIf]
     [Tooltip("Butter event to raise. If null it will not be raised.")]
     public GameEvent GameEvent;
     public UnityEvent Event;
@@ -64,6 +67,7 @@ public class TriggerOnTriggerEnter : MonoBehaviour
         if (IsInLayerMask(other.gameObject.layer, IncludeMask) && !IsInLayerMask(other.gameObject.layer, ExcludeMask))
         {
             Trigger();
+            if (TriggerOnce) _collider.enabled = false;
         }
     }
 

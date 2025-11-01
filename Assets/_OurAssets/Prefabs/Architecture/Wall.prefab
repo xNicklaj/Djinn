@@ -83,9 +83,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b1ca942ea59122a4c9912b964d69725b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4253127955904623810}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b1ca942ea59122a4c9912b964d69725b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 796714032433058854}
   m_SourcePrefab: {fileID: 100100000, guid: b1ca942ea59122a4c9912b964d69725b, type: 3}
 --- !u!1 &5021240418918262921 stripped
 GameObject:
@@ -113,27 +110,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 4, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &796714032433058854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5021240418918262921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 508d0664bf3da4243a39187ac857246e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Settings: {fileID: 11400000, guid: 307da7e7f87b51d4cbe8ae9f2f27a0bf, type: 2}
-  Ignorecolliders: []
-  Stabbed:
-    m_PersistentCalls:
-      m_Calls: []
-  UnStabbed:
-    m_PersistentCalls:
-      m_Calls: []
-  FullStabbed:
-    m_PersistentCalls:
-      m_Calls: []
-  Stabbers: []

@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5712624384006491791
 Transform:
@@ -26,12 +26,12 @@ Transform:
   m_GameObject: {fileID: 484848900084107961}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.122, z: 0}
-  m_LocalScale: {x: 0.59343, y: 2.163883, z: 0.59343}
+  m_LocalPosition: {x: 0.000012715657, y: -0.122006744, z: 0}
+  m_LocalScale: {x: 0.59343004, y: 2.163883, z: 0.59343004}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3655037779545637271}
-  m_Father: {fileID: 1748611536311138461}
+  m_Father: {fileID: 2479368013993322586}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &5945201215636646953
 CapsuleCollider:
@@ -71,7 +71,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3655037779545637271
 Transform:
@@ -165,6 +165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basket
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4442402470388135724, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
@@ -173,16 +177,236 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 5fedb24b67ad534488c22098f0dc3f3d, type: 2}
+    - target: {fileID: 6505515502875769856, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 4442402470388135724, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
-      insertIndex: -1
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
+      insertIndex: 0
       addedObject: {fileID: 5712624384006491791}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8940528212553800034}
   m_SourcePrefab: {fileID: 100100000, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
---- !u!4 &1748611536311138461 stripped
+--- !u!4 &2479368013993322586 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4442402470388135724, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
+  m_PrefabInstance: {fileID: 2729961408752308145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2964402912173355744 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
+  m_PrefabInstance: {fileID: 2729961408752308145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8940528212553800034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2964402912173355744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba3b3d20dd42f61408784f700d9e5f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AddToContainer: 1
+  _editor_DrawSetup: 1
+  _editor_DrawOptimizeList: 1
+  _editor_DrawAddFeatures: 1
+  _editor_DrawLODLevelsSetup: 1
+  _editor_DrawExtra: 0
+  _editor_horizontal: 1
+  _editor_category: 3
+  Editor_InIsolatedScene: 1
+  Editor_JustCreated: 1
+  UseDOTS: 0
+  DOTSObstacleType: 2
+  DOTSDetection: 0
+  DOTSMeshData: []
+  DOTSOffset: {x: 0, y: 0, z: 0}
+  DOTSSize: {x: 1, y: 1, z: 1}
+  DOTSRadius: 1
+  UseMultiShape: 0
+  AutoPrecision: 0.25
+  AutoReferenceMesh: {fileID: 0}
+  DrawPositionHandles: 1
+  ScalingHandles: 1
+  Shapes: []
+  ShapePos: []
+  ShapeRadius: []
+  UseObstacleDetection: 1
+  CoveragePrecision: 1
+  CoverageScale: 1
+  CoverageMask:
+    serializedVersion: 2
+    m_Bits: 1
+  CustomCoveragePoints: 0
+  CoverageOffsets:
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0.8, z: 0.1}
+  - {x: -1, y: -0.85, z: 0.15}
+  - {x: 1, y: -0.85, z: 0.15}
+  ignoredObstacleColliders:
+  - {fileID: 5945201215636646953}
+  - {fileID: 6286389788234855386}
+  OnlyCamCollLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  LODLevels: 1
+  preLODLevels: 1
+  MaxDistance: 10
+  OptimizingMethod: 0
+  CullIfNotSee: 1
+  DetectionRadius: 0.8
+  DetectionBounds: {x: 0.9414672, y: 5.478859, z: 0.9414672}
+  Hideable: 0
+  DetectionOffset: {x: 0.000012715657, y: 0.2592087, z: 0.0000031789143}
+  GizmosAlpha: 1
+  DrawGizmos: 1
+  FadeDuration: 0
+  FadeViewVisibility: 0
+  DeactivateObject: 0
+  LODPercent:
+  - 1
+  AutoDistance: 0
+  AutoDistanceFactor: 0
+  DrawAutoDistanceToggle: 1
+  HiddenCullAt: -1
+  LimitLODLevels: 0
+  UnlockFirstLOD: 0
+  DrawGeneratedPrefabInfo: 0
+  DrawDeactivateToggle: 1
+  OptimizationTypes: {fileID: 11400000, guid: 8dc7c96eb2611b4499551006041ed87d, type: 2}
+  ToOptimize:
+  - constructed: 1
+    ToOptimizeIndex: 0
+    optimizer: {fileID: 8940528212553800034}
+    Component: {fileID: 3612820172338254645}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 1
+    ToOptimizes: []
+    ToOptimize: {fileID: 3612820172338254645}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8717850707330859030
+    - rid: 8717850707330859031
+    - rid: 8717850707330859032
+    eOptimizer: {fileID: 8940528212553800034}
+  - constructed: 1
+    ToOptimizeIndex: 1
+    optimizer: {fileID: 8940528212553800034}
+    Component: {fileID: 8555319207273756344}
+    Version: 0
+    lockFirstLOD: 1
+    editorHeader: Optim
+    drawProperties: 1
+    ToOptimizes: []
+    ToOptimize: {fileID: 8555319207273756344}
+    LODInitial:
+      rid: -2
+    LODInstances:
+    - rid: 8717850707330859033
+    - rid: 8717850707330859034
+    - rid: 8717850707330859035
+    eOptimizer: {fileID: 8940528212553800034}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 8717850707330859030
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8717850707330859031
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8717850707330859032
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8717850707330859033
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 0
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 1
+        MotionVectors: 1
+        SkinnedQuality: 0
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 1
+    - rid: 8717850707330859034
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+    - rid: 8717850707330859035
+      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+      data:
+        SetDisabled: 1
+        _version: 0
+        _Locked: 0
+        cmp: {fileID: 0}
+        UseShadows: 0
+        MotionVectors: 2
+        SkinnedQuality: 1
+        shaderParam: _Transparency
+        ColorParameter: 0
+        targetParamValue: 0
+--- !u!23 &3612820172338254645 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
+  m_PrefabInstance: {fileID: 2729961408752308145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8555319207273756344 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6005651336594733321, guid: 3735a3610b2ab4a42869c27481fca7f0, type: 3}
   m_PrefabInstance: {fileID: 2729961408752308145}
   m_PrefabAsset: {fileID: 0}

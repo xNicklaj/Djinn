@@ -1,5 +1,6 @@
 using System;
 using HurricaneVR.Framework.ControllerInput;
+using HurricaneVR.Framework.Shared;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering;
@@ -33,6 +34,7 @@ public class HMITutorialAnimator : MonoBehaviour
     private void Update()
     {
         ListenForStickForward(Controller);
+        ListenForGrip(Controller);
     }
 
     #region Grip
@@ -47,8 +49,17 @@ public class HMITutorialAnimator : MonoBehaviour
         Animator.SetBool(Grip, false);
         OnGripDisable.Invoke();
     }
+    
+    public void ListenForGrip(HMDController stick)
+    {
+        if (!Animator.GetBool(Grip)) return; 
+        if(GetCurrentGripState().JustActivated) StopGrip();
+    }
+
+    public HVRButtonState GetCurrentGripState() => Controller == HMDController.LEFT ? Inputs.LeftGripButtonState : Inputs.RightGripButtonState;
     #endregion
     
+
     #region StickForward
     [Button("Play StickForward")]
     public void PlayStickForward()
@@ -65,6 +76,7 @@ public class HMITutorialAnimator : MonoBehaviour
 
     public void ListenForStickForward(HMDController stick)
     {
+        if (!Animator.GetBool(StickForward)) return; 
         if(GetCurrentStickAxis().y > 0) StopStickForward();
     }
 
