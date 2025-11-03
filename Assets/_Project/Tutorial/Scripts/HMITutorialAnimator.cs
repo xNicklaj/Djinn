@@ -44,12 +44,14 @@ public class HMITutorialAnimator : MonoBehaviour
     #region Grip
     [Button("Play Grip")]
     public void PlayGrip() {
+        if (Animator.GetBool(Grip)) return;
         Animator.SetBool(Grip, true);
         OnGripEnable.Invoke();
     }
     [Button("Stop Grip")]
     public void StopGrip()
     {
+        if (!Animator.GetBool(Grip)) return;
         Animator.SetBool(Grip, false);
         OnGripDisable.Invoke();
     }

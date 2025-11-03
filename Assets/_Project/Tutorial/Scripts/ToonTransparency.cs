@@ -1,3 +1,4 @@
+using System;
 using dev.nicklaj.clibs.deblog;
 using PrimeTween;
 using UnityEngine;
@@ -10,8 +11,20 @@ public class ToonTransparency : MonoBehaviour
     private static readonly int Surface = Shader.PropertyToID("_Surface");
 
     [field: SerializeField, Range(0f, 1f)]
-    private float _transparency = -.7f;
+    private float _transparency = 1f;
 
+    public State InitialState = State.UNSET;
+    private State _currentState_internal = State.UNSET;
+    public State CurrentState
+    {
+        get => _currentState_internal;
+        set
+        {
+            if (value == State.SHOWN) Show();
+            if (value == State.HIDDEN) Hide();
+            _currentState_internal = value;
+        }
+    }
     public TweenSettings TweenSettings;
     
     private Renderer _meshRenderer;
@@ -19,6 +32,11 @@ public class ToonTransparency : MonoBehaviour
     private void Awake()
     {
         _meshRenderer = GetComponent<Renderer>();
+    }
+
+    private void Start()
+    {
+        CurrentState = InitialState;
     }
 
     public float Transparency
@@ -85,17 +103,31 @@ public class ToonTransparency : MonoBehaviour
         }
     }
 
-    [Button("Test Hide")]
-    public void Hide()
+    
+    private void Hide()
     {
-        if (Transparency <= 0f) return;
+        if (CurrentState == State.HIDDEN) return;
         Tween.Custom(1f, 0f, TweenSettings, f => Transparency = f);
     }
     
-    [Button("Test Show")]
-    public void Show()
+    
+    private void Show()
     {
-        if (Transparency >= 1f) return;
+        if (CurrentState == State.SHOWN) return;
         Tween.Custom(0f, 1f, TweenSettings, f => Transparency = f);
     }
+    
+    public void SetState(State state) => CurrentState = state;
+    [Button("Test Show")]
+    public void SetShown() => SetState(State.SHOWN);
+    [Button("Test Hide")]
+    public void SetHidden() => SetState(State.HIDDEN);
+}
+
+[Serializable]
+public enum State
+{
+    SHOWN,
+    HIDDEN,
+    UNSET
 }
