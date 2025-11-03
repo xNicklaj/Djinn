@@ -1,11 +1,25 @@
 {
   "dependencies": {
+    "com.cysharp.zlinq": {
+      "version": "https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f59785046a36605378e18678af15ee66549aa26b"
+    },
     "com.gitamend.improvedtimers": {
       "version": "https://github.com/adammyhre/Unity-Improved-Timers.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "d2759a9b77f09516d4b11821711ff2a4c1c03a2e"
+    },
+    "com.github-glitchenzo.nugetforunity": {
+      "version": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a7c6b49a0141a5bff9b1983e38137522ef61977d"
     },
     "com.jbooth.microverse": {
       "version": "file:com.jbooth.microverse",

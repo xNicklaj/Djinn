@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "com.cysharp.zlinq": "https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity",
     "com.gitamend.improvedtimers": "https://github.com/adammyhre/Unity-Improved-Timers.git",
+    "com.github-glitchenzo.nugetforunity": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
     "com.kyrylokuzyk.primetween": "file:../Assets/Plugins/PrimeTween/internal/com.kyrylokuzyk.primetween.tgz",
     "com.unity.adaptiveperformance.google.android": "5.1.6",
     "com.unity.collab-proxy": "2.10.0",

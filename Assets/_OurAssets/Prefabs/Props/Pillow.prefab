@@ -523,7 +523,7 @@ MonoBehaviour:
   _editor_DrawLODLevelsSetup: 1
   _editor_DrawExtra: 0
   _editor_horizontal: 1
-  _editor_category: 3
+  _editor_category: 2
   Editor_InIsolatedScene: 1
   Editor_JustCreated: 1
   UseDOTS: 0
@@ -541,7 +541,7 @@ MonoBehaviour:
   Shapes: []
   ShapePos: []
   ShapeRadius: []
-  UseObstacleDetection: 1
+  UseObstacleDetection: 0
   CoveragePrecision: 1
   CoverageScale: 1
   CoverageMask:

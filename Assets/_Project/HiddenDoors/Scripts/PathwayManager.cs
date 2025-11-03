@@ -1,7 +1,9 @@
 using Dev.Nicklaj.Butter;
 using dev.nicklaj.clibs.deblog;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 using VInspector;
+using ZLinq;
 
 public class PathwayManager : MonoBehaviour
 {
@@ -41,7 +43,7 @@ public class PathwayManager : MonoBehaviour
             
             // Obstacle check
             var ray = new Ray(CameraPosition.Value, distanceVector);
-            if (Physics.Raycast(ray, out var hit, Vector3.Distance(CameraPosition.Value, interactor.transform.position), ~IgnoreLayer) && hit.transform != interactor.transform)
+            if (Physics.Raycast(ray, out var hit, Vector3.Distance(CameraPosition.Value, interactor.transform.position), ~IgnoreLayer) && hit.transform != interactor.transform && !interactor.gameObject.ChildrenAndSelf().Contains(hit.transform.gameObject))
             {
                 Deblog.Log($"Raycast check failed due to collision with {hit.transform.gameObject.name} at layer {hit.transform.gameObject.layer}.", "Physics");
                 continue;
