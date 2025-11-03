@@ -87,7 +87,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MoonTex:
-        m_Texture: {fileID: 2800000, guid: 174a85f5f8015d843bb35374422f89b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8c34392720562fd40814dd7fa373b536, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StarsCubemap:
@@ -118,10 +118,10 @@ Material:
     - _HorizonExponent: 5
     - _HorizonStep: 1000
     - _HorizonThickness: 1
-    - _MoonGlow: 0.274
+    - _MoonGlow: 0.269
     - _MoonLightIntensity: 1.1
-    - _MoonSize: 0.031
-    - _MoonSoftEdge: 0.21
+    - _MoonSize: 0.074
+    - _MoonSoftEdge: 0.515
     - _OverheadCloudAltitude: 1000
     - _OverheadCloudAnimationSpeed: 50
     - _OverheadCloudFlowDirectionX: 1
@@ -154,9 +154,9 @@ Material:
     - _DetailOverlayTintColor: {r: 0, g: 0, b: 0, a: 0}
     - _FogColor: {r: 0, g: 0, b: 0, a: 0}
     - _GroundColor: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
-    - _HorizonCloudColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HorizonCloudColor: {r: 0.896949, g: 0.9391128, b: 0.96862745, a: 1}
     - _HorizonColor: {r: 0.38431373, g: 0.48638386, b: 0.6509804, a: 1}
-    - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MoonColor: {r: 0.665164, g: 0.8125483, b: 0.929, a: 1}
     - _MoonDirection: {r: 0, g: -0.32391712, b: 0.94608545, a: 0}
     - _MoonLightColor: {r: 0.8443396, g: 0.9841163, b: 1, a: 1}
     - _OverheadCloudColor: {r: 1, g: 1, b: 1, a: 0.09803922}
@@ -223,18 +223,18 @@ MonoBehaviour:
   sunLightColor: {r: 0, g: 0, b: 0, a: 0}
   sunLightIntensity: 0
   enableMoon: 1
-  moonTexture: {fileID: 2800000, guid: 174a85f5f8015d843bb35374422f89b9, type: 3}
-  moonColor: {r: 1, g: 1, b: 1, a: 1}
-  moonSize: 0.031
-  moonSoftEdge: 0.21
-  moonGlow: 0.274
+  moonTexture: {fileID: 2800000, guid: 8c34392720562fd40814dd7fa373b536, type: 3}
+  moonColor: {r: 0.665164, g: 0.8125483, b: 0.929, a: 1}
+  moonSize: 0.074
+  moonSoftEdge: 0.515
+  moonGlow: 0.269
   useBakedMoon: 0
   moonCubemap: {fileID: 8900000, guid: c84d06d0b42b1af4a85c6a1b56b00ce1, type: 2}
   moonLightColor: {r: 0.8443396, g: 0.9841163, b: 1, a: 1}
   moonLightIntensity: 1.1
   customCloudTexture: {fileID: 0}
   enableHorizonCloud: 1
-  horizonCloudColor: {r: 1, g: 1, b: 1, a: 1}
+  horizonCloudColor: {r: 0.896949, g: 0.9391128, b: 0.96862745, a: 1}
   horizonCloudStartPosition: -0.01
   horizonCloudEndPosition: 0.35
   horizonCloudSize: 4.47

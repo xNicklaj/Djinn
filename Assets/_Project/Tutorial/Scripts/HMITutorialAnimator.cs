@@ -10,7 +10,7 @@ public class HMITutorialAnimator : MonoBehaviour
 {
     private static readonly int Grip = Animator.StringToHash("Grip");
     private static readonly int Stick = Animator.StringToHash("Stick");
-    private static readonly int Secondary = Animator.StringToHash("Stick");
+    private static readonly int Secondary = Animator.StringToHash("Secondary");
     
     [Foldout("Config")]
     public Animator Animator;
@@ -64,7 +64,6 @@ public class HMITutorialAnimator : MonoBehaviour
 
     public HVRButtonState GetCurrentGripState() => Controller == HMDController.LEFT ? Inputs.LeftGripButtonState : Inputs.RightGripButtonState;
     #endregion
-    
 
     #region Stick
     [Button("Play Stick")]
@@ -102,12 +101,14 @@ public class HMITutorialAnimator : MonoBehaviour
     [Button("Play Secondary")]
     public void PlaySecondaryAnimation()
     {
+        if(Animator.GetBool(Secondary)) return;
         Animator.SetBool(Secondary, true);
         OnSecondaryEnable.Invoke();
     }
     [Button("Stop Secondary")]
     public void StopSecondaryAnimation()
     {
+        if(!Animator.GetBool(Secondary)) return;
         Animator.SetBool(Secondary, false);
         OnSecondaryDisable.Invoke();
     }
