@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8414103e29742f84b999491602a77daf
+guid: e47b5279d91ee0e4fa93d111c044c52f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Charcoal
-    second: {fileID: 2100000, guid: 4520b1ff63cb58f4ebaa0290e4d85b3a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Purple
-    second: {fileID: 2100000, guid: 2975c29aa69e49440938d525dbb6ed0d, type: 2}
+      name: TilesProps
+    second: {fileID: 2100000, guid: 218bbdf0a6e51a940870bbef97c3cb45, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
