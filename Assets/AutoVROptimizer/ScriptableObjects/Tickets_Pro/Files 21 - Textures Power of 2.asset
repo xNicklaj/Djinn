@@ -37,6 +37,130 @@ MonoBehaviour:
     - guid: Assets/_Project/SheikahDSR/Textures/GalleryGuideline.png
       toggle: 0
       value: -1
+    - guid: Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+        2/Opt_CullHelp.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+        2/OptEsIconSmall.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+        2/OptIconSmall.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+        2/OptManagerIconSmall.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+        2/OptTerrIconSmall.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+        2/ShapeIcon.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+        2/SPR_LODIcon.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+        2/WallDetectionIcon.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchDirectory.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchNumeric.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/FImp_ColliderData
+        Icon.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExport.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLoad.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc
+        Icons/FRandom.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/Additional.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/Behaviour.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FBone.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FCollider.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FCurve.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FDebug.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FDragAndDrop.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FError.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FHidden.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FInfo.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FRefresh.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FRotation.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/FWarning.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/Motion.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/Optimize.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/Physics.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/SmallGear.png
+      toggle: 0
+      value: -1
+    - guid: Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small
+        Icons/Target.png
+      toggle: 0
+      value: -1
     - guid: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60
         Outline 4.png
       toggle: 0

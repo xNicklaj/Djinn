@@ -18,7 +18,7 @@ MonoBehaviour:
       to the compositor for improved rendering.\n\n<b>\u2022 Our Modification: </b>Enabling
       this option (with testing) can further reduce latency and boost performance,
       provided no visual artifacts occur."
-    state: 0
+    state: 1
     level: 0
     tags: 128
     functionName: VulkanDepthSubmission

@@ -11473,13 +11473,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 9.5033e-41, y: 2.524355e-29, z: 0, w: 1.09026456e+27}
+  m_BoundingSphereOverride: {x: 8.017e-41, y: 2.524355e-29, z: 0, w: 1.1361602e-37}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -110750,9 +110750,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1615802056138096981}
     m_Modifications:
+    - target: {fileID: 280860981136227991, guid: c82f37e4afd06ac4e8c452ca2f8ec3f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593350315437084653, guid: c82f37e4afd06ac4e8c452ca2f8ec3f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212609500711626249, guid: c82f37e4afd06ac4e8c452ca2f8ec3f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281441596187770190, guid: c82f37e4afd06ac4e8c452ca2f8ec3f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931086817500912190, guid: c82f37e4afd06ac4e8c452ca2f8ec3f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904019109748346513, guid: c82f37e4afd06ac4e8c452ca2f8ec3f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8211608331341339369, guid: c82f37e4afd06ac4e8c452ca2f8ec3f7, type: 3}
       propertyPath: m_Name
       value: BrokenWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211608331341339369, guid: c82f37e4afd06ac4e8c452ca2f8ec3f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8844699036680011859, guid: c82f37e4afd06ac4e8c452ca2f8ec3f7, type: 3}
       propertyPath: m_LocalScale.x

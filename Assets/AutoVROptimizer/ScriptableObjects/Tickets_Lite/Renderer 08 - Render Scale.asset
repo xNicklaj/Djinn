@@ -22,7 +22,7 @@ MonoBehaviour:
       is well optimized. Conversely, Meta VRCs recommend not going below 0.85, as
       lower values may degrade the visual experience. Always test per scene to maintain
       performance and clarity."
-    state: 1
+    state: 0
     level: 1
     tags: 16
     functionName: RenderScaleOne

@@ -31,10 +31,10 @@ MonoBehaviour:
     - guid: Assets/_OurAssets/Meshes/Arch_01.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/Arc.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/Arc-Atl.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/Dome.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/Dome-Atl.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/Door-Atl.fbx
@@ -52,7 +52,13 @@ MonoBehaviour:
     - guid: Assets/_OurAssets/Meshes/Architecture/FloorPattern2-Atl.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/LowWall.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/Gate-Atl.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/LowWall-Atl.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Dome.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Door-v1.fbx
@@ -91,13 +97,22 @@ MonoBehaviour:
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/FloorPattern-v2.fbx
       toggle: 0
       value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/LowWall.fbx
+      toggle: 0
+      value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/LowWall_old.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Pillar_old.fbx
       toggle: 0
       value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/SpiralStaircase 1.fbx
+      toggle: 0
+      value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/SpiralStaircase.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Staircase 1.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/Staircase.fbx
@@ -124,10 +139,10 @@ MonoBehaviour:
     - guid: Assets/_OurAssets/Meshes/Architecture/Pillar.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/SpiralStaircase 1.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/SpiralStaircase-Atl.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Architecture/Staircase 1.fbx
+    - guid: Assets/_OurAssets/Meshes/Architecture/Staircase-Atl.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/Wall-Atl.fbx
@@ -137,6 +152,12 @@ MonoBehaviour:
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Architecture/WallWithWindow2-Atl.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Base.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/BrokenWall.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Column_02.fbx
@@ -184,6 +205,9 @@ MonoBehaviour:
     - guid: Assets/_OurAssets/Meshes/Pot_01_Cracked.fbx
       toggle: 0
       value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Aloe.fbx
+      toggle: 0
+      value: -1
     - guid: Assets/_OurAssets/Meshes/Props/Basket.fbx
       toggle: 0
       value: -1
@@ -196,13 +220,19 @@ MonoBehaviour:
     - guid: Assets/_OurAssets/Meshes/Props/Chair.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Props/Lamp-v1.fbx
-      toggle: 0
-      value: -1
     - guid: Assets/_OurAssets/Meshes/Props/Lamp-v2.fbx
       toggle: 0
       value: -1
-    - guid: Assets/_OurAssets/Meshes/Props/Lamp-v3.fbx
+    - guid: Assets/_OurAssets/Meshes/Props/Lamp1-v1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Lamp1-v2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Lamp2-v1.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Lamp2-v2.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Props/LampHolder.fbx
@@ -224,9 +254,6 @@ MonoBehaviour:
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Props/Pillow.fbx
-      toggle: 0
-      value: -1
-    - guid: Assets/_OurAssets/Meshes/Props/Plant1.fbx
       toggle: 0
       value: -1
     - guid: Assets/_OurAssets/Meshes/Props/Plant2.fbx

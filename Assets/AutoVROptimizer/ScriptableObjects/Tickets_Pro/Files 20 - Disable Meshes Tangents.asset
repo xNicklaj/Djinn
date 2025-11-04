@@ -19,14 +19,44 @@ MonoBehaviour:
       mapping but unused otherwise.\n\n<b>\u2022 Our Modification:</b> We remove
       tangents from meshes that don\u2019t use normal maps, saving memory and vertex
       bandwidth for better performance."
-    state: 1
+    state: 0
     level: 1
     tags: 18464
     functionName: MeshesTangents
     noFix: 0
     noRestore: 0
     hide: 0
-    concernedObjects: []
+    concernedObjects:
+    - guid: Assets/_OurAssets/Meshes/Architecture/Dome-Atl.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Gate-Atl.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/LowWall-Atl.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/OldMeshes/LowWall.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/SpiralStaircase-Atl.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Architecture/Staircase-Atl.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Base.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/BrokenWall.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Lamp1-v2.fbx
+      toggle: 0
+      value: -1
+    - guid: Assets/_OurAssets/Meshes/Props/Lamp2-v2.fbx
+      toggle: 0
+      value: -1
     ticketValue: 0
     savedInFixAll: 0
     lastValues:

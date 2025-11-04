@@ -194,128 +194,162 @@ MonoBehaviour:
     - False
     - False
     lastObjects:
-    - Assets/_OurAssets/Materials/HoneyCombNormal.png
-    - Assets/_OurAssets/Textures/Atlas_v2.png
-    - Assets/_Project/World/World/Lightmap-0_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-0_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-1_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-1_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-2_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-2_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-3_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-3_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-4_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-4_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-5_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-5_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-6_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-6_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-7_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-7_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-8_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-8_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-9_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-9_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-10_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-10_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-11_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-11_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-12_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-12_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-13_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-13_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-14_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-14_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-15_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-15_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-16_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-16_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-17_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-17_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-18_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-18_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-19_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-19_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-20_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-20_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-21_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-21_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-22_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-22_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-23_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-23_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-24_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-24_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-25_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-25_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-26_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-26_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-27_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-27_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-28_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-28_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-29_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-29_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-30_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-30_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-31_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-31_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-32_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-32_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-33_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-33_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-34_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-34_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-35_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-35_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-36_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-36_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-37_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-37_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-38_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-38_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-39_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-39_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-40_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-40_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-41_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-41_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-42_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-42_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-43_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-43_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-44_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-44_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-45_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-45_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-46_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-46_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-47_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-47_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-48_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-48_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-49_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-49_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-50_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-50_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-51_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-51_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-52_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-52_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-53_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-53_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-54_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-54_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-55_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-55_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-56_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-56_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-57_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-57_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-58_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-58_comp_light.exr
-    - Assets/_Project/World/World/Lightmap-59_comp_dir.png
-    - Assets/_Project/World/World/Lightmap-59_comp_light.exr
+    - Assets/_OurAssets/Textures/Cubemaps/Twinkle Map v2.png
+    - Assets/_OurAssets/Textures/Cubemaps/TwinkleMap.png
+    - Assets/_OurAssets/Textures/Moon.png
+    - Assets/_OurAssets/Textures/MoonV2.png
+    - Assets/_OurAssets/Textures/MoonV3.png
+    - Assets/_Project/Light Test/LightTest/Lightmap-0_comp_dir.png
+    - Assets/_Project/Light Test/LightTest/Lightmap-0_comp_light.exr
+    - Assets/_Project/Light Test/LightTest/ReflectionProbe-0.exr
+    - Assets/AutoLOD/Resources/discord.png
+    - Assets/AutoLOD/Resources/Icon_AutoLOD.png
+    - Assets/AutoLOD/Resources/Logo_AutoLOD.png
+    - Assets/AutoLOD/Resources/mail.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Essential Optimizer Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Diffrent Settings Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance Audio Source Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance Light Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance MonoBehaviour Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance NavMeshAgent Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance ParticleSystem Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance Renderer Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance Rigidbody Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance Terrain Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Instance UnityLODGroup Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LOD Settings Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/LODs Controller Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Opt_CullHelp.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/OptEsIconSmall.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/OptIconSmall.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Optimizer Logo Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Optimizers Base Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Optimizers Cleaner Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Optimizers Control Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Optimizers Essential Icon Small.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Optimizers Icon Small.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Optimizers Manager BigIcon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Optimizers Manager Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/OptManagerIconSmall.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/OptTerrIconSmall.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Scriptable LODs Controller Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/ShapeIcon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/SPR_LODIcon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/SPR_LODIcon2.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/Terrain Optimizer Icon.png
+    - Assets/FImpossible Creations/Plugins - Other/Optimizers 2/Code/Editor/Resources/FIMSpace/Optimizers
+      2/WallDetectionIcon.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchDirectory.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Additional/SPR_SearchNumeric.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FBGBox.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButton.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FButtonHover.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FbuttonPress.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FFrameBox.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBox.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FHelpBoxH.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBox.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxH.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FInBoxLight.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Backgrounds/FViewBox.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/FImp_ColliderData
+      Icon.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FAdd.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExport.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FExtension.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGear.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearMain.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FGearSetup.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FKnob.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLimits.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FLoad.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FModule.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FOptimize.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FPhysics.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FRepair.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FSliders.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Icons/FTweaks.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FABSwitch.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowDown.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowLeft.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowRight.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FArrowUp.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FDefault.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmos.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FGizmosOff.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FHierarchySwitch.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FLeftFolded.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FManual.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRandom.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRect.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FRightFolded.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FTutorials.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUnfolded.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FUpFolded.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWait.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Misc Icons/FWebsite.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Additional.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Behaviour.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FBone.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCollider.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FCurve.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDebug.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDistance.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FDragAndDrop.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FError.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FHidden.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FInfo.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FMovement.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRefresh.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRemove.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRename.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FRotation.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/FWarning.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniGear.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/MiniMotion.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Motion.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Optimize.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Physics.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/SmallGear.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/Fimp/Small Icons/Target.png
+    - Assets/FImpossible Creations/Shared Tools/Editor/Resources/TEX_HumanScaleRef.png
+    - Assets/Mirage/Editor/Resources/twitter.png
+    - Assets/Mirage/Editor/Resources/youtube.png
+    - Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.1.2/Icon.png
+    - Assets/Packages/ZLinq.1.5.3/Icon.png
     - Assets/_Project/World/World/Lightmap-60_comp_dir.png
     - Assets/_Project/World/World/Lightmap-60_comp_light.exr
     - Assets/_Project/World/World/Lightmap-61_comp_dir.png

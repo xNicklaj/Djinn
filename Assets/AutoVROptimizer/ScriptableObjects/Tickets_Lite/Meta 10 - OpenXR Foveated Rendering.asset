@@ -28,6 +28,7 @@ MonoBehaviour:
     concernedObjects: []
     ticketValue: 0
     savedInFixAll: 0
-    lastValues: []
+    lastValues:
+    - False
     lastObjects: []
   IsBigTicket: 0

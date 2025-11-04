@@ -27,7 +27,7 @@ MonoBehaviour:
     noRestore: 0
     hide: 0
     concernedObjects:
-    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-1388570465-0
+    - guid: GlobalObjectId_V1-2-457ec7e974c19b341857c46be79bb5f0-418085659-0
       toggle: 0
       value: -1
     ticketValue: 0

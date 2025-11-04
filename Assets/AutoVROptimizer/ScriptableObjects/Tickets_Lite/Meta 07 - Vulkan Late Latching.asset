@@ -18,7 +18,7 @@ MonoBehaviour:
       the frame to minimize latency.\n\n<b>\u2022 Our Modification: </b>Enabling
       this option (with testing) can further reduce latency and boost performance,
       provided no visual artifacts occur."
-    state: 0
+    state: 1
     level: 1
     tags: 128
     functionName: VulkanLateLatching

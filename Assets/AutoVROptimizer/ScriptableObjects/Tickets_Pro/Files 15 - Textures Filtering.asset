@@ -19,35 +19,26 @@ MonoBehaviour:
       between mipmaps levels. \n\n<b>\u2022 Our Modification: </b>Testing between
       Bilinear and Trilinear helps find the right balance between performance and
       visual quality for your textures."
-    state: 0
+    state: 1
     level: 1
     tags: 16672
     functionName: TexturesFiltering
     noFix: 0
     noRestore: 0
     hide: 0
-    concernedObjects:
-    - guid: Assets/_Project/Light Test/LightTest/ReflectionProbe-0.exr
-      toggle: 0
-      value: 2
-    - guid: Assets/_Project/World/World/ReflectionProbe-0.exr
-      toggle: 0
-      value: 2
-    - guid: Assets/HurricaneVR/TechDemo/Scenes/scene_demo/ReflectionProbe-0.exr
-      toggle: 0
-      value: 2
-    - guid: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
-      toggle: 0
-      value: 2
-    - guid: Assets/Scenes/SampleScene/ReflectionProbe-1.exr
-      toggle: 0
-      value: 2
+    concernedObjects: []
     ticketValue: 0
     savedInFixAll: 0
     lastValues:
     - Trilinear
     - Trilinear
+    - Trilinear
+    - Trilinear
+    - Trilinear
     lastObjects:
-    - Assets/ValemStudio/Textures/T_ExempleTexture 1.jpg
-    - Assets/ValemStudio/Textures/T_ExempleTexture.jpg
+    - Assets/_Project/Light Test/LightTest/ReflectionProbe-0.exr
+    - Assets/_Project/World/World/ReflectionProbe-0.exr
+    - Assets/HurricaneVR/TechDemo/Scenes/scene_demo/ReflectionProbe-0.exr
+    - Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+    - Assets/Scenes/SampleScene/ReflectionProbe-1.exr
   IsBigTicket: 0

@@ -18,7 +18,7 @@ MonoBehaviour:
       before post-processing.\n\n<b>\u2022 Our Modification: </b>Disabling it avoids
       extra memory and GPU usage unless specifically needed (e.g., for UI or distortion
       effects)."
-    state: 1
+    state: 0
     level: 1
     tags: 16
     functionName: OpaqueTextureDisabled

@@ -26,6 +26,12 @@ MonoBehaviour:
     noRestore: 0
     hide: 0
     concernedObjects:
+    - guid: Assets/_Project/Light Test/LightTest/Lightmap-0_comp_dir.png
+      toggle: 0
+      value: 3
+    - guid: Assets/_Project/Light Test/LightTest/Lightmap-0_comp_light.exr
+      toggle: 0
+      value: 3
     - guid: Assets/_Project/World/World/Lightmap-0_comp_dir.png
       toggle: 0
       value: 3
