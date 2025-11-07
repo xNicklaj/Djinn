@@ -46444,6 +46444,18 @@ PrefabInstance:
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 5177676076619288891, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000017881395
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177676076619288891, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -6.123235e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177676076619288891, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 6.123235e-17
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47672,7 +47684,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.9301e-41, y: 0, z: 0, w: 1.1450403e-17}
+  m_BoundingSphereOverride: {x: 1.1011e-40, y: 2.524355e-29, z: 0, w: 2.7470774e+20}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -81068,7 +81080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4311545442604728181, guid: 843f5fc3aaa612445a4f4353901c96d6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.12350137
+      value: -0.123501286
       objectReference: {fileID: 0}
     - target: {fileID: 4311545442604728181, guid: 843f5fc3aaa612445a4f4353901c96d6, type: 3}
       propertyPath: m_LocalRotation.z
@@ -177756,7 +177768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4058497187576753959, guid: 0caea0745d5d5d842b81c60633537b5d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.014
+      value: 0.000026036054
       objectReference: {fileID: 0}
     - target: {fileID: 4058497187576753959, guid: 0caea0745d5d5d842b81c60633537b5d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -177764,7 +177776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4058497187576753959, guid: 0caea0745d5d5d842b81c60633537b5d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0.000008274801
       objectReference: {fileID: 0}
     - target: {fileID: 4058497187576753959, guid: 0caea0745d5d5d842b81c60633537b5d, type: 3}
       propertyPath: m_LocalRotation.w
