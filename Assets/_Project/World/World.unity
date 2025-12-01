@@ -13888,6 +13888,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate-Atl
       objectReference: {fileID: 0}
+    - target: {fileID: 418526827401276499, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 671266328897858379, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1046303245150533353, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1078631
@@ -13940,6 +13948,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1575690985891822963, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2580792164329790352, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
@@ -13959,6 +13971,14 @@ PrefabInstance:
     - target: {fileID: 5177676076619288891, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
       propertyPath: m_LocalRotation.z
       value: 6.123235e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203867169652674834, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062109912282599655, guid: 5578bb5280e24834997dccbdd06a07aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
