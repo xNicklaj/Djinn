@@ -49,6 +49,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 3ec3ed18d12f82b41aecdfd31afadb6b, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3ec3ed18d12f82b41aecdfd31afadb6b, type: 3}
       propertyPath: m_ScaleInLightmap
       value: 1.3
       objectReference: {fileID: 0}
