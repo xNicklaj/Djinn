@@ -23,7 +23,7 @@ public class RespawnTablet : MonoBehaviour
     private void Awake()
     {
         inputManager = GetComponent<HVRGlobalInputs>();
-        debounceTimer = new CountdownTimer(.5f);
+        debounceTimer = new CountdownTimer(2f);
         debounceTimer.OnTimerStart += () => _skipUpdate = true;
         debounceTimer.OnTimerStop += () => _skipUpdate = false;
     }
